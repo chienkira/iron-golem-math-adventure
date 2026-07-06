@@ -20,6 +20,7 @@ interface GameState {
   lastReward: number;
   mapZoom: 'normal' | 'overview';
 
+  startGame: () => void;
   setMoveTarget: (target: [number, number] | null) => void;
   toggleMapZoom: () => void;
   updatePlayerPosition: (pos: [number, number, number], rot: number) => void;
@@ -36,7 +37,7 @@ interface GameState {
 }
 
 export const useGameStore = create<GameState>((set, get) => ({
-  phase: 'explore',
+  phase: 'menu',
   playerPosition: [0, 0, 0],
   playerRotation: 0,
   level: 1,
@@ -52,6 +53,8 @@ export const useGameStore = create<GameState>((set, get) => ({
   mapZoom: 'normal',
 
   setMoveTarget: (target) => set({ moveTarget: target }),
+
+  startGame: () => set({ phase: 'explore', moveTarget: null }),
 
   toggleMapZoom: () =>
     set((s) => ({ mapZoom: s.mapZoom === 'normal' ? 'overview' : 'normal' })),

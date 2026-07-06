@@ -1,4 +1,5 @@
 import { useGameStore } from '../../store/gameStore';
+import { sounds } from '../../audio/sounds';
 import { vi } from '../../i18n/vi';
 import styles from './ZoomControl.module.css';
 
@@ -14,7 +15,10 @@ export function ZoomControl() {
   return (
     <button
       className={styles.btn}
-      onClick={toggleMapZoom}
+      onClick={() => {
+        sounds.play('uiClick');
+        toggleMapZoom();
+      }}
       type="button"
       aria-label={isOverview ? vi.zoom.ariaNormal : vi.zoom.ariaOverview}
       title={isOverview ? vi.zoom.ariaNormal : vi.zoom.ariaOverview}

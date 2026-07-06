@@ -24,7 +24,7 @@ const FIGHT_PHASES = new Set(['vs-intro', 'combat', 'victory', 'level-up']);
 function MapMonster({ monster }: MapMonsterProps) {
   const phase = useGameStore((s) => s.phase);
   const startCombat = useGameStore((s) => s.startCombat);
-  const paused = FIGHT_PHASES.has(phase);
+  const paused = phase !== 'explore';
   const wander = MONSTER_WANDER[monster.type];
 
   const handlePointerDown = (e: ThreeEvent<PointerEvent>) => {
@@ -66,7 +66,7 @@ export function MonsterField() {
   const monsters = useGameStore((s) => s.monsters);
   const phase = useGameStore((s) => s.phase);
 
-  if (phase !== 'explore' && !FIGHT_PHASES.has(phase)) return null;
+  if (phase !== 'explore' && phase !== 'menu' && !FIGHT_PHASES.has(phase)) return null;
 
   return (
     <group>

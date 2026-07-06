@@ -3,6 +3,15 @@ export const vi = {
   gameSubtitle: 'Phiêu Lưu Toán Học',
   tagline: 'Khám phá • Chiến đấu • Học toán!',
 
+  start: {
+    play: '▶ Bắt đầu',
+    mute: '🔇 Tắt tiếng',
+    unmute: '🔊 Bật tiếng',
+    featureExplore: 'Khám phá',
+    featureCombat: 'Chiến đấu',
+    featureMath: 'Học toán',
+  },
+
   hud: {
     level: (n: number) => `Cấp ${n}`,
     coins: (n: number) => `${n} xu`,

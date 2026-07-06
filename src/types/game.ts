@@ -2,7 +2,7 @@ import { vi } from '../i18n/vi';
 
 export type MonsterType = 'creeper' | 'bee' | 'zombie' | 'enderman';
 
-export type GamePhase = 'explore' | 'vs-intro' | 'combat' | 'victory' | 'level-up';
+export type GamePhase = 'menu' | 'explore' | 'vs-intro' | 'combat' | 'victory' | 'level-up';
 
 export interface MonsterConfig {
   type: MonsterType;

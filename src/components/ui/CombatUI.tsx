@@ -11,6 +11,7 @@ import { Explosion } from '../effects/Particles';
 import { StormSky, LightningFlash } from '../effects/StormEffects';
 import { CinematicFrame } from './CinematicFrame';
 import { vi } from '../../i18n/vi';
+import { sounds } from '../../audio/sounds';
 import styles from './CombatUI.module.css';
 
 const VICTORY_DISPLAY_MS = 5200;
@@ -227,6 +228,7 @@ export function CombatOverlay() {
   const handleSubmit = () => {
     const correct = submitAnswer();
     if (!correct && userAnswer !== '') {
+      sounds.play('wrong');
       setWrongShake(true);
       setTimeout(() => setWrongShake(false), 500);
     }
@@ -250,7 +252,14 @@ export function CombatOverlay() {
         {lightning && <div className={styles.lightningFlash} />}
 
         {phase === 'combat' && (
-          <button className={styles.skipBtn} onClick={exitCombat} type="button">
+          <button
+            className={styles.skipBtn}
+            onClick={() => {
+              sounds.play('uiClick');
+              exitCombat();
+            }}
+            type="button"
+          >
             ✕ {vi.combat.exit}
           </button>
         )}
@@ -305,9 +314,16 @@ export function CombatOverlay() {
                 key={key}
                 className={`${styles.numpadBtn} ${key === '✓' ? styles.submitBtn : ''} ${key === 'C' ? styles.clearBtn : ''} ${key === 'C' ? styles.clearLabel : ''}`}
                 onClick={() => {
-                  if (key === 'C') clearAnswer();
-                  else if (key === '✓') handleSubmit();
-                  else appendDigit(key);
+                  if (key === 'C') {
+                    sounds.play('uiClick');
+                    clearAnswer();
+                  } else if (key === '✓') {
+                    sounds.play('uiClick');
+                    handleSubmit();
+                  } else {
+                    sounds.play('digit');
+                    appendDigit(key);
+                  }
                 }}
                 type="button"
               >
