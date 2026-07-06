@@ -1,5 +1,8 @@
 # Iron Golem Math Adventure
 
+<img width="1190" height="749" alt="Screenshot 2026-07-07 at 0 55 37" src="https://github.com/user-attachments/assets/424c7ed5-5fa7-46d0-a662-8358d6535055" />
+
+
 Game giáo dục kết hợp giải trí (Edutainment) cho trẻ em — điều khiển Iron Golem khám phá bản đồ, chiến đấu quái vật bằng cách giải phép toán cộng/trừ.
 
 ## Công nghệ
