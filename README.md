@@ -1,6 +1,8 @@
 # Iron Golem Math Adventure
 
-<img width="1190" height="749" alt="Screenshot 2026-07-07 at 0 55 37" src="https://github.com/user-attachments/assets/424c7ed5-5fa7-46d0-a662-8358d6535055" />
+<img width="1192" height="557" alt="Screenshot 2026-07-07 at 17 42 06" src="https://github.com/user-attachments/assets/e1837262-be9b-4c45-aaa2-2d286599a93c" />
+<img width="1201" height="560" alt="Screenshot 2026-07-07 at 17 41 08" src="https://github.com/user-attachments/assets/7198cffc-2700-40c5-8f4f-d2c595e37fee" />
+<img width="1194" height="558" alt="Screenshot 2026-07-07 at 17 42 47" src="https://github.com/user-attachments/assets/cf511842-7eda-4130-9162-4f38c056c6c7" />
 
 Game giáo dục kết hợp giải trí (Edutainment) cho trẻ em. Điều khiển Iron Golem khám phá bản đồ 3D, gặp quái vật Minecraft và chiến đấu bằng cách giải phép toán cộng/trừ. Giao diện tiếng Việt, tối ưu chạm trên iPad và click trên PC — không dùng bàn phím.
 
