@@ -11,7 +11,7 @@ interface MonsterCoinLabelProps {
 
 export function MonsterCoinLabel({ type }: MonsterCoinLabelProps) {
   const reward = MONSTER_CONFIGS[type].reward;
-  const height = type === 'enderman' ? 3.6 : type === 'zombie' ? 2.4 : type === 'bee' ? 2.2 : 2.0;
+  const height = type === 'enderman' ? 4.4 : type === 'zombie' ? 2.8 : type === 'bee' ? 2.0 : 2.2;
 
   return (
     <Html

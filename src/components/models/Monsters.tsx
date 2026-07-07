@@ -13,8 +13,17 @@ interface MonsterModelProps {
   scale?: number;
 }
 
+const MC = {
+  creeper: { light: '#6fa050', dark: '#3f6b30', face: '#1a1a1a' },
+  bee: { yellow: '#f8c627', black: '#1a1a1a', wing: '#eef2f8' },
+  zombie: { skin: '#71987a', shirt: '#3a8eb2', pants: '#4b2e85', hair: '#2a2a2a', eye: '#1a1a1a' },
+  enderman: { body: '#161616', eye: '#e040fb' },
+} as const;
+
 function CreeperModel({ animated, scale = 1 }: { animated?: boolean; scale?: number }) {
   const ref = useRef<THREE.Group>(null);
+  const { light, dark, face } = MC.creeper;
+
   useFrame(() => {
     if (!ref.current || !animated) return;
     ref.current.position.y = Math.sin(Date.now() * 0.003) * 0.05;
@@ -22,21 +31,27 @@ function CreeperModel({ animated, scale = 1 }: { animated?: boolean; scale?: num
 
   return (
     <group ref={ref} scale={scale}>
-      <VoxelBox position={[0, 0.5, 0]} size={[0.8, 1.0, 0.5]} color="#5d8a3c" />
-      <VoxelBox position={[0, 1.3, 0]} size={[0.7, 0.7, 0.7]} color="#5d8a3c" />
-      <VoxelBox position={[-0.15, 1.45, 0.36]} size={[0.12, 0.15, 0.05]} color="#1a1a1a" />
-      <VoxelBox position={[0.15, 1.45, 0.36]} size={[0.12, 0.15, 0.05]} color="#1a1a1a" />
-      <VoxelBox position={[0, 1.25, 0.36]} size={[0.08, 0.12, 0.05]} color="#1a1a1a" />
-      <VoxelBox position={[-0.3, 0.5, 0.15]} size={[0.3, 0.8, 0.3]} color="#4a7030" />
-      <VoxelBox position={[0.3, 0.5, -0.15]} size={[0.3, 0.8, 0.3]} color="#4a7030" />
-      <VoxelBox position={[-0.15, 0.5, -0.3]} size={[0.3, 0.8, 0.3]} color="#4a7030" />
-      <VoxelBox position={[0.15, 0.5, 0.3]} size={[0.3, 0.8, 0.3]} color="#4a7030" />
+      <VoxelBox position={[0, 0.55, 0]} size={[0.6, 1.0, 0.35]} color={light} />
+      <VoxelBox position={[0, 0.55, 0.01]} size={[0.35, 0.55, 0.02]} color={dark} />
+      <VoxelBox position={[0, 1.35, 0]} size={[0.6, 0.6, 0.6]} color={light} />
+      <VoxelBox position={[0, 1.35, 0.01]} size={[0.35, 0.35, 0.02]} color={dark} />
+      {/* Classic creeper face */}
+      <VoxelBox position={[-0.12, 1.45, 0.31]} size={[0.12, 0.14, 0.02]} color={face} />
+      <VoxelBox position={[0.12, 1.45, 0.31]} size={[0.12, 0.14, 0.02]} color={face} />
+      <VoxelBox position={[0, 1.28, 0.31]} size={[0.1, 0.12, 0.02]} color={face} />
+      <VoxelBox position={[0, 1.38, 0.31]} size={[0.08, 0.08, 0.02]} color={face} />
+      {/* Four legs */}
+      <VoxelBox position={[-0.22, 0.15, 0.12]} size={[0.24, 0.3, 0.24]} color={dark} />
+      <VoxelBox position={[0.22, 0.15, 0.12]} size={[0.24, 0.3, 0.24]} color={dark} />
+      <VoxelBox position={[-0.22, 0.15, -0.12]} size={[0.24, 0.3, 0.24]} color={dark} />
+      <VoxelBox position={[0.22, 0.15, -0.12]} size={[0.24, 0.3, 0.24]} color={dark} />
     </group>
   );
 }
 
 function BeeModel({ animated, scale = 1 }: { animated?: boolean; scale?: number }) {
   const ref = useRef<THREE.Group>(null);
+  const { yellow, black, wing } = MC.bee;
 
   useFrame(() => {
     if (!ref.current || !animated) return;
@@ -45,11 +60,9 @@ function BeeModel({ animated, scale = 1 }: { animated?: boolean; scale?: number 
     ref.current.rotation.y = Math.sin(t * 0.5) * 0.1;
   });
 
-  const yellow = '#f8c627';
-  const black = '#1a1a1a';
   const wingMat = (
     <meshStandardMaterial
-      color="#eef2f8"
+      color={wing}
       transparent
       opacity={0.62}
       roughness={0.25}
@@ -59,46 +72,22 @@ function BeeModel({ animated, scale = 1 }: { animated?: boolean; scale?: number 
     />
   );
 
-  const legPositions: [number, number, number][] = [
-    [-0.16, 0.16, 0.08],
-    [-0.16, 0.16, -0.06],
-    [-0.16, 0.16, -0.2],
-    [0.16, 0.16, 0.08],
-    [0.16, 0.16, -0.06],
-    [0.16, 0.16, -0.2],
-  ];
-
   return (
     <group ref={ref} scale={scale}>
-      {/* Head */}
       <VoxelBox position={[0, 0.38, 0.2]} size={[0.36, 0.36, 0.36]} color={yellow} />
       <VoxelBox position={[-0.1, 0.4, 0.39]} size={[0.08, 0.08, 0.02]} color={black} />
       <VoxelBox position={[0.1, 0.4, 0.39]} size={[0.08, 0.08, 0.02]} color={black} />
-      {/* Antennae */}
       <VoxelBox position={[-0.09, 0.6, 0.16]} size={[0.05, 0.16, 0.05]} color={black} />
       <VoxelBox position={[0.09, 0.6, 0.16]} size={[0.05, 0.16, 0.05]} color={black} />
-
-      {/* Thorax */}
       <VoxelBox position={[0, 0.34, -0.02]} size={[0.34, 0.3, 0.34]} color={yellow} />
       <VoxelBox position={[0, 0.34, -0.02]} size={[0.36, 0.1, 0.36]} color={black} />
-
-      {/* Abdomen with Minecraft-style stripes */}
       <VoxelBox position={[0, 0.32, -0.24]} size={[0.32, 0.28, 0.2]} color={yellow} />
       <VoxelBox position={[0, 0.32, -0.34]} size={[0.32, 0.1, 0.22]} color={black} />
       <VoxelBox position={[0, 0.32, -0.44]} size={[0.3, 0.24, 0.18]} color={yellow} />
       <VoxelBox position={[0, 0.32, -0.52]} size={[0.3, 0.1, 0.18]} color={black} />
       <VoxelBox position={[0, 0.3, -0.6]} size={[0.26, 0.2, 0.14]} color={yellow} />
       <VoxelBox position={[0, 0.28, -0.66]} size={[0.22, 0.1, 0.12]} color={black} />
-
-      {/* Stinger */}
       <VoxelBox position={[0, 0.26, -0.74]} size={[0.06, 0.06, 0.1]} color={black} />
-
-      {/* Six legs */}
-      {legPositions.map((pos, i) => (
-        <VoxelBox key={i} position={pos} size={[0.05, 0.1, 0.05]} color={black} />
-      ))}
-
-      {/* Wings — large translucent panels like Minecraft */}
       <group position={[0, 0.38, -0.02]}>
         <mesh position={[-0.34, 0, 0.02]} rotation={[0.15, 0.1, 0.35]}>
           <boxGeometry args={[0.58, 0.025, 0.46]} />
@@ -115,6 +104,8 @@ function BeeModel({ animated, scale = 1 }: { animated?: boolean; scale?: number 
 
 function ZombieModel({ animated, scale = 1 }: { animated?: boolean; scale?: number }) {
   const ref = useRef<THREE.Group>(null);
+  const { skin, shirt, pants, hair, eye } = MC.zombie;
+
   useFrame(() => {
     if (!ref.current || !animated) return;
     ref.current.rotation.z = Math.sin(Date.now() * 0.002) * 0.05;
@@ -123,38 +114,51 @@ function ZombieModel({ animated, scale = 1 }: { animated?: boolean; scale?: numb
 
   return (
     <group ref={ref} scale={scale}>
-      <VoxelBox position={[0, 0.55, 0]} size={[0.7, 1.1, 0.5]} color="#4a7c59" />
-      <VoxelBox position={[-0.4, 0.55, 0]} size={[0.25, 1.0, 0.25]} color="#3d6b4a" />
-      <VoxelBox position={[0.4, 0.55, 0]} size={[0.25, 1.0, 0.25]} color="#3d6b4a" />
-      <VoxelBox position={[0, 1.35, 0]} size={[0.75, 0.75, 0.75]} color="#4a7c59" />
-      <VoxelBox position={[-0.15, 1.42, 0.38]} size={[0.12, 0.1, 0.05]} color="#1b5e20" emissive="#4caf50" emissiveIntensity={0.3} />
-      <VoxelBox position={[0.15, 1.42, 0.38]} size={[0.12, 0.1, 0.05]} color="#1b5e20" emissive="#4caf50" emissiveIntensity={0.3} />
-      <VoxelBox position={[0, 1.2, 0.38]} size={[0.1, 0.08, 0.05]} color="#2d4a35" />
+      <VoxelBox position={[0, 1.35, 0]} size={[0.55, 0.55, 0.55]} color={skin} />
+      <VoxelBox position={[0, 1.52, 0]} size={[0.57, 0.12, 0.57]} color={hair} />
+      <VoxelBox position={[-0.12, 1.38, 0.28]} size={[0.1, 0.08, 0.02]} color={eye} />
+      <VoxelBox position={[0.12, 1.38, 0.28]} size={[0.1, 0.08, 0.02]} color={eye} />
+      <VoxelBox position={[0, 1.22, 0.28]} size={[0.08, 0.06, 0.02]} color={skin} />
+      <VoxelBox position={[0, 0.65, 0]} size={[0.55, 0.7, 0.3]} color={shirt} />
+      <VoxelBox position={[-0.42, 0.65, 0]} size={[0.22, 0.65, 0.22]} color={shirt} />
+      <VoxelBox position={[0.42, 0.65, 0]} size={[0.22, 0.65, 0.22]} color={shirt} />
+      <VoxelBox position={[-0.14, 0.22, 0]} size={[0.22, 0.44, 0.22]} color={pants} />
+      <VoxelBox position={[0.14, 0.22, 0]} size={[0.22, 0.44, 0.22]} color={pants} />
     </group>
   );
 }
 
 function EndermanModel({ animated, scale = 1 }: { animated?: boolean; scale?: number }) {
   const ref = useRef<THREE.Group>(null);
-  const glowRef = useRef<THREE.PointLight>(null);
+  const { body, eye } = MC.enderman;
 
   useFrame(() => {
     if (!ref.current || !animated) return;
-    ref.current.position.y = Math.sin(Date.now() * 0.002) * 0.15;
-    if (glowRef.current) {
-      glowRef.current.intensity = 1.5 + Math.sin(Date.now() * 0.005) * 0.5;
-    }
+    ref.current.position.y = Math.sin(Date.now() * 0.002) * 0.12;
   });
 
   return (
     <group ref={ref} scale={scale}>
-      <pointLight ref={glowRef} position={[0, 2, 0]} color="#9c27b0" intensity={1.5} distance={5} />
-      <VoxelBox position={[0, 1.2, 0]} size={[0.5, 2.4, 0.35]} color="#1a1a2e" />
-      <VoxelBox position={[-0.5, 1.2, 0]} size={[0.2, 2.2, 0.2]} color="#1a1a2e" />
-      <VoxelBox position={[0.5, 1.2, 0]} size={[0.2, 2.2, 0.2]} color="#1a1a2e" />
-      <VoxelBox position={[0, 2.6, 0]} size={[0.55, 0.55, 0.55]} color="#1a1a2e" />
-      <VoxelBox position={[-0.12, 2.65, 0.28]} size={[0.15, 0.08, 0.05]} color="#e040fb" emissive="#e040fb" emissiveIntensity={1} />
-      <VoxelBox position={[0.12, 2.65, 0.28]} size={[0.15, 0.08, 0.05]} color="#e040fb" emissive="#e040fb" emissiveIntensity={1} />
+      <VoxelBox position={[0, 1.25, 0]} size={[0.42, 2.2, 0.28]} color={body} />
+      <VoxelBox position={[-0.55, 1.05, 0]} size={[0.18, 2.6, 0.18]} color={body} />
+      <VoxelBox position={[0.55, 1.05, 0]} size={[0.18, 2.6, 0.18]} color={body} />
+      <VoxelBox position={[-0.14, 0.35, 0]} size={[0.18, 0.7, 0.18]} color={body} />
+      <VoxelBox position={[0.14, 0.35, 0]} size={[0.18, 0.7, 0.18]} color={body} />
+      <VoxelBox position={[0, 2.55, 0]} size={[0.5, 0.5, 0.5]} color={body} />
+      <VoxelBox
+        position={[-0.12, 2.58, 0.26]}
+        size={[0.14, 0.06, 0.02]}
+        color={eye}
+        emissive={eye}
+        emissiveIntensity={1.2}
+      />
+      <VoxelBox
+        position={[0.12, 2.58, 0.26]}
+        size={[0.14, 0.06, 0.02]}
+        color={eye}
+        emissive={eye}
+        emissiveIntensity={1.2}
+      />
     </group>
   );
 }

@@ -54,7 +54,7 @@ function MapMonster({ monster }: MapMonsterProps) {
         <MonsterModel type={monster.type} animated={false} />
         <MonsterCoinLabel type={monster.type} />
         <mesh visible={false}>
-          <cylinderGeometry args={[1.2, 1.2, 3, 8]} />
+          <cylinderGeometry args={[1.4, 1.4, 3.5, 8]} />
           <meshBasicMaterial transparent opacity={0} />
         </mesh>
       </group>
