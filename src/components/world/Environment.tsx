@@ -261,6 +261,26 @@ export function Environment() {
   );
 }
 
+const COMBAT_TORCH_COUNT = 6;
+const COMBAT_TORCH_ARC_RADIUS = 6.5;
+const COMBAT_TORCH_ARC_CENTER_Z = -1.5;
+
+function getCombatTorchPositions(): [number, number, number][] {
+  const positions: [number, number, number][] = [];
+  for (let i = 0; i < COMBAT_TORCH_COUNT; i++) {
+    const t = i / (COMBAT_TORCH_COUNT - 1);
+    const angle = Math.PI * 0.22 + t * Math.PI * 0.56;
+    positions.push([
+      Math.cos(angle) * COMBAT_TORCH_ARC_RADIUS,
+      0,
+      COMBAT_TORCH_ARC_CENTER_Z + Math.sin(angle) * COMBAT_TORCH_ARC_RADIUS,
+    ]);
+  }
+  return positions;
+}
+
+const COMBAT_TORCH_POSITIONS = getCombatTorchPositions();
+
 export function ArenaEnvironment({ dark = false }: { dark?: boolean }) {
   const groundColor = dark ? '#3a6644' : '#6b9b4a';
 
@@ -270,12 +290,10 @@ export function ArenaEnvironment({ dark = false }: { dark?: boolean }) {
         <planeGeometry args={[40, 40]} />
         <meshStandardMaterial color={groundColor} roughness={0.95} />
       </mesh>
-      {dark && (
-        <>
-          <CombatTorch position={[-6, 0, 1.6]} />
-          <CombatTorch position={[6, 0, 1.6]} />
-        </>
-      )}
+      {dark &&
+        COMBAT_TORCH_POSITIONS.map((pos, i) => (
+          <CombatTorch key={`combat-torch-${i}`} position={pos} />
+        ))}
     </group>
   );
 }

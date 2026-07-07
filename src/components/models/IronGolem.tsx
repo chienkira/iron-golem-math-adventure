@@ -190,6 +190,7 @@ function LevelGear({ level }: { level: number }) {
 interface IronGolemProps {
   level?: number;
   scale?: number;
+  useLevelScale?: boolean;
   animated?: boolean;
   walking?: boolean;
   position?: [number, number, number];
@@ -199,6 +200,7 @@ interface IronGolemProps {
 export function IronGolem({
   level = 1,
   scale = 1,
+  useLevelScale = true,
   animated = true,
   walking = false,
   position = [0, 0, 0],
@@ -214,7 +216,7 @@ export function IronGolem({
 
   walkRef.current = walking;
 
-  const levelScale = 1 + (level - 1) * 0.1;
+  const levelScale = useLevelScale ? 1 + (level - 1) * 0.1 : 1.5;
   const totalScale = scale * levelScale;
 
   const gold = '#ffd700';

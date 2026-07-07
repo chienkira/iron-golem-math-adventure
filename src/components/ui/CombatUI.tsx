@@ -110,7 +110,7 @@ function AnimatedFighter({
   return (
     <group ref={ref} position={[side === 'left' ? -FIGHTER_X : FIGHTER_X, 0, 0]}>
       {side === 'left' ? (
-        <IronGolem level={level} scale={1.4} animated rotation={0.35} />
+        <IronGolem level={level} scale={1} useLevelScale={false} animated rotation={0.35} />
       ) : type ? (
         <MonsterModel
           type={type}
