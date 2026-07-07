@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useGameStore } from '../../store/gameStore';
 import { COINS_PER_LEVEL } from '../../types/game';
 import { sounds } from '../../audio/sounds';
@@ -12,7 +11,6 @@ export function StartScreen() {
   const coinsInLevel = useGameStore((s) => s.coinsInLevel);
   const startGame = useGameStore((s) => s.startGame);
   const resetProgress = useGameStore((s) => s.resetProgress);
-  const [muted, setMuted] = useState(() => sounds.isMuted());
 
   if (phase !== 'menu') return null;
 
@@ -23,22 +21,11 @@ export function StartScreen() {
   };
 
   const handleReset = () => {
-    sounds.init();
     resetProgress();
-  };
-
-  const toggleMute = () => {
-    sounds.init();
-    const next = sounds.toggleMute();
-    setMuted(next);
   };
 
   return (
     <div className={styles.overlay}>
-      <button className={styles.muteBtn} onClick={toggleMute} type="button">
-        {muted ? vi.start.unmute : vi.start.mute}
-      </button>
-
       <div className={styles.panel}>
         <h1 className={styles.title}>{vi.gameTitle}</h1>
         <p className={styles.subtitle}>{vi.gameSubtitle}</p>

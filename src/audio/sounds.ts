@@ -65,6 +65,15 @@ class SoundEngine {
     this.syncPlayback();
   }
 
+  stopExploreBgm() {
+    this.exploreBgmActive = false;
+    this.exploreBgmDucked = false;
+    if (this.exploreBgm) {
+      this.exploreBgm.pause();
+      this.exploreBgm.currentTime = 0;
+    }
+  }
+
   startCombatBgm() {
     if (typeof window === 'undefined') return;
     this.combatBgmActive = true;

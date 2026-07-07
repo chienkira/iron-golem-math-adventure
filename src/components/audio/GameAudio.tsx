@@ -15,21 +15,20 @@ export function GameAudio() {
   const prevPhase = useRef(phase);
 
   useEffect(() => {
-    sounds.init();
-    sounds.startExploreBgm();
-
-    const unlock = () => {
-      sounds.init();
-      sounds.startExploreBgm();
-    };
-    window.addEventListener('pointerdown', unlock, { once: true });
-    return () => window.removeEventListener('pointerdown', unlock);
-  }, []);
-
-  useEffect(() => {
     const prev = prevPhase.current;
     if (prev === phase) return;
     prevPhase.current = phase;
+
+    if (phase === 'explore' && prev === 'menu') {
+      sounds.init();
+      sounds.startExploreBgm();
+    }
+
+    if (phase === 'menu') {
+      sounds.stopCombatBgm();
+      sounds.stopExploreBgm();
+      return;
+    }
 
     sounds.init();
 
