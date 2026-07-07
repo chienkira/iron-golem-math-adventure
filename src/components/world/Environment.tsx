@@ -5,10 +5,9 @@ import { GROUND_SIZE } from '../../constants/map';
 import { WanderGroup } from './WanderGroup';
 import {
   Cloud,
-  RainZone,
+  RainField,
   WaterPatch,
   LavaPatch,
-  rainPositions,
   cloudPositions,
   waterPatches,
   lavaPatches,
@@ -253,9 +252,7 @@ export function Environment() {
       <Bunny position={[20, 0, -8]} />
       <Bunny position={[-22, 0, -12]} />
 
-      {rainPositions.map((pos, i) => (
-        <RainZone key={`rain-${i}`} position={pos} />
-      ))}
+      <RainField />
 
       {cloudPositions.map((pos, i) => (
         <Cloud key={`cloud-${i}`} position={pos} />

@@ -68,44 +68,63 @@ function generateGridPositions(
   return positions;
 }
 
-export function RainZone({
-  position,
-  spread = 12,
-}: {
-  position: [number, number, number];
-  spread?: number;
-}) {
-  const count = 120;
-  const positions = useMemo(() => {
-    const arr = new Float32Array(count * 3);
-    for (let i = 0; i < count; i++) {
-      arr[i * 3] = (Math.random() - 0.5) * spread;
-      arr[i * 3 + 1] = Math.random() * 7;
-      arr[i * 3 + 2] = (Math.random() - 0.5) * spread;
-    }
-    return arr;
-  }, [count, spread]);
+const RAIN_COUNT = 2000;
+const RAIN_HEIGHT = 14;
+const MAP_HALF = 48;
 
+export function RainField() {
   const ref = useRef<THREE.Points>(null);
-  useFrame((_, delta) => {
-    if (!ref.current) return;
-    const pos = ref.current.geometry.attributes.position.array as Float32Array;
-    for (let i = 0; i < count; i++) {
-      pos[i * 3 + 1] -= delta * 9;
-      if (pos[i * 3 + 1] < 0) pos[i * 3 + 1] = 7;
+  const speeds = useRef<Float32Array | null>(null);
+
+  const positions = useMemo(() => {
+    const arr = new Float32Array(RAIN_COUNT * 3);
+    const spd = new Float32Array(RAIN_COUNT);
+    const span = MAP_HALF * 2;
+    for (let i = 0; i < RAIN_COUNT; i++) {
+      arr[i * 3] = (Math.random() - 0.5) * span;
+      arr[i * 3 + 1] = Math.random() * RAIN_HEIGHT;
+      arr[i * 3 + 2] = (Math.random() - 0.5) * span;
+      spd[i] = 10 + Math.random() * 8;
     }
+    speeds.current = spd;
+    return arr;
+  }, []);
+
+  useFrame((_, delta) => {
+    if (!ref.current || !speeds.current) return;
+    const pos = ref.current.geometry.attributes.position.array as Float32Array;
+    const spd = speeds.current;
+    const span = MAP_HALF * 2;
+
+    for (let i = 0; i < RAIN_COUNT; i++) {
+      const idx = i * 3;
+      pos[idx + 1] -= spd[i] * delta;
+      pos[idx] += delta * 1.2;
+
+      if (pos[idx + 1] < 0) {
+        pos[idx + 1] += RAIN_HEIGHT;
+      }
+      if (pos[idx] > MAP_HALF) pos[idx] -= span;
+      if (pos[idx] < -MAP_HALF) pos[idx] += span;
+    }
+
     ref.current.geometry.attributes.position.needsUpdate = true;
   });
 
   return (
-    <group position={position}>
-      <points ref={ref}>
-        <bufferGeometry>
-          <bufferAttribute attach="attributes-position" count={count} array={positions} itemSize={3} />
-        </bufferGeometry>
-        <pointsMaterial color="#64b5f6" size={0.1} transparent opacity={0.55} />
-      </points>
-    </group>
+    <points ref={ref} frustumCulled={false}>
+      <bufferGeometry>
+        <bufferAttribute attach="attributes-position" count={RAIN_COUNT} array={positions} itemSize={3} />
+      </bufferGeometry>
+      <pointsMaterial
+        color="#8ecff5"
+        size={0.09}
+        transparent
+        opacity={0.42}
+        depthWrite={false}
+        sizeAttenuation
+      />
+    </points>
   );
 }
 
@@ -193,9 +212,6 @@ function LavaPatch({
   );
 }
 
-const MAP_HALF = 48;
-
-const rainPositions = generateGridPositions(0.6, 14, MAP_HALF, 8, 5);
 const cloudPositions = generateGridPositions(0.4, 18, MAP_HALF, 0, 3).map(
   ([x, , z]) => [x, 13 + hash2(x + 50, z) * 5, z] as [number, number, number],
 );
@@ -218,4 +234,4 @@ const lavaPatches: { pos: [number, number, number]; size: [number, number] }[] =
   { pos: [32, 0, -8], size: [5, 5] },
 ];
 
-export { WaterPatch, LavaPatch, waterPatches, lavaPatches, rainPositions, cloudPositions };
+export { WaterPatch, LavaPatch, waterPatches, lavaPatches, cloudPositions };
