@@ -13,66 +13,96 @@ import {
   lavaPatches,
 } from './WorldFeatures';
 
-function Tree({ position }: { position: [number, number, number] }) {
-  const leavesRef = useRef<THREE.Group>(null);
+const LOG_OAK = '#6d4c41';
+const LOG_BIRCH = '#d7ccc8';
+const LEAF_PALETTE = ['#48b518', '#3d9e14', '#59a018', '#2e7d32'];
 
-  useFrame(() => {
-    if (leavesRef.current) {
-      leavesRef.current.rotation.z = Math.sin(Date.now() * 0.001 + position[0]) * 0.03;
-    }
-  });
+type TreeVariant = 'medium' | 'short';
 
-  const trunkColor = '#6d4c41';
-  const leafColor = useMemo(() => {
-    const colors = ['#2e7d32', '#388e3c', '#43a047', '#1b5e20'];
-    return colors[Math.floor(Math.abs(position[0] * position[2]) % colors.length)];
-  }, [position]);
-
-  return (
-    <group position={position}>
-      <mesh position={[0, 1, 0]} castShadow>
-        <boxGeometry args={[0.6, 2, 0.6]} />
-        <meshStandardMaterial color={trunkColor} roughness={0.9} />
-      </mesh>
-      <group ref={leavesRef} position={[0, 2.8, 0]}>
-        <mesh castShadow>
-          <boxGeometry args={[2.2, 1.8, 2.2]} />
-          <meshStandardMaterial color={leafColor} roughness={0.8} />
-        </mesh>
-        <mesh position={[0, 1.2, 0]} castShadow>
-          <boxGeometry args={[1.6, 1.2, 1.6]} />
-          <meshStandardMaterial color={leafColor} roughness={0.8} />
-        </mesh>
-      </group>
-    </group>
-  );
+function hash01(x: number, z: number): number {
+  const h = Math.sin(x * 12.9898 + z * 78.233) * 43758.5453;
+  return h - Math.floor(h);
 }
 
-function Flower({ position }: { position: [number, number, number] }) {
-  const colors = ['#e91e63', '#ff9800', '#ffeb3b', '#9c27b0', '#03a9f4'];
-  const color = colors[Math.floor(Math.abs(position[0] * 7 + position[2] * 3) % colors.length)];
-
-  return (
-    <group position={position}>
-      <mesh position={[0, 0.15, 0]}>
-        <boxGeometry args={[0.08, 0.3, 0.08]} />
-        <meshStandardMaterial color="#4caf50" />
-      </mesh>
-      <mesh position={[0, 0.35, 0]}>
-        <boxGeometry args={[0.2, 0.15, 0.2]} />
-        <meshStandardMaterial color={color} emissive={color} emissiveIntensity={0.2} />
-      </mesh>
-    </group>
-  );
+function getTreeVariant(x: number, z: number): TreeVariant {
+  return hash01(x, z) < 0.5 ? 'short' : 'medium';
 }
 
-function Rock({ position }: { position: [number, number, number] }) {
-  const scale = 0.3 + Math.abs(position[0] % 1) * 0.5;
+function TreeBlock({
+  position,
+  color,
+}: {
+  position: [number, number, number];
+  color: string;
+}) {
   return (
-    <mesh position={position} scale={scale} castShadow receiveShadow>
-      <dodecahedronGeometry args={[0.5, 0]} />
-      <meshStandardMaterial color="#78909c" roughness={0.95} />
+    <mesh position={position} castShadow receiveShadow>
+      <boxGeometry args={[1, 1, 1]} />
+      <meshStandardMaterial color={color} roughness={0.94} />
     </mesh>
+  );
+}
+
+function addCrossLayer(blocks: [number, number, number][], y: number) {
+  blocks.push([0, y, 0], [-1, y, 0], [1, y, 0], [0, y, -1], [0, y, 1]);
+}
+
+function addSquareLayer(blocks: [number, number, number][], y: number, radius: number) {
+  for (let x = -radius; x <= radius; x++) {
+    for (let z = -radius; z <= radius; z++) {
+      blocks.push([x, y, z]);
+    }
+  }
+}
+
+function buildTreeBlocks(variant: TreeVariant): {
+  trunk: [number, number, number][];
+  leaves: [number, number, number][];
+} {
+  const trunk: [number, number, number][] = [];
+  const leaves: [number, number, number][] = [];
+
+  if (variant === 'short') {
+    for (let y = 0; y < 3; y++) trunk.push([0, y, 0]);
+    addSquareLayer(leaves, 3, 1);
+    addCrossLayer(leaves, 4);
+    return { trunk, leaves };
+  }
+
+  if (variant === 'medium') {
+    for (let y = 0; y < 5; y++) trunk.push([0, y, 0]);
+    addCrossLayer(leaves, 4);
+    addCrossLayer(leaves, 5);
+    leaves.push([0, 6, 0]);
+  }
+
+  return { trunk, leaves };
+}
+
+function Tree({ position }: { position: [number, number, number] }) {
+  const variant = useMemo(
+    () => getTreeVariant(position[0], position[2]),
+    [position],
+  );
+  const leafColor = useMemo(
+    () => LEAF_PALETTE[Math.floor(hash01(position[0] + 50, position[2]) * LEAF_PALETTE.length)],
+    [position],
+  );
+  const logColor = useMemo(
+    () => (hash01(position[2], position[0]) > 0.82 ? LOG_BIRCH : LOG_OAK),
+    [position],
+  );
+  const { trunk, leaves } = useMemo(() => buildTreeBlocks(variant), [variant]);
+
+  return (
+    <group position={position}>
+      {trunk.map(([x, y, z], i) => (
+        <TreeBlock key={`t-${i}`} position={[x, y + 0.5, z]} color={logColor} />
+      ))}
+      {leaves.map(([x, y, z], i) => (
+        <TreeBlock key={`l-${i}`} position={[x, y + 0.5, z]} color={leafColor} />
+      ))}
+    </group>
   );
 }
 
@@ -188,17 +218,6 @@ const treePositions: [number, number, number][] = [
   [-18, 0, -34], [14, 0, 14], [-32, 0, 28], [30, 0, 22], [-12, 0, -24],
 ];
 
-const flowerPositions: [number, number, number][] = Array.from({ length: 40 }, (_, i) => [
-  Math.sin(i * 2.1) * 36,
-  0,
-  Math.cos(i * 1.7) * 36,
-] as [number, number, number]);
-
-const rockPositions: [number, number, number][] = [
-  [-8, 0.2, -6], [14, 0.2, 10], [-18, 0.2, -4], [6, 0.2, -20], [22, 0.2, -8],
-  [-14, 0.2, 16], [10, 0.2, 22], [-26, 0.2, 8], [18, 0.2, -14], [-6, 0.2, 28],
-];
-
 export function Environment() {
   return (
     <group>
@@ -229,14 +248,6 @@ export function Environment() {
 
       {treePositions.map((pos, i) => (
         <Tree key={`tree-${i}`} position={pos} />
-      ))}
-
-      {flowerPositions.map((pos, i) => (
-        <Flower key={`flower-${i}`} position={pos} />
-      ))}
-
-      {rockPositions.map((pos, i) => (
-        <Rock key={`rock-${i}`} position={pos} />
       ))}
 
       <Dog position={[12, 0, -14]} />
