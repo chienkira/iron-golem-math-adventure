@@ -154,29 +154,6 @@
   font-size: clamp(0.85rem, 2.5vw, 1.1rem) !important;
 }
 
-.skipBtn {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  z-index: 20;
-  font-family: var(--font);
-  font-size: clamp(0.85rem, 2.5vw, 1rem);
-  font-weight: 600;
-  padding: 0.5rem 1rem;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  cursor: pointer;
-  touch-action: manipulation;
-  transition: background 0.15s, border-color 0.15s;
-}
-
-.skipBtn:active {
-  background: rgba(229, 57, 53, 0.7);
-  border-color: #ef5350;
-}
-
 .rewardOverlay {
   position: absolute;
   inset: 0;

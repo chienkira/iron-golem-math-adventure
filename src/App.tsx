@@ -1,5 +1,6 @@
 import { ExploreScene } from './components/scenes/GameScenes';
 import { HUD } from './components/ui/HUD';
+import { GameExitButton } from './components/ui/GameExitButton';
 import { MoveHint } from './components/ui/MoveHint';
 import { ZoomControl } from './components/ui/ZoomControl';
 import { StartScreen } from './components/ui/StartScreen';
@@ -32,6 +33,7 @@ export default function App() {
       <StartScreen />
       <TitleScreen />
       <HUD />
+      <GameExitButton />
       <MoveHint />
       <ZoomControl />
       <FullscreenToggle />

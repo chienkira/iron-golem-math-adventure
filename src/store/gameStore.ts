@@ -24,6 +24,7 @@ interface GameState {
   mapZoom: 'normal' | 'overview';
 
   startGame: () => void;
+  exitToMenu: () => void;
   resetProgress: () => void;
   setMoveTarget: (target: [number, number] | null) => void;
   toggleMapZoom: () => void;
@@ -56,6 +57,19 @@ export const useGameStore = create<GameState>((set, get) => ({
   setMoveTarget: (target) => set({ moveTarget: target }),
 
   startGame: () => set({ phase: 'explore', moveTarget: null }),
+
+  exitToMenu: () => {
+    const { level, coinsInLevel } = get();
+    savePlayerProgress({ level, coinsInLevel });
+    set({
+      phase: 'menu',
+      moveTarget: null,
+      mapZoom: 'normal',
+      activeMonster: null,
+      question: null,
+      userAnswer: '',
+    });
+  },
 
   resetProgress: () => {
     clearPlayerProgress();

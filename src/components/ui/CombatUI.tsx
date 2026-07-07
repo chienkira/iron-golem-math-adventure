@@ -133,7 +133,6 @@ export function CombatOverlay() {
   const clearAnswer = useGameStore((s) => s.clearAnswer);
   const submitAnswer = useGameStore((s) => s.submitAnswer);
   const finishRewardScreen = useGameStore((s) => s.finishRewardScreen);
-  const exitCombat = useGameStore((s) => s.exitCombat);
 
   const [attacking, setAttacking] = useState(false);
   const [showExplosion, setShowExplosion] = useState(false);
@@ -197,16 +196,6 @@ export function CombatOverlay() {
   return (
     <CinematicFrame flash={flash && (phase === 'victory' || phase === 'level-up')}>
       <div className={styles.overlay}>
-        {phase === 'combat' && (
-          <button
-            className={styles.skipBtn}
-            onClick={exitCombat}
-            type="button"
-          >
-            ✕ {vi.combat.exit}
-          </button>
-        )}
-
         <div className={`${styles.sceneBg} ${phase === 'combat' ? styles.sceneEnter : ''}`} key={combatIntroKey}>
           <Canvas shadows camera={{ position: [0, 5.8, 28], fov: 44 }}>
             <color attach="background" args={['#526580']} />

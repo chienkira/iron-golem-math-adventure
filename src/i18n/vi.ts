@@ -16,6 +16,10 @@ export const vi = {
 
   moveHint: 'Chạm bản đồ để di chuyển • Chạm quái vật để chiến đấu',
 
+  common: {
+    exit: 'Thoát',
+  },
+
   zoom: {
     overview: 'Bản đồ',
     normal: 'Xem gần',
@@ -23,7 +27,6 @@ export const vi = {
 
   combat: {
     battle: '⚡ CHIẾN ĐẤU',
-    exit: 'Thoát',
     levelUp: (level: number) => `⭐ LÊN CẤP ${level}! ⭐`,
     reward: (amount: number) => `+${amount} xu 💰`,
     clear: 'Xóa',
