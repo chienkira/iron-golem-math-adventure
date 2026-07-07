@@ -7,6 +7,7 @@ import { VSIntroOverlay } from './components/ui/VSIntro';
 import { CombatOverlay } from './components/ui/CombatUI';
 import { GameAudio } from './components/audio/GameAudio';
 import { SoundToggle } from './components/ui/SoundToggle';
+import { FullscreenToggle } from './components/ui/FullscreenToggle';
 import styles from './App.module.css';
 import { useGameStore } from './store/gameStore';
 import { vi } from './i18n/vi';
@@ -33,6 +34,7 @@ export default function App() {
       <HUD />
       <MoveHint />
       <ZoomControl />
+      <FullscreenToggle />
       <SoundToggle />
       <GameAudio />
       <VSIntroOverlay />

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useGameStore } from '../../store/gameStore';
 import { sounds } from '../../audio/sounds';
-import { vi } from '../../i18n/vi';
 import styles from './SoundToggle.module.css';
 
 export function SoundToggle() {

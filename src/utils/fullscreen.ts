@@ -29,8 +29,17 @@ function applyImmersiveFallback(): void {
   });
 }
 
+function clearImmersiveFallback(): void {
+  document.documentElement.classList.remove('game-immersive');
+  document.body.classList.remove('game-immersive');
+}
+
 type FullscreenElement = HTMLElement & {
   webkitRequestFullscreen?: (options?: FullscreenOptions) => void;
+};
+
+type FullscreenDocument = Document & {
+  webkitExitFullscreen?: () => void;
 };
 
 function tryEnterFullscreen(target: FullscreenElement): boolean {
@@ -52,9 +61,13 @@ function tryEnterFullscreen(target: FullscreenElement): boolean {
   return false;
 }
 
-/** Call synchronously from a user click/tap handler. */
-export function requestGameFullscreen(): void {
-  if (!shouldRequestFullscreen()) return;
+export function isGameFullscreen(): boolean {
+  if (typeof document === 'undefined') return false;
+  return !!document.fullscreenElement || document.documentElement.classList.contains('game-immersive');
+}
+
+export function enterGameFullscreen(options?: { autoOnly?: boolean }): void {
+  if (options?.autoOnly && !shouldRequestFullscreen()) return;
 
   applyImmersiveFallback();
 
@@ -68,4 +81,49 @@ export function requestGameFullscreen(): void {
   for (const target of targets) {
     if (tryEnterFullscreen(target)) return;
   }
+}
+
+export function exitGameFullscreen(): void {
+  clearImmersiveFallback();
+
+  if (!document.fullscreenElement) return;
+
+  const doc = document as FullscreenDocument;
+  try {
+    if (doc.exitFullscreen) {
+      void doc.exitFullscreen();
+    } else if (doc.webkitExitFullscreen) {
+      doc.webkitExitFullscreen();
+    }
+  } catch {
+    // ignore
+  }
+}
+
+export function toggleGameFullscreen(): void {
+  if (isGameFullscreen()) {
+    exitGameFullscreen();
+  } else {
+    enterGameFullscreen();
+  }
+}
+
+/** Call synchronously from a user click/tap handler. */
+export function requestGameFullscreen(): void {
+  enterGameFullscreen({ autoOnly: true });
+}
+
+export function subscribeFullscreenChange(onChange: () => void): () => void {
+  const handler = () => {
+    if (!document.fullscreenElement) {
+      clearImmersiveFallback();
+    }
+    onChange();
+  };
+  document.addEventListener('fullscreenchange', handler);
+  document.addEventListener('webkitfullscreenchange', handler);
+  return () => {
+    document.removeEventListener('fullscreenchange', handler);
+    document.removeEventListener('webkitfullscreenchange', handler);
+  };
 }

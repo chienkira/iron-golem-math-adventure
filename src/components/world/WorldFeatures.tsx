@@ -68,7 +68,7 @@ function generateGridPositions(
   return positions;
 }
 
-const RAIN_COUNT = 2000;
+const RAIN_COUNT = 3000;
 const RAIN_HEIGHT = 14;
 const MAP_HALF = 48;
 
