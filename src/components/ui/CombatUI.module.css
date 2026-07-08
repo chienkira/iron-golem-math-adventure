@@ -75,6 +75,39 @@
   white-space: nowrap;
 }
 
+.readingQuestion {
+  white-space: normal;
+  font-size: clamp(1.35rem, 4.5vw, 2.2rem);
+  line-height: 1.35;
+  max-width: min(92vw, 640px);
+}
+
+.selectedWords {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+  max-width: min(92vw, 640px);
+}
+
+.selectedWordChip {
+  font-family: var(--font);
+  font-size: clamp(1rem, 3vw, 1.35rem);
+  font-weight: 700;
+  padding: 0.35rem 0.75rem;
+  border-radius: 10px;
+  background: rgba(255, 215, 0, 0.18);
+  border: 2px solid rgba(255, 215, 0, 0.55);
+  color: #ffd700;
+}
+
+.selectedWordEmpty {
+  font-size: clamp(0.95rem, 2.8vw, 1.15rem);
+  color: rgba(255, 255, 255, 0.55);
+  font-style: italic;
+}
+
 .answerInline {
   display: inline-block;
   min-width: 1.2em;
@@ -152,6 +185,112 @@
 
 .clearLabel {
   font-size: clamp(0.85rem, 2.5vw, 1.1rem) !important;
+}
+
+.readingPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  width: min(520px, 92vw);
+}
+
+.choiceGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.choiceBtn {
+  font-family: var(--font);
+  font-size: clamp(1.05rem, 3.2vw, 1.45rem);
+  font-weight: 700;
+  padding: 0.75rem 0.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  background: linear-gradient(145deg, #455a64, #263238);
+  color: #fff;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.1s, border-color 0.15s, background 0.15s;
+  box-shadow: 0 3px 0 #1a1a2e;
+}
+
+.choiceBtn:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #1a1a2e;
+}
+
+.choiceBtnActive {
+  border-color: #ffd700;
+  background: rgba(255, 215, 0, 0.2);
+  color: #ffd700;
+}
+
+.wordHint {
+  margin: 0;
+  text-align: center;
+  font-size: clamp(0.8rem, 2.4vw, 0.95rem);
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.wordBank {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.wordChip {
+  font-family: var(--font);
+  font-size: clamp(0.95rem, 2.8vw, 1.2rem);
+  font-weight: 700;
+  padding: 0.55rem 0.85rem;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  background: linear-gradient(145deg, #546e7a, #37474f);
+  color: #fff;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.1s, opacity 0.15s;
+  box-shadow: 0 3px 0 #1a1a2e;
+}
+
+.wordChip:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #1a1a2e;
+}
+
+.wordChipUsed {
+  opacity: 0.35;
+  cursor: default;
+  box-shadow: none;
+}
+
+.readingActions {
+  display: flex;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.actionBtn {
+  min-width: min(120px, 28vw);
+  font-family: var(--font);
+  font-size: clamp(0.95rem, 2.8vw, 1.15rem);
+  font-weight: 700;
+  padding: 0.65rem 0.5rem;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.1s;
+  box-shadow: 0 3px 0 #1a1a2e;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.actionBtn:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #1a1a2e;
 }
 
 .rewardOverlay {

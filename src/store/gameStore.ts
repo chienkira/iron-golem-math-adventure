@@ -1,7 +1,9 @@
 import { create } from 'zustand';
-import type { GamePhase, MathQuestion, Monster } from '../types/game';
+import type { GamePhase, Monster } from '../types/game';
+import type { CombatQuestion, GameSubject } from '../types/reading';
 import { COINS_PER_LEVEL, MONSTER_CONFIGS } from '../types/game';
 import { generateQuestion } from '../utils/mathQuestion';
+import { generateReadingQuestion } from '../utils/readingQuestion';
 import {
   clearPlayerProgress,
   loadPlayerProgress,
@@ -11,18 +13,22 @@ import { spawnInitialMonsters, spawnMonster } from '../utils/spawnMonsters';
 
 interface GameState {
   phase: GamePhase;
+  subject: GameSubject;
   playerPosition: [number, number, number];
   playerRotation: number;
   level: number;
   coinsInLevel: number;
   monsters: Monster[];
   activeMonster: Monster | null;
-  question: MathQuestion | null;
+  question: CombatQuestion | null;
   userAnswer: string;
+  mcqChoice: number | null;
+  wordBankAnswer: string[];
   moveTarget: [number, number] | null;
   lastReward: number;
   mapZoom: 'normal' | 'overview';
 
+  setSubject: (subject: GameSubject) => void;
   startGame: () => void;
   exitToMenu: () => void;
   resetProgress: () => void;
@@ -33,6 +39,9 @@ interface GameState {
   finishVsIntro: () => void;
   appendDigit: (digit: string) => void;
   clearAnswer: () => void;
+  selectMcqChoice: (index: number) => void;
+  appendWordBankWord: (word: string) => void;
+  clearReadingAnswer: () => void;
   submitAnswer: () => boolean;
   finishRewardScreen: () => void;
   exitCombat: () => void;
@@ -40,8 +49,53 @@ interface GameState {
 
 const savedProgress = loadPlayerProgress();
 
+function clearCombatAnswers() {
+  return { userAnswer: '', mcqChoice: null as number | null, wordBankAnswer: [] as string[] };
+}
+
+function buildQuestion(subject: GameSubject, monsterType: Monster['type']): CombatQuestion {
+  if (subject === 'math') {
+    return { subject: 'math', data: generateQuestion(monsterType) };
+  }
+  return { subject: 'reading', data: generateReadingQuestion(monsterType) };
+}
+
+function isAnswerCorrect(
+  question: CombatQuestion,
+  userAnswer: string,
+  mcqChoice: number | null,
+  wordBankAnswer: string[],
+): boolean {
+  if (question.subject === 'math') {
+    if (userAnswer === '') return false;
+    return parseInt(userAnswer, 10) === question.data.answer;
+  }
+
+  if (question.data.kind === 'mcq') {
+    if (mcqChoice === null) return false;
+    return mcqChoice === question.data.answerIndex;
+  }
+
+  const expected = question.data.answer;
+  if (wordBankAnswer.length === 0) return false;
+  if (wordBankAnswer.length !== expected.length) return false;
+  return wordBankAnswer.every((word, i) => word === expected[i]);
+}
+
+function hasAnyAnswer(
+  question: CombatQuestion,
+  userAnswer: string,
+  mcqChoice: number | null,
+  wordBankAnswer: string[],
+): boolean {
+  if (question.subject === 'math') return userAnswer !== '';
+  if (question.data.kind === 'mcq') return mcqChoice !== null;
+  return wordBankAnswer.length > 0;
+}
+
 export const useGameStore = create<GameState>((set, get) => ({
   phase: 'menu',
+  subject: savedProgress.subject ?? 'math',
   playerPosition: [0, 0, 0],
   playerRotation: 0,
   level: savedProgress.level,
@@ -50,29 +104,39 @@ export const useGameStore = create<GameState>((set, get) => ({
   activeMonster: null,
   question: null,
   userAnswer: '',
+  mcqChoice: null,
+  wordBankAnswer: [],
   moveTarget: null,
   lastReward: 0,
   mapZoom: 'normal',
+
+  setSubject: (subject) => {
+    const { level, coinsInLevel } = get();
+    savePlayerProgress({ level, coinsInLevel, subject });
+    set({ subject });
+  },
 
   setMoveTarget: (target) => set({ moveTarget: target }),
 
   startGame: () => set({ phase: 'explore', moveTarget: null }),
 
   exitToMenu: () => {
-    const { level, coinsInLevel } = get();
-    savePlayerProgress({ level, coinsInLevel });
+    const { level, coinsInLevel, subject } = get();
+    savePlayerProgress({ level, coinsInLevel, subject });
     set({
       phase: 'menu',
       moveTarget: null,
       mapZoom: 'normal',
       activeMonster: null,
       question: null,
-      userAnswer: '',
+      ...clearCombatAnswers(),
     });
   },
 
   resetProgress: () => {
+    const { subject } = get();
     clearPlayerProgress();
+    savePlayerProgress({ level: 1, coinsInLevel: 0, subject });
     set({
       phase: 'menu',
       level: 1,
@@ -82,7 +146,7 @@ export const useGameStore = create<GameState>((set, get) => ({
       monsters: spawnInitialMonsters(),
       activeMonster: null,
       question: null,
-      userAnswer: '',
+      ...clearCombatAnswers(),
       moveTarget: null,
       lastReward: 0,
       mapZoom: 'normal',
@@ -96,12 +160,12 @@ export const useGameStore = create<GameState>((set, get) => ({
     set({ playerPosition: pos, playerRotation: rot }),
 
   startCombat: (monster) => {
-    const question = generateQuestion(monster.type);
+    const { subject } = get();
     set({
       phase: 'vs-intro',
       activeMonster: monster,
-      question,
-      userAnswer: '',
+      question: buildQuestion(subject, monster.type),
+      ...clearCombatAnswers(),
       moveTarget: null,
       mapZoom: 'normal',
     });
@@ -118,13 +182,43 @@ export const useGameStore = create<GameState>((set, get) => ({
 
   clearAnswer: () => set({ userAnswer: '' }),
 
-  submitAnswer: () => {
-    const { userAnswer, question, activeMonster, coinsInLevel, level, monsters } = get();
-    if (!question || !activeMonster || userAnswer === '') return false;
+  selectMcqChoice: (index) => set({ mcqChoice: index }),
 
-    const parsed = parseInt(userAnswer, 10);
-    if (parsed !== question.answer) {
-      set({ userAnswer: '' });
+  appendWordBankWord: (word) => {
+    const { question, wordBankAnswer } = get();
+    if (!question || question.subject !== 'reading' || question.data.kind !== 'wordBank') return;
+
+    const maxLen = question.data.answer.length;
+    if (wordBankAnswer.length >= maxLen) return;
+    if (wordBankAnswer.includes(word)) return;
+
+    set({ wordBankAnswer: [...wordBankAnswer, word] });
+  },
+
+  clearReadingAnswer: () => set({ mcqChoice: null, wordBankAnswer: [] }),
+
+  submitAnswer: () => {
+    const {
+      userAnswer,
+      mcqChoice,
+      wordBankAnswer,
+      question,
+      activeMonster,
+      coinsInLevel,
+      level,
+      monsters,
+      subject,
+    } = get();
+    if (!question || !activeMonster) return false;
+    if (!hasAnyAnswer(question, userAnswer, mcqChoice, wordBankAnswer)) return false;
+
+    const correct = isAnswerCorrect(question, userAnswer, mcqChoice, wordBankAnswer);
+    if (!correct) {
+      if (question.subject === 'math') {
+        set({ userAnswer: '' });
+      } else {
+        set({ mcqChoice: null, wordBankAnswer: [] });
+      }
       return false;
     }
 
@@ -145,7 +239,7 @@ export const useGameStore = create<GameState>((set, get) => ({
         ? [...remainingMonsters, spawnMonster(remainingMonsters)]
         : remainingMonsters;
 
-    savePlayerProgress({ level: newLevel, coinsInLevel: newCoinsInLevel });
+    savePlayerProgress({ level: newLevel, coinsInLevel: newCoinsInLevel, subject });
 
     set({
       phase: newPhase,
@@ -162,7 +256,7 @@ export const useGameStore = create<GameState>((set, get) => ({
       phase: 'explore',
       activeMonster: null,
       question: null,
-      userAnswer: '',
+      ...clearCombatAnswers(),
     }),
 
   exitCombat: () =>
@@ -170,6 +264,6 @@ export const useGameStore = create<GameState>((set, get) => ({
       phase: 'explore',
       activeMonster: null,
       question: null,
-      userAnswer: '',
+      ...clearCombatAnswers(),
     }),
 }));

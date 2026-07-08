@@ -9,6 +9,9 @@ import { ArenaEnvironment } from '../world/Environment';
 import { Explosion } from '../effects/Particles';
 import { StormSky, LightningFlash } from '../effects/StormEffects';
 import { CinematicFrame } from './CinematicFrame';
+import { MathNumpad } from './MathNumpad';
+import { ReadingChoicePanel } from './ReadingChoicePanel';
+import { ReadingWordBankPanel } from './ReadingWordBankPanel';
 import { sounds } from '../../audio/sounds';
 import { vi } from '../../i18n/vi';
 import styles from './CombatUI.module.css';
@@ -127,10 +130,15 @@ export function CombatOverlay() {
   const activeMonster = useGameStore((s) => s.activeMonster);
   const question = useGameStore((s) => s.question);
   const userAnswer = useGameStore((s) => s.userAnswer);
+  const mcqChoice = useGameStore((s) => s.mcqChoice);
+  const wordBankAnswer = useGameStore((s) => s.wordBankAnswer);
   const level = useGameStore((s) => s.level);
   const lastReward = useGameStore((s) => s.lastReward);
   const appendDigit = useGameStore((s) => s.appendDigit);
   const clearAnswer = useGameStore((s) => s.clearAnswer);
+  const selectMcqChoice = useGameStore((s) => s.selectMcqChoice);
+  const appendWordBankWord = useGameStore((s) => s.appendWordBankWord);
+  const clearReadingAnswer = useGameStore((s) => s.clearReadingAnswer);
   const submitAnswer = useGameStore((s) => s.submitAnswer);
   const finishRewardScreen = useGameStore((s) => s.finishRewardScreen);
 
@@ -176,7 +184,7 @@ export function CombatOverlay() {
     const correct = submitAnswer();
     if (correct) {
       sounds.play('answerCorrect');
-    } else if (userAnswer !== '') {
+    } else if (hasInput) {
       setWrongShake(true);
       setTimeout(() => setWrongShake(false), 500);
     }
@@ -185,13 +193,13 @@ export function CombatOverlay() {
   if (phase !== 'combat' && phase !== 'victory' && phase !== 'level-up') return null;
   if (!activeMonster || !question) return null;
 
-  const opSymbol = question.operator === '+' ? '+' : '−';
-  const digits: { key: string; label: string }[] = [
-    ...['1', '2', '3', '4', '5', '6', '7', '8', '9'].map((key) => ({ key, label: key })),
-    { key: 'C', label: vi.combat.clear },
-    { key: '0', label: '0' },
-    { key: '✓', label: vi.combat.submit },
-  ];
+  const isMath = question.subject === 'math';
+  const readingData = question.subject === 'reading' ? question.data : null;
+  const hasInput = isMath
+    ? userAnswer !== ''
+    : readingData?.kind === 'mcq'
+      ? mcqChoice !== null
+      : wordBankAnswer.length > 0;
 
   return (
     <CinematicFrame flash={flash && (phase === 'victory' || phase === 'level-up')}>
@@ -233,33 +241,59 @@ export function CombatOverlay() {
         {phase === 'combat' && (
           <>
             <div className={styles.questionZone}>
-              <div className={`${styles.question} ${wrongShake ? styles.shake : ''}`}>
-                {question.a} {opSymbol} {question.b} ={' '}
-                <span className={styles.answerInline}>{userAnswer || vi.combat.answerPlaceholder}</span>
-              </div>
+              {isMath ? (
+                <div className={`${styles.question} ${wrongShake ? styles.shake : ''}`}>
+                  {question.data.a} {question.data.operator === '+' ? '+' : '−'} {question.data.b} ={' '}
+                  <span className={styles.answerInline}>
+                    {userAnswer || vi.combat.answerPlaceholder}
+                  </span>
+                </div>
+              ) : (
+                <>
+                  <div className={`${styles.question} ${styles.readingQuestion} ${wrongShake ? styles.shake : ''}`}>
+                    {readingData?.prompt}
+                  </div>
+                  {readingData?.kind === 'wordBank' && (
+                    <div className={styles.selectedWords}>
+                      {wordBankAnswer.length > 0 ? (
+                        wordBankAnswer.map((word, index) => (
+                          <span key={`${word}-${index}`} className={styles.selectedWordChip}>
+                            {word}
+                          </span>
+                        ))
+                      ) : (
+                        <span className={styles.selectedWordEmpty}>{vi.combat.tapWordHint}</span>
+                      )}
+                    </div>
+                  )}
+                </>
+              )}
             </div>
 
             <div className={styles.combatPanel}>
-              <div className={styles.numpad}>
-                {digits.map(({ key, label }) => (
-                  <button
-                    key={key}
-                    className={`${styles.numpadBtn} ${key === '✓' ? styles.submitBtn : ''} ${key === 'C' ? styles.clearBtn : ''} ${key === 'C' ? styles.clearLabel : ''}`}
-                    onClick={() => {
-                      if (key === 'C') {
-                        clearAnswer();
-                      } else if (key === '✓') {
-                        handleSubmit();
-                      } else {
-                        appendDigit(key);
-                      }
-                    }}
-                    type="button"
-                  >
-                    {label}
-                  </button>
-                ))}
-              </div>
+              {isMath ? (
+                <MathNumpad
+                  onDigit={appendDigit}
+                  onClear={clearAnswer}
+                  onSubmit={handleSubmit}
+                />
+              ) : readingData?.kind === 'mcq' ? (
+                <ReadingChoicePanel
+                  choices={readingData.choices}
+                  selectedIndex={mcqChoice}
+                  onSelect={selectMcqChoice}
+                  onClear={clearReadingAnswer}
+                  onSubmit={handleSubmit}
+                />
+              ) : readingData?.kind === 'wordBank' ? (
+                <ReadingWordBankPanel
+                  words={readingData.words}
+                  selectedWords={wordBankAnswer}
+                  onWordTap={appendWordBankWord}
+                  onClear={clearReadingAnswer}
+                  onSubmit={handleSubmit}
+                />
+              ) : null}
             </div>
           </>
         )}

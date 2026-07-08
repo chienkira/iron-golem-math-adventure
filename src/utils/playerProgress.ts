@@ -1,13 +1,19 @@
 import { COINS_PER_LEVEL } from '../types/game';
+import type { GameSubject } from '../types/reading';
 
 interface PlayerProgress {
   level: number;
   coinsInLevel: number;
+  subject?: GameSubject;
 }
 
 const STORAGE_KEY = 'iron-golem-player-progress';
 
-const DEFAULT_PROGRESS: PlayerProgress = { level: 1, coinsInLevel: 0 };
+const DEFAULT_PROGRESS: PlayerProgress = { level: 1, coinsInLevel: 0, subject: 'math' };
+
+function parseSubject(value: unknown): GameSubject {
+  return value === 'reading' ? 'reading' : 'math';
+}
 
 export function loadPlayerProgress(): PlayerProgress {
   if (typeof window === 'undefined') return DEFAULT_PROGRESS;
@@ -23,7 +29,7 @@ export function loadPlayerProgress(): PlayerProgress {
       Math.min(COINS_PER_LEVEL, Math.floor(Number(data.coinsInLevel) || 0)),
     );
 
-    return { level, coinsInLevel };
+    return { level, coinsInLevel, subject: parseSubject(data.subject) };
   } catch {
     return DEFAULT_PROGRESS;
   }

@@ -1,0 +1,65 @@
+{
+  "tier": "creeper",
+  "questions": [
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"ba\"?",
+      "choices": ["cha", "bé", "cá", "mẹ"],
+      "answerIndex": 0
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"ma\"?",
+      "choices": ["bé", "la", "chó", "gà"],
+      "answerIndex": 1
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"bé\"?",
+      "choices": ["cá", "mè", "nhà", "táo"],
+      "answerIndex": 1
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"cá\"?",
+      "choices": ["gà", "em", "bé", "chó"],
+      "answerIndex": 0
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"nhà\"?",
+      "choices": ["chó", "táo", "lá", "bé"],
+      "answerIndex": 2
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"chó\"?",
+      "choices": ["mèo", "bé", "cá", "nhà"],
+      "answerIndex": 0
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"gà\"?",
+      "choices": ["bé", "cá", "mẹ", "em"],
+      "answerIndex": 1
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"mẹ\"?",
+      "choices": ["bé", "bê", "cá", "chó"],
+      "answerIndex": 1
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"táo\"?",
+      "choices": ["cháo", "bé", "gà", "nhà"],
+      "answerIndex": 0
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"cò\"?",
+      "choices": ["bé", "mèo", "bò", "cá"],
+      "answerIndex": 2
+    }
+  ]
+}

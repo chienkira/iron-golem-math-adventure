@@ -1,0 +1,65 @@
+{
+  "tier": "ghast",
+  "questions": [
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Mỗi", "sáng", "em", "thức", "dậy", "sớm", "đi", "học"],
+      "answer": ["Mỗi", "sáng", "em", "thức", "dậy", "sớm", "đi", "học"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Bạn", "Lan", "rất", "chăm", "chỉ", "và", "học", "giỏi"],
+      "answer": ["Bạn", "Lan", "rất", "chăm", "chỉ", "và", "học", "giỏi"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Sau", "giờ", "học", "em", "giúp", "mẹ", "nấu", "cơm"],
+      "answer": ["Sau", "giờ", "học", "em", "giúp", "mẹ", "nấu", "cơm"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Cây", "tre", "mọc", "xanh", "tốt", "trên", "đồi", "cao"],
+      "answer": ["Cây", "tre", "mọc", "xanh", "tốt", "trên", "đồi", "cao"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Em", "yêu", "quê", "hương", "và", "yêu", "trường", "lớp"],
+      "answer": ["Em", "yêu", "quê", "hương", "và", "yêu", "trường", "lớp"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Trên", "bầu", "trời", "xanh", "có", "mây", "trắng", "bay"],
+      "answer": ["Trên", "bầu", "trời", "xanh", "có", "mây", "trắng", "bay"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Em", "cùng", "bạn", "đọc", "sách", "trong", "thư", "viện"],
+      "answer": ["Em", "cùng", "bạn", "đọc", "sách", "trong", "thư", "viện"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Mùa", "xuân", "đến", "hoa", "nở", "khắp", "nơi", "rực", "rỡ"],
+      "answer": ["Mùa", "xuân", "đến", "hoa", "nở", "khắp", "nơi", "rực", "rỡ"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Bác", "nông", "dân", "làm", "việc", "chăm", "chỉ", "trên", "đồng"],
+      "answer": ["Bác", "nông", "dân", "làm", "việc", "chăm", "chỉ", "trên", "đồng"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Em", "luôn", "giữ", "gìn", "sách", "vở", "và", "đồ", "dùng", "học", "tập"],
+      "answer": ["Em", "luôn", "giữ", "gìn", "sách", "vở", "và", "đồ", "dùng", "học", "tập"]
+    }
+  ]
+}

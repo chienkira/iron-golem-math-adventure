@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "gen:reading-content": "tsx scripts/generateReadingContent.ts"
   },
   "dependencies": {
     "@react-three/drei": "^9.117.3",
@@ -17,11 +18,14 @@
     "zustand": "^5.0.2"
   },
   "devDependencies": {
+    "@google/generative-ai": "^0.21.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@types/three": "^0.170.0",
     "@vitejs/plugin-react": "^4.3.4",
+    "tsx": "^4.19.2",
     "typescript": "^5.6.3",
-    "vite": "^5.4.11"
+    "vite": "^5.4.11",
+    "zod": "^3.24.1"
   }
 }

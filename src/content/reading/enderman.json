@@ -1,0 +1,65 @@
+{
+  "tier": "enderman",
+  "questions": [
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Em", "đi", "học", "sáng"],
+      "answer": ["Em", "đi", "học", "sáng"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Mẹ", "nấu", "cơm", "ngon"],
+      "answer": ["Mẹ", "nấu", "cơm", "ngon"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Bé", "chơi", "với", "bạn"],
+      "answer": ["Bé", "chơi", "với", "bạn"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Trời", "hôm", "nay", "đẹp"],
+      "answer": ["Trời", "hôm", "nay", "đẹp"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Chú", "mèo", "đang", "ngủ"],
+      "answer": ["Chú", "mèo", "đang", "ngủ"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Em", "đọc", "sách", "rất", "hay"],
+      "answer": ["Em", "đọc", "sách", "rất", "hay"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Bố", "làm", "việc", "rất", "chăm"],
+      "answer": ["Bố", "làm", "việc", "rất", "chăm"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Cây", "hoa", "nở", "rất", "đẹp"],
+      "answer": ["Cây", "hoa", "nở", "rất", "đẹp"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Em", "viết", "bài", "rất", "cẩn", "thận"],
+      "answer": ["Em", "viết", "bài", "rất", "cẩn", "thận"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": ["Chúng", "em", "cùng", "nhau", "học", "bài"],
+      "answer": ["Chúng", "em", "cùng", "nhau", "học", "bài"]
+    }
+  ]
+}

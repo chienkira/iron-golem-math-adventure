@@ -92,3 +92,11 @@ Quái spawn ngẫu nhiên trên map. Mỗi loại có **giới hạn số lớn 
 - **Map explore:** cỏ, cây, nước, dung nham, mây; quái **lang thang** (`WanderGroup`), ong/ghast bay.
 - **Combat arena:** sky + ground + đuốc; sương mù/ánh sáng đã chỉnh sáng hơn bản đầu.
 - **VFX:** sét combat, explosion khi thắng, flash VS.
+
+## 7. Chế độ Tập đọc
+
+- Menu có toggle **Toán | Tập đọc**; progress level/xu dùng chung.
+- Vòng lặp explore → VS → combat giữ nguyên; combat thay numpad bằng:
+  - **MCQ vần** (Creeper dễ, Bee khó hơn): 4 lựa chọn, chạm chọn + ✓
+  - **Word bank** (Zombie: điền 1 từ; Enderman/Ghast: ghép câu): chạm từ, Xóa/✓
+- Nội dung đọc trong `src/content/reading/*.json`; sinh thêm bằng `npm run gen:reading-content` (cần `GEMINI_API_KEY` trong `.env.local`, chỉ chạy lúc dev).

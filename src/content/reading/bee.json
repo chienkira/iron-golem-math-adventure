@@ -1,0 +1,65 @@
+{
+  "tier": "bee",
+  "questions": [
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"anh\"?",
+      "choices": ["canh", "em", "bé", "cá"],
+      "answerIndex": 0
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"em\"?",
+      "choices": ["bé", "kem", "cá", "gà"],
+      "answerIndex": 1
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"ơi\"?",
+      "choices": ["chó", "trời", "mèo", "nhà"],
+      "answerIndex": 1
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"ang\"?",
+      "choices": ["sang", "bé", "cá", "mẹ"],
+      "answerIndex": 0
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"un\"?",
+      "choices": ["cun", "cá", "gà", "nhà"],
+      "answerIndex": 0
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"en\"?",
+      "choices": ["bé", "sen", "chó", "táo"],
+      "answerIndex": 1
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"ai\"?",
+      "choices": ["mai", "em", "bé", "cò"],
+      "answerIndex": 0
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"ong\"?",
+      "choices": ["bong", "cá", "mẹ", "nhà"],
+      "answerIndex": 0
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"inh\"?",
+      "choices": ["bình", "gà", "chó", "táo"],
+      "answerIndex": 0
+    },
+    {
+      "kind": "mcq",
+      "prompt": "Từ nào cùng vần với \"ao\"?",
+      "choices": ["cáo", "bé", "mẹ", "cò"],
+      "answerIndex": 0
+    }
+  ]
+}

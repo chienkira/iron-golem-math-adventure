@@ -1,0 +1,65 @@
+{
+  "tier": "zombie",
+  "questions": [
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ đi ăn cỏ.",
+      "words": ["trâu", "chó", "mèo", "cá"],
+      "answer": ["trâu"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ đi học.",
+      "words": ["đi", "ngủ", "chơi", "ăn"],
+      "answer": ["đi"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ nấu ___ ngon.",
+      "words": ["cơm", "nhà", "trời", "cây"],
+      "answer": ["cơm"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bé ___ rất xinh.",
+      "words": ["gái", "cao", "nhanh", "vui"],
+      "answer": ["gái"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Trời hôm nay rất ___.",
+      "words": ["đẹp", "chó", "bàn", "cá"],
+      "answer": ["đẹp"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Chú mèo đang ___.",
+      "words": ["ngủ", "chạy", "bay", "bơi"],
+      "answer": ["ngủ"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em uống ___ sữa.",
+      "words": ["ly", "cây", "nhà", "trời"],
+      "answer": ["ly"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố lái ___ đi làm.",
+      "words": ["xe", "cá", "chim", "hoa"],
+      "answer": ["xe"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây ___ rất cao.",
+      "words": ["tre", "bé", "mẹ", "cò"],
+      "answer": ["tre"]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em viết bài bằng ___.",
+      "words": ["bút", "táo", "gà", "mèo"],
+      "answer": ["bút"]
+    }
+  ]
+}
