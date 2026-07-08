@@ -1,4 +1,4 @@
-# Iron Golem Math Adventure
+# Iron Golem Learning
 
 <img width="1192" height="557" alt="Screenshot 2026-07-07 at 17 42 06" src="https://github.com/user-attachments/assets/e1837262-be9b-4c45-aaa2-2d286599a93c" />
 <img width="1201" height="560" alt="Screenshot 2026-07-07 at 17 41 08" src="https://github.com/user-attachments/assets/7198cffc-2700-40c5-8f4f-d2c595e37fee" />
@@ -34,5 +34,5 @@ npm run preview   # xem thử bản build
 Deploy (ví dụ):
 
 ```bash
-npm run build && scp -r dist/* chienkira.a1-flex-01:~/public/iron-golem-math-adventure/
+npm run build && scp -r dist/* chienkira.a1-flex-01:~/public/iron-golem/
 ```
