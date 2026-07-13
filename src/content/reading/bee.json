@@ -1,105 +1,3905 @@
 {
   "tier": "bee",
   "questions": [
-    {"kind": "wordBank", "prompt": "Con ong đang hút ___.", "words": ["mật", "nhà", "bàn", "trời"], "answer": ["mật"]},
-    {"kind": "wordBank", "prompt": "Em ___ cặp sách đi học.", "words": ["mang", "ngủ", "bay", "bơi"], "answer": ["mang"]},
-    {"kind": "wordBank", "prompt": "Mẹ đang nấu ___ tối.", "words": ["bữa", "chó", "cá", "gà"], "answer": ["bữa"]},
-    {"kind": "wordBank", "prompt": "Bé trai chơi rất ___.", "words": ["vui", "nhà", "bàn", "xe"], "answer": ["vui"]},
-    {"kind": "wordBank", "prompt": "Hôm nay trời rất ___.", "words": ["mát", "chó", "cá", "gà"], "answer": ["mát"]},
-    {"kind": "wordBank", "prompt": "Chú chó đang ___ bóng.", "words": ["đuổi", "ngủ", "bay", "bơi"], "answer": ["đuổi"]},
-    {"kind": "wordBank", "prompt": "Em uống một ___ nước.", "words": ["cốc", "cây", "nhà", "chó"], "answer": ["cốc"]},
-    {"kind": "wordBank", "prompt": "Bố sửa ___ bị hỏng.", "words": ["xe", "cá", "hoa", "mèo"], "answer": ["xe"]},
-    {"kind": "wordBank", "prompt": "Cây ___ đứng ven đường.", "words": ["phượng", "bé", "mẹ", "cá"], "answer": ["phượng"]},
-    {"kind": "wordBank", "prompt": "Em tô màu bằng ___.", "words": ["bút", "gà", "chó", "mèo"], "answer": ["bút"]},
-    {"kind": "wordBank", "prompt": "Chim sẻ ___ rất vui.", "words": ["hót", "bơi", "ngủ", "ăn"], "answer": ["hót"]},
-    {"kind": "wordBank", "prompt": "Em thích ăn bánh ___.", "words": ["mì", "nhà", "trời", "bàn"], "answer": ["mì"]},
-    {"kind": "wordBank", "prompt": "Bạn Minh học rất ___.", "words": ["chăm", "chó", "cá", "gà"], "answer": ["chăm"]},
-    {"kind": "wordBank", "prompt": "Hoa lan rất ___.", "words": ["đẹp", "chó", "cá", "bàn"], "answer": ["đẹp"]},
-    {"kind": "wordBank", "prompt": "Em mang ___ đến lớp.", "words": ["vở", "nhà", "trời", "cây"], "answer": ["vở"]},
-    {"kind": "wordBank", "prompt": "Thỏ trắng chạy rất ___.", "words": ["nhanh", "nhà", "cá", "hoa"], "answer": ["nhanh"]},
-    {"kind": "wordBank", "prompt": "Đènpin chiếu rất ___.", "words": ["sáng", "chó", "cá", "gà"], "answer": ["sáng"]},
-    {"kind": "wordBank", "prompt": "Em mở ___ để đọc.", "words": ["sách", "cá", "chó", "gà"], "answer": ["sách"]},
-    {"kind": "wordBank", "prompt": "Bà em pha ___ trà.", "words": ["ấm", "nhà", "trời", "bàn"], "answer": ["ấm"]},
-    {"kind": "wordBank", "prompt": "Con ___ gáy sáng sớm.", "words": ["gà", "bàn", "nhà", "xe"], "answer": ["gà"]},
-    {"kind": "wordBank", "prompt": "Em ___ sớm mỗi ngày.", "words": ["dậy", "bay", "bơi", "xe"], "answer": ["dậy"]},
-    {"kind": "wordBank", "prompt": "Cá bơi trong ___ nước.", "words": ["hồ", "nhà", "bàn", "cây"], "answer": ["hồ"]},
-    {"kind": "wordBank", "prompt": "Em chải ___ mỗi sáng.", "words": ["tóc", "chó", "cá", "gà"], "answer": ["tóc"]},
-    {"kind": "wordBank", "prompt": "Mẹ em là ___.", "words": ["cô giáo", "cá", "chó", "gà"], "answer": ["cô giáo"]},
-    {"kind": "wordBank", "prompt": "Em ___ bài khi về nhà.", "words": ["học", "ngủ", "bay", "cá"], "answer": ["học"]},
-    {"kind": "wordBank", "prompt": "Quả chuối chín ___.", "words": ["vàng", "nhà", "chó", "bàn"], "answer": ["vàng"]},
-    {"kind": "wordBank", "prompt": "Em nói chuyện rất ___.", "words": ["lịch sự", "chạy", "ngủ", "bay"], "answer": ["lịch sự"]},
-    {"kind": "wordBank", "prompt": "Sân trường rất ___.", "words": ["rộng", "chó", "cá", "gà"], "answer": ["rộng"]},
-    {"kind": "wordBank", "prompt": "Em ___ giường mỗi sáng.", "words": ["dọn", "chạy", "ngủ", "bay"], "answer": ["dọn"]},
-    {"kind": "wordBank", "prompt": "Con ___ bay trong vườn.", "words": ["bướm", "chó", "mèo", "gà"], "answer": ["bướm"]},
-    {"kind": "wordBank", "prompt": "Em nghe chuyện rất ___.", "words": ["chăm", "nhà", "cá", "bàn"], "answer": ["chăm"]},
-    {"kind": "wordBank", "prompt": "Mẹ hái ___ trong vườn.", "words": ["hoa", "chó", "trời", "bàn"], "answer": ["hoa"]},
-    {"kind": "wordBank", "prompt": "Em ___ cây hoa hồng.", "words": ["trồng", "ngủ", "bay", "cá"], "answer": ["trồng"]},
-    {"kind": "wordBank", "prompt": "Lá cây màu ___.", "words": ["xanh", "chó", "cá", "gà"], "answer": ["xanh"]},
-    {"kind": "wordBank", "prompt": "Em ___ mẹ làm việc nhà.", "words": ["giúp", "chạy", "ngủ", "bay"], "answer": ["giúp"]},
-    {"kind": "wordBank", "prompt": "Con ___ kéo xe trên đồng.", "words": ["trâu", "cá", "bàn", "xe"], "answer": ["trâu"]},
-    {"kind": "wordBank", "prompt": "Em đi ___ với bố.", "words": ["bơi", "ngủ", "bay", "cây"], "answer": ["bơi"]},
-    {"kind": "wordBank", "prompt": "Buổi chiều trời ___.", "words": ["mát", "chó", "cá", "gà"], "answer": ["mát"]},
-    {"kind": "wordBank", "prompt": "Em ___ mặt trước khi ngủ.", "words": ["rửa", "chạy", "ngủ", "bay"], "answer": ["rửa"]},
-    {"kind": "wordBank", "prompt": "Thầy giáo dạy rất ___.", "words": ["giỏi", "chó", "cá", "gà"], "answer": ["giỏi"]},
-    {"kind": "wordBank", "prompt": "Em ___ hình con vật.", "words": ["vẽ", "chạy", "ngủ", "bay"], "answer": ["vẽ"]},
-    {"kind": "wordBank", "prompt": "Con ___ nằm trên ghế.", "words": ["mèo", "cá", "gà", "vịt"], "answer": ["mèo"]},
-    {"kind": "wordBank", "prompt": "Em mang ___ ra sân chơi.", "words": ["bóng", "nhà", "trời", "cây"], "answer": ["bóng"]},
-    {"kind": "wordBank", "prompt": "Bé ___ đang cười.", "words": ["con", "cao", "nhanh", "xa"], "answer": ["con"]},
-    {"kind": "wordBank", "prompt": "Em ___ theo nhạc vui.", "words": ["nhảy", "chạy", "ngủ", "bay"], "answer": ["nhảy"]},
-    {"kind": "wordBank", "prompt": "Cây ___ cho quả ngọt.", "words": ["na", "chó", "cá", "gà"], "answer": ["na"]},
-    {"kind": "wordBank", "prompt": "Em ___ thiệp cho bạn.", "words": ["gửi", "chạy", "ngủ", "bay"], "answer": ["gửi"]},
-    {"kind": "wordBank", "prompt": "Mùa mưa trời rất ___.", "words": ["ẩm", "chó", "cá", "gà"], "answer": ["ẩm"]},
-    {"kind": "wordBank", "prompt": "Em ___ hàng khi xếp hàng.", "words": ["đứng", "bay", "ngủ", "bơi"], "answer": ["đứng"]},
-    {"kind": "wordBank", "prompt": "Con ___ sống trong rừng.", "words": ["hổ", "cá", "gà", "vịt"], "answer": ["hổ"]},
-    {"kind": "wordBank", "prompt": "Em ___ cặp sách gọn gàng.", "words": ["xếp", "chạy", "ngủ", "bay"], "answer": ["xếp"]},
-    {"kind": "wordBank", "prompt": "Hoa ___ nở màu đỏ.", "words": ["hồng", "chó", "cá", "gà"], "answer": ["hồng"]},
-    {"kind": "wordBank", "prompt": "Em ___ bàn học sạch sẽ.", "words": ["lau", "chạy", "ngủ", "bay"], "answer": ["lau"]},
-    {"kind": "wordBank", "prompt": "Trên trời có nhiều ___.", "words": ["sao", "chó", "cá", "gà"], "answer": ["sao"]},
-    {"kind": "wordBank", "prompt": "Em ___ truyện trước lớp.", "words": ["kể", "chạy", "ngủ", "bay"], "answer": ["kể"]},
-    {"kind": "wordBank", "prompt": "Con ___ leo lên cây.", "words": ["mèo", "cá", "gà", "vịt"], "answer": ["mèo"]},
-    {"kind": "wordBank", "prompt": "Em uống ___ cam mỗi sáng.", "words": ["nước", "nhà", "trời", "cây"], "answer": ["nước"]},
-    {"kind": "wordBank", "prompt": "Mùa thu lá cây rất ___.", "words": ["vàng", "chó", "cá", "gà"], "answer": ["vàng"]},
-    {"kind": "wordBank", "prompt": "Em ___ phép tính đúng.", "words": ["làm", "chạy", "ngủ", "bay"], "answer": ["làm"]},
-    {"kind": "wordBank", "prompt": "Cây ___ đứng trước nhà.", "words": ["me", "chó", "cá", "gà"], "answer": ["me"]},
-    {"kind": "wordBank", "prompt": "Em ___ chào khi gặp bạn.", "words": ["vẫy", "chạy", "ngủ", "bay"], "answer": ["vẫy"]},
-    {"kind": "wordBank", "prompt": "Bạn cùng lớp rất ___.", "words": ["thân", "chó", "cá", "gà"], "answer": ["thân"]},
-    {"kind": "wordBank", "prompt": "Em ___ trái cây sau bữa ăn.", "words": ["ăn", "chạy", "ngủ", "bay"], "answer": ["ăn"]},
-    {"kind": "wordBank", "prompt": "Con ___ nhảy từ cành này sang cành kia.", "words": ["khỉ", "cá", "gà", "vịt"], "answer": ["khỉ"]},
-    {"kind": "wordBank", "prompt": "Em ___ khăn quàng cổ.", "words": ["đeo", "chạy", "ngủ", "bay"], "answer": ["đeo"]},
-    {"kind": "wordBank", "prompt": "Truyện em đọc rất ___.", "words": ["hay", "chó", "cá", "gà"], "answer": ["hay"]},
-    {"kind": "wordBank", "prompt": "Em ___ chính tả vào vở.", "words": ["chép", "chạy", "ngủ", "bay"], "answer": ["chép"]},
-    {"kind": "wordBank", "prompt": "Con ___ bay tìm hoa.", "words": ["ong", "chó", "gà", "vịt"], "answer": ["ong"]},
-    {"kind": "wordBank", "prompt": "Em ___ sữa trước khi ngủ.", "words": ["uống", "chạy", "ngủ", "bay"], "answer": ["uống"]},
-    {"kind": "wordBank", "prompt": "Giờ ra chơi rất ___.", "words": ["vui", "chó", "cá", "gà"], "answer": ["vui"]},
-    {"kind": "wordBank", "prompt": "Em ___ cửa sổ cho thoáng.", "words": ["mở", "chạy", "bay", "bơi"], "answer": ["mở"]},
-    {"kind": "wordBank", "prompt": "Con ___ đào hang dưới đất.", "words": ["chuột", "cá", "gà", "vịt"], "answer": ["chuột"]},
-    {"kind": "wordBank", "prompt": "Em ___ ơn thầy cô mỗi ngày.", "words": ["biết", "chạy", "ngủ", "bay"], "answer": ["biết"]},
-    {"kind": "wordBank", "prompt": "Quả ___ ngọt và thơm.", "words": ["ổi", "chó", "cá", "gà"], "answer": ["ổi"]},
-    {"kind": "wordBank", "prompt": "Em ___ chạy quanh sân.", "words": ["tập", "chạy", "ngủ", "bay"], "answer": ["tập"]},
-    {"kind": "wordBank", "prompt": "Bữa cơm nhà rất ___.", "words": ["ngon", "chó", "cá", "gà"], "answer": ["ngon"]},
-    {"kind": "wordBank", "prompt": "Em ___ số đẹp vào vở.", "words": ["viết", "chạy", "ngủ", "bay"], "answer": ["viết"]},
-    {"kind": "wordBank", "prompt": "Con ___ sống dưới biển.", "words": ["cá", "chó", "gà", "mèo"], "answer": ["cá"]},
-    {"kind": "wordBank", "prompt": "Em ___ dép khi vào nhà.", "words": ["cởi", "chạy", "ngủ", "bay"], "answer": ["cởi"]},
-    {"kind": "wordBank", "prompt": "Cơn mưa rất ___.", "words": ["to", "chó", "cá", "gà"], "answer": ["to"]},
-    {"kind": "wordBank", "prompt": "Em ___ đồng thanh cùng lớp.", "words": ["hát", "chạy", "ngủ", "bay"], "answer": ["hát"]},
-    {"kind": "wordBank", "prompt": "Cây ___ cho bóng mát sân.", "words": ["bàng", "chó", "cá", "gà"], "answer": ["bàng"]},
-    {"kind": "wordBank", "prompt": "Em ___ sách đúng hạn.", "words": ["trả", "chạy", "ngủ", "bay"], "answer": ["trả"]},
-    {"kind": "wordBank", "prompt": "Bố em về nhà rất ___.", "words": ["muộn", "chó", "cá", "gà"], "answer": ["muộn"]},
-    {"kind": "wordBank", "prompt": "Em ___ bạn khi bạn đau.", "words": ["an ủi", "chạy", "ngủ", "bay"], "answer": ["an ủi"]},
-    {"kind": "wordBank", "prompt": "Con ___ bơi thành đàn.", "words": ["cá", "chó", "gà", "mèo"], "answer": ["cá"]},
-    {"kind": "wordBank", "prompt": "Em ___ tất trước khi đi.", "words": ["mang", "chạy", "ngủ", "bay"], "answer": ["mang"]},
-    {"kind": "wordBank", "prompt": "Phòng học rất ___.", "words": ["sáng", "chó", "cá", "gà"], "answer": ["sáng"]},
-    {"kind": "wordBank", "prompt": "Em ___ lịch lên tường.", "words": ["dán", "chạy", "ngủ", "bay"], "answer": ["dán"]},
-    {"kind": "wordBank", "prompt": "Con ___ bò chậm trên đất.", "words": ["ốc", "cá", "tôm", "vịt"], "answer": ["ốc"]},
-    {"kind": "wordBank", "prompt": "Em ___ bảng nhân thuộc lòng.", "words": ["học", "chạy", "ngủ", "bay"], "answer": ["học"]},
-    {"kind": "wordBank", "prompt": "Không khí buổi sáng rất ___.", "words": ["trong lành", "chó", "cá", "gà"], "answer": ["trong lành"]},
-    {"kind": "wordBank", "prompt": "Em ___ hoa cho mẹ.", "words": ["tặng", "chạy", "ngủ", "bay"], "answer": ["tặng"]},
-    {"kind": "wordBank", "prompt": "Con ___ có cổ dài.", "words": ["hươu cao cổ", "cá", "gà", "vịt"], "answer": ["hươu cao cổ"]},
-    {"kind": "wordBank", "prompt": "Em ___ giấy vào thùng rác.", "words": ["bỏ", "chạy", "ngủ", "bay"], "answer": ["bỏ"]},
-    {"kind": "wordBank", "prompt": "Bạn cùng bàn rất ___.", "words": ["tốt", "chó", "cá", "gà"], "answer": ["tốt"]},
-    {"kind": "wordBank", "prompt": "Em ___ hoa trong bình.", "words": ["cắm", "chạy", "ngủ", "bay"], "answer": ["cắm"]},
-    {"kind": "wordBank", "prompt": "Con ___ ấp trứng ấm.", "words": ["gà", "chó", "cá", "mèo"], "answer": ["gà"]},
-    {"kind": "wordBank", "prompt": "Em ___ chào cờ mỗi sáng.", "words": ["dự", "chạy", "ngủ", "bay"], "answer": ["dự"]},
-    {"kind": "wordBank", "prompt": "Lớp học rất ___.", "words": ["yên", "chó", "cá", "gà"], "answer": ["yên"]}
+    {
+      "kind": "wordBank",
+      "prompt": "Con ong đang hút ___.",
+      "words": [
+        "mật",
+        "nhà",
+        "bàn",
+        "trời"
+      ],
+      "answer": [
+        "mật"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ cặp sách đi học.",
+      "words": [
+        "mang",
+        "ngủ",
+        "bay",
+        "bơi"
+      ],
+      "answer": [
+        "mang"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ đang nấu ___ tối.",
+      "words": [
+        "bữa",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "bữa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bé trai chơi rất ___.",
+      "words": [
+        "vui",
+        "nhà",
+        "bàn",
+        "xe"
+      ],
+      "answer": [
+        "vui"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hôm nay trời rất ___.",
+      "words": [
+        "mát",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "mát"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Chú chó đang ___ bóng.",
+      "words": [
+        "đuổi",
+        "ngủ",
+        "bay",
+        "bơi"
+      ],
+      "answer": [
+        "đuổi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em uống một ___ nước.",
+      "words": [
+        "cốc",
+        "cây",
+        "nhà",
+        "chó"
+      ],
+      "answer": [
+        "cốc"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố sửa ___ bị hỏng.",
+      "words": [
+        "xe",
+        "cá",
+        "hoa",
+        "mèo"
+      ],
+      "answer": [
+        "xe"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây ___ đứng ven đường.",
+      "words": [
+        "phượng",
+        "bé",
+        "mẹ",
+        "cá"
+      ],
+      "answer": [
+        "phượng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em tô màu bằng ___.",
+      "words": [
+        "bút",
+        "gà",
+        "chó",
+        "mèo"
+      ],
+      "answer": [
+        "bút"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Chim sẻ ___ rất vui.",
+      "words": [
+        "hót",
+        "bơi",
+        "ngủ",
+        "ăn"
+      ],
+      "answer": [
+        "hót"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em thích ăn bánh ___.",
+      "words": [
+        "mì",
+        "nhà",
+        "trời",
+        "bàn"
+      ],
+      "answer": [
+        "mì"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Minh học rất ___.",
+      "words": [
+        "chăm",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "chăm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa lan rất ___.",
+      "words": [
+        "đẹp",
+        "chó",
+        "cá",
+        "bàn"
+      ],
+      "answer": [
+        "đẹp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang ___ đến lớp.",
+      "words": [
+        "vở",
+        "nhà",
+        "trời",
+        "cây"
+      ],
+      "answer": [
+        "vở"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Thỏ trắng chạy rất ___.",
+      "words": [
+        "nhanh",
+        "nhà",
+        "cá",
+        "hoa"
+      ],
+      "answer": [
+        "nhanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đènpin chiếu rất ___.",
+      "words": [
+        "sáng",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mở ___ để đọc.",
+      "words": [
+        "sách",
+        "cá",
+        "chó",
+        "gà"
+      ],
+      "answer": [
+        "sách"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bà em pha ___ trà.",
+      "words": [
+        "ấm",
+        "nhà",
+        "trời",
+        "bàn"
+      ],
+      "answer": [
+        "ấm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ gáy sáng sớm.",
+      "words": [
+        "gà",
+        "bàn",
+        "nhà",
+        "xe"
+      ],
+      "answer": [
+        "gà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ sớm mỗi ngày.",
+      "words": [
+        "dậy",
+        "bay",
+        "bơi",
+        "xe"
+      ],
+      "answer": [
+        "dậy"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cá bơi trong ___ nước.",
+      "words": [
+        "hồ",
+        "nhà",
+        "bàn",
+        "cây"
+      ],
+      "answer": [
+        "hồ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em chải ___ mỗi sáng.",
+      "words": [
+        "tóc",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "tóc"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ em là ___.",
+      "words": [
+        "cô giáo",
+        "cá",
+        "chó",
+        "gà"
+      ],
+      "answer": [
+        "cô giáo"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ bài khi về nhà.",
+      "words": [
+        "học",
+        "ngủ",
+        "bay",
+        "cá"
+      ],
+      "answer": [
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả chuối chín ___.",
+      "words": [
+        "vàng",
+        "nhà",
+        "chó",
+        "bàn"
+      ],
+      "answer": [
+        "vàng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em nói chuyện rất ___.",
+      "words": [
+        "lịch sự",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "lịch sự"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Sân trường rất ___.",
+      "words": [
+        "rộng",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "rộng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ giường mỗi sáng.",
+      "words": [
+        "dọn",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "dọn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ bay trong vườn.",
+      "words": [
+        "bướm",
+        "chó",
+        "mèo",
+        "gà"
+      ],
+      "answer": [
+        "bướm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em nghe chuyện rất ___.",
+      "words": [
+        "chăm",
+        "nhà",
+        "cá",
+        "bàn"
+      ],
+      "answer": [
+        "chăm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ hái ___ trong vườn.",
+      "words": [
+        "hoa",
+        "chó",
+        "trời",
+        "bàn"
+      ],
+      "answer": [
+        "hoa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ cây hoa hồng.",
+      "words": [
+        "trồng",
+        "ngủ",
+        "bay",
+        "cá"
+      ],
+      "answer": [
+        "trồng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Lá cây màu ___.",
+      "words": [
+        "xanh",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "xanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ mẹ làm việc nhà.",
+      "words": [
+        "giúp",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "giúp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ kéo xe trên đồng.",
+      "words": [
+        "trâu",
+        "cá",
+        "bàn",
+        "xe"
+      ],
+      "answer": [
+        "trâu"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đi ___ với bố.",
+      "words": [
+        "bơi",
+        "ngủ",
+        "bay",
+        "cây"
+      ],
+      "answer": [
+        "bơi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Buổi chiều trời ___.",
+      "words": [
+        "mát",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "mát"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ mặt trước khi ngủ.",
+      "words": [
+        "rửa",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "rửa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Thầy giáo dạy rất ___.",
+      "words": [
+        "giỏi",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "giỏi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ hình con vật.",
+      "words": [
+        "vẽ",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "vẽ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ nằm trên ghế.",
+      "words": [
+        "mèo",
+        "cá",
+        "gà",
+        "vịt"
+      ],
+      "answer": [
+        "mèo"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang ___ ra sân chơi.",
+      "words": [
+        "bóng",
+        "nhà",
+        "trời",
+        "cây"
+      ],
+      "answer": [
+        "bóng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bé ___ đang cười.",
+      "words": [
+        "con",
+        "cao",
+        "nhanh",
+        "xa"
+      ],
+      "answer": [
+        "con"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ theo nhạc vui.",
+      "words": [
+        "nhảy",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "nhảy"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây ___ cho quả ngọt.",
+      "words": [
+        "na",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "na"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ thiệp cho bạn.",
+      "words": [
+        "gửi",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "gửi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mùa mưa trời rất ___.",
+      "words": [
+        "ẩm",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "ẩm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ hàng khi xếp hàng.",
+      "words": [
+        "đứng",
+        "bay",
+        "ngủ",
+        "bơi"
+      ],
+      "answer": [
+        "đứng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ sống trong rừng.",
+      "words": [
+        "hổ",
+        "cá",
+        "gà",
+        "vịt"
+      ],
+      "answer": [
+        "hổ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ cặp sách gọn gàng.",
+      "words": [
+        "xếp",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "xếp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa ___ nở màu đỏ.",
+      "words": [
+        "hồng",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "hồng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ bàn học sạch sẽ.",
+      "words": [
+        "lau",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "lau"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Trên trời có nhiều ___.",
+      "words": [
+        "sao",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "sao"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ truyện trước lớp.",
+      "words": [
+        "kể",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "kể"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ leo lên cây.",
+      "words": [
+        "mèo",
+        "cá",
+        "gà",
+        "vịt"
+      ],
+      "answer": [
+        "mèo"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em uống ___ cam mỗi sáng.",
+      "words": [
+        "nước",
+        "nhà",
+        "trời",
+        "cây"
+      ],
+      "answer": [
+        "nước"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mùa thu lá cây rất ___.",
+      "words": [
+        "vàng",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "vàng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ phép tính đúng.",
+      "words": [
+        "làm",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "làm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây ___ đứng trước nhà.",
+      "words": [
+        "me",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "me"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ chào khi gặp bạn.",
+      "words": [
+        "vẫy",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "vẫy"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn cùng lớp rất ___.",
+      "words": [
+        "thân",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "thân"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ trái cây sau bữa ăn.",
+      "words": [
+        "ăn",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "ăn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ nhảy từ cành này sang cành kia.",
+      "words": [
+        "khỉ",
+        "cá",
+        "gà",
+        "vịt"
+      ],
+      "answer": [
+        "khỉ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ khăn quàng cổ.",
+      "words": [
+        "đeo",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "đeo"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Truyện em đọc rất ___.",
+      "words": [
+        "hay",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "hay"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ chính tả vào vở.",
+      "words": [
+        "chép",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "chép"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ bay tìm hoa.",
+      "words": [
+        "ong",
+        "chó",
+        "gà",
+        "vịt"
+      ],
+      "answer": [
+        "ong"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ sữa trước khi ngủ.",
+      "words": [
+        "uống",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "uống"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Giờ ra chơi rất ___.",
+      "words": [
+        "vui",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "vui"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ cửa sổ cho thoáng.",
+      "words": [
+        "mở",
+        "chạy",
+        "bay",
+        "bơi"
+      ],
+      "answer": [
+        "mở"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ đào hang dưới đất.",
+      "words": [
+        "chuột",
+        "cá",
+        "gà",
+        "vịt"
+      ],
+      "answer": [
+        "chuột"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ ơn thầy cô mỗi ngày.",
+      "words": [
+        "biết",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "biết"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả ___ ngọt và thơm.",
+      "words": [
+        "ổi",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "ổi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ chạy quanh sân.",
+      "words": [
+        "tập",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "tập"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bữa cơm nhà rất ___.",
+      "words": [
+        "ngon",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "ngon"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ số đẹp vào vở.",
+      "words": [
+        "viết",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "viết"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ sống dưới biển.",
+      "words": [
+        "cá",
+        "chó",
+        "gà",
+        "mèo"
+      ],
+      "answer": [
+        "cá"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ dép khi vào nhà.",
+      "words": [
+        "cởi",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "cởi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cơn mưa rất ___.",
+      "words": [
+        "to",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "to"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ đồng thanh cùng lớp.",
+      "words": [
+        "hát",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "hát"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây ___ cho bóng mát sân.",
+      "words": [
+        "bàng",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "bàng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ sách đúng hạn.",
+      "words": [
+        "trả",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "trả"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố em về nhà rất ___.",
+      "words": [
+        "muộn",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "muộn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ bạn khi bạn đau.",
+      "words": [
+        "an ủi",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "an ủi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ bơi thành đàn.",
+      "words": [
+        "cá",
+        "chó",
+        "gà",
+        "mèo"
+      ],
+      "answer": [
+        "cá"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ tất trước khi đi.",
+      "words": [
+        "mang",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "mang"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Phòng học rất ___.",
+      "words": [
+        "sáng",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ lịch lên tường.",
+      "words": [
+        "dán",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "dán"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ bò chậm trên đất.",
+      "words": [
+        "ốc",
+        "cá",
+        "tôm",
+        "vịt"
+      ],
+      "answer": [
+        "ốc"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ bảng nhân thuộc lòng.",
+      "words": [
+        "học",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Không khí buổi sáng rất ___.",
+      "words": [
+        "trong lành",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "trong lành"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ hoa cho mẹ.",
+      "words": [
+        "tặng",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "tặng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ có cổ dài.",
+      "words": [
+        "hươu cao cổ",
+        "cá",
+        "gà",
+        "vịt"
+      ],
+      "answer": [
+        "hươu cao cổ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ giấy vào thùng rác.",
+      "words": [
+        "bỏ",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "bỏ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn cùng bàn rất ___.",
+      "words": [
+        "tốt",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "tốt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ hoa trong bình.",
+      "words": [
+        "cắm",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "cắm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ___ ấp trứng ấm.",
+      "words": [
+        "gà",
+        "chó",
+        "cá",
+        "mèo"
+      ],
+      "answer": [
+        "gà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ___ chào cờ mỗi sáng.",
+      "words": [
+        "dự",
+        "chạy",
+        "ngủ",
+        "bay"
+      ],
+      "answer": [
+        "dự"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Lớp học rất ___.",
+      "words": [
+        "yên",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "yên"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn ong bay quanh ___ hoa.",
+      "words": [
+        "khóm",
+        "bàn",
+        "xe",
+        "áo"
+      ],
+      "answer": [
+        "khóm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em gấp ___ giấy thật đẹp.",
+      "words": [
+        "con",
+        "trời",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "con"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bà kể chuyện cổ ___ cho em.",
+      "words": [
+        "tích",
+        "chó",
+        "bàn",
+        "xe"
+      ],
+      "answer": [
+        "tích"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Trong vườn có nhiều quả ___.",
+      "words": [
+        "xoài",
+        "ghế",
+        "áo",
+        "bút"
+      ],
+      "answer": [
+        "xoài"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đứng thẳng khi xếp ___.",
+      "words": [
+        "hàng",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "hàng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con voi có chiếc vòi ___.",
+      "words": [
+        "dài",
+        "bàn",
+        "áo",
+        "trời"
+      ],
+      "answer": [
+        "dài"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ phơi ___ ngoài sân.",
+      "words": [
+        "áo",
+        "cá",
+        "sao",
+        "mây"
+      ],
+      "answer": [
+        "áo"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em tô màu lá cây màu ___.",
+      "words": [
+        "xanh",
+        "chó",
+        "xe",
+        "bàn"
+      ],
+      "answer": [
+        "xanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Hoa đọc sách rất ___.",
+      "words": [
+        "to",
+        "cá",
+        "gà",
+        "mèo"
+      ],
+      "answer": [
+        "to"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con kiến tha ___ về tổ.",
+      "words": [
+        "mồi",
+        "trời",
+        "áo",
+        "bàn"
+      ],
+      "answer": [
+        "mồi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang ___ mưa khi trời mưa.",
+      "words": [
+        "áo",
+        "cá",
+        "hoa",
+        "sao"
+      ],
+      "answer": [
+        "áo"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ông em trồng rau trong ___.",
+      "words": [
+        "vườn",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "vườn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đếm số từ một đến ___.",
+      "words": [
+        "mười",
+        "chó",
+        "bàn",
+        "cá"
+      ],
+      "answer": [
+        "mười"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa hướng dương hướng về mặt ___.",
+      "words": [
+        "trời",
+        "chó",
+        "bàn",
+        "áo"
+      ],
+      "answer": [
+        "trời"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em cột dây ___ gọn gàng.",
+      "words": [
+        "giày",
+        "cá",
+        "sao",
+        "mây"
+      ],
+      "answer": [
+        "giày"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ngựa chạy trên cánh ___.",
+      "words": [
+        "đồng",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "đồng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cô giáo khen em học ___.",
+      "words": [
+        "giỏi",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "giỏi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em quét ___ nhà sạch sẽ.",
+      "words": [
+        "sàn",
+        "cá",
+        "sao",
+        "mây"
+      ],
+      "answer": [
+        "sàn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Miếng dưa hấu mát và ___.",
+      "words": [
+        "ngọt",
+        "chó",
+        "bàn",
+        "áo"
+      ],
+      "answer": [
+        "ngọt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Chim sẻ làm ___ trên cây.",
+      "words": [
+        "tổ",
+        "xe",
+        "áo",
+        "bút"
+      ],
+      "answer": [
+        "tổ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang mũ khi trời ___.",
+      "words": [
+        "nắng",
+        "cá",
+        "bàn",
+        "áo"
+      ],
+      "answer": [
+        "nắng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố đọc báo mỗi buổi ___.",
+      "words": [
+        "sáng",
+        "chó",
+        "xe",
+        "hoa"
+      ],
+      "answer": [
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ếch nhảy xuống ___.",
+      "words": [
+        "ao",
+        "áo",
+        "bút",
+        "sao"
+      ],
+      "answer": [
+        "ao"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em tô màu lá cờ màu ___.",
+      "words": [
+        "đỏ",
+        "chó",
+        "bàn",
+        "cá"
+      ],
+      "answer": [
+        "đỏ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ nấu canh rau rất ___.",
+      "words": [
+        "ngon",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "ngon"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em giữ im ___ trong thư viện.",
+      "words": [
+        "lặng",
+        "cá",
+        "hoa",
+        "sao"
+      ],
+      "answer": [
+        "lặng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây dừa cao và ___.",
+      "words": [
+        "thẳng",
+        "chó",
+        "bàn",
+        "áo"
+      ],
+      "answer": [
+        "thẳng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em gửi lời ___ đến ông bà.",
+      "words": [
+        "chào",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "chào"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con rùa bò rất ___.",
+      "words": [
+        "chậm",
+        "cá",
+        "sao",
+        "mây"
+      ],
+      "answer": [
+        "chậm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đóng ___ sách trước khi ngủ.",
+      "words": [
+        "cuốn",
+        "chó",
+        "bàn",
+        "áo"
+      ],
+      "answer": [
+        "cuốn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Trên bàn có lọ mực và ___.",
+      "words": [
+        "bút",
+        "cá",
+        "gà",
+        "mèo"
+      ],
+      "answer": [
+        "bút"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn vịt bơi trên mặt ___.",
+      "words": [
+        "hồ",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "hồ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em tập viết chữ thật ___.",
+      "words": [
+        "đều",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "đều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mùa xuân hoa nở khắp ___.",
+      "words": [
+        "nơi",
+        "bàn",
+        "áo",
+        "xe"
+      ],
+      "answer": [
+        "nơi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em nhặt rác bỏ vào ___.",
+      "words": [
+        "thùng",
+        "cá",
+        "sao",
+        "mây"
+      ],
+      "answer": [
+        "thùng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con sóc nhảy trên cành ___.",
+      "words": [
+        "cây",
+        "áo",
+        "bút",
+        "xe"
+      ],
+      "answer": [
+        "cây"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn An chia kẹo rất ___.",
+      "words": [
+        "đều",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "đều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mặc áo ấm khi trời ___.",
+      "words": [
+        "lạnh",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "lạnh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bà em trồng hoa ___ trước sân.",
+      "words": [
+        "cúc",
+        "cá",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "cúc"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em lắng nghe cô giáo ___.",
+      "words": [
+        "giảng",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "giảng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con dê ăn cỏ trên ___.",
+      "words": [
+        "đồi",
+        "áo",
+        "bút",
+        "sao"
+      ],
+      "answer": [
+        "đồi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em gọt quả táo bằng ___.",
+      "words": [
+        "dao",
+        "chó",
+        "trời",
+        "bàn"
+      ],
+      "answer": [
+        "dao"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ánh trăng chiếu rất ___.",
+      "words": [
+        "sáng",
+        "cá",
+        "gà",
+        "mèo"
+      ],
+      "answer": [
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em buộc tóc bằng sợi ___.",
+      "words": [
+        "dây",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "dây"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con tôm sống dưới nước ___.",
+      "words": [
+        "biển",
+        "áo",
+        "sao",
+        "bút"
+      ],
+      "answer": [
+        "biển"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em xếp sách lên giá ___.",
+      "words": [
+        "gỗ",
+        "cá",
+        "hoa",
+        "mây"
+      ],
+      "answer": [
+        "gỗ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ gói bánh chưng ngày ___.",
+      "words": [
+        "Tết",
+        "chó",
+        "bàn",
+        "xe"
+      ],
+      "answer": [
+        "Tết"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em thả diều trên cánh ___.",
+      "words": [
+        "đồng",
+        "áo",
+        "cá",
+        "sao"
+      ],
+      "answer": [
+        "đồng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con cáo chạy vào trong ___.",
+      "words": [
+        "rừng",
+        "bút",
+        "áo",
+        "xe"
+      ],
+      "answer": [
+        "rừng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em tô màu bức tranh rất ___.",
+      "words": [
+        "đẹp",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "đẹp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố sửa bóng đèn bị ___.",
+      "words": [
+        "hỏng",
+        "bay",
+        "ngủ",
+        "hoa"
+      ],
+      "answer": [
+        "hỏng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang theo khăn lau ___.",
+      "words": [
+        "tay",
+        "cá",
+        "sao",
+        "mây"
+      ],
+      "answer": [
+        "tay"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa sen nở trên mặt ___.",
+      "words": [
+        "hồ",
+        "áo",
+        "bút",
+        "xe"
+      ],
+      "answer": [
+        "hồ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đọc to bài thơ trước ___.",
+      "words": [
+        "lớp",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "lớp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con lợn nằm trong chuồng ___.",
+      "words": [
+        "ấm",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "ấm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đeo cặp sách lên ___.",
+      "words": [
+        "vai",
+        "cá",
+        "sao",
+        "hoa"
+      ],
+      "answer": [
+        "vai"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mây trắng trôi trên bầu ___.",
+      "words": [
+        "trời",
+        "bàn",
+        "áo",
+        "xe"
+      ],
+      "answer": [
+        "trời"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em rửa rau giúp mẹ nấu ___.",
+      "words": [
+        "canh",
+        "chó",
+        "sao",
+        "bút"
+      ],
+      "answer": [
+        "canh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con công xòe đuôi rất ___.",
+      "words": [
+        "đẹp",
+        "cá",
+        "gà",
+        "mèo"
+      ],
+      "answer": [
+        "đẹp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em khoác ba lô trước khi ___.",
+      "words": [
+        "đi",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "đi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả na chín mềm và ___.",
+      "words": [
+        "ngọt",
+        "chó",
+        "bàn",
+        "áo"
+      ],
+      "answer": [
+        "ngọt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em vẽ ngôi nhà có ống ___.",
+      "words": [
+        "khói",
+        "cá",
+        "sao",
+        "mây"
+      ],
+      "answer": [
+        "khói"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn cò bay về phương ___.",
+      "words": [
+        "xa",
+        "áo",
+        "bút",
+        "xe"
+      ],
+      "answer": [
+        "xa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ngồi ngay ngắn trên ghế ___.",
+      "words": [
+        "học",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ mua bánh mì cho bữa ___.",
+      "words": [
+        "sáng",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con dế kêu trong đêm ___.",
+      "words": [
+        "khuya",
+        "cá",
+        "sao",
+        "hoa"
+      ],
+      "answer": [
+        "khuya"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em gọt bút chì bằng đồ ___.",
+      "words": [
+        "gọt",
+        "chó",
+        "bàn",
+        "áo"
+      ],
+      "answer": [
+        "gọt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây chuối cho quả rất ___.",
+      "words": [
+        "nhiều",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "nhiều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mặc đồng phục đến ___.",
+      "words": [
+        "trường",
+        "cá",
+        "sao",
+        "mây"
+      ],
+      "answer": [
+        "trường"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con cua bò ngang trên ___.",
+      "words": [
+        "cát",
+        "áo",
+        "bút",
+        "xe"
+      ],
+      "answer": [
+        "cát"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em chia sẻ đồ chơi với ___.",
+      "words": [
+        "bạn",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "bạn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố tưới cây vào buổi ___.",
+      "words": [
+        "chiều",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "chiều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa mai nở vàng ngày ___.",
+      "words": [
+        "xuân",
+        "cá",
+        "sao",
+        "áo"
+      ],
+      "answer": [
+        "xuân"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em lau bảng giúp cô ___.",
+      "words": [
+        "giáo",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "giáo"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con thỏ ăn củ cà ___.",
+      "words": [
+        "rốt",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "rốt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mở hộp bút màu để ___.",
+      "words": [
+        "tô",
+        "cá",
+        "sao",
+        "mây"
+      ],
+      "answer": [
+        "tô"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Trên biển có nhiều con ___.",
+      "words": [
+        "sóng",
+        "áo",
+        "bút",
+        "xe"
+      ],
+      "answer": [
+        "sóng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em chào hỏi hàng xóm rất ___.",
+      "words": [
+        "lễ phép",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "lễ phép"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ ủi quần áo cho cả ___.",
+      "words": [
+        "nhà",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "nhà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con sâu bò trên lá ___.",
+      "words": [
+        "cây",
+        "cá",
+        "sao",
+        "áo"
+      ],
+      "answer": [
+        "cây"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đếm số ngôi sao trên ___.",
+      "words": [
+        "trời",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "trời"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Nam giúp em mang ___.",
+      "words": [
+        "cặp",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "cặp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả cam chín màu vàng ___.",
+      "words": [
+        "cam",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "cam"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em tập thể dục giữa ___.",
+      "words": [
+        "sân",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "sân"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con chim sâu bắt sâu trên ___.",
+      "words": [
+        "lá",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "lá"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em gói quà sinh nhật cho ___.",
+      "words": [
+        "bạn",
+        "cá",
+        "sao",
+        "mây"
+      ],
+      "answer": [
+        "bạn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bà pha trà nóng mỗi buổi ___.",
+      "words": [
+        "chiều",
+        "áo",
+        "bút",
+        "xe"
+      ],
+      "answer": [
+        "chiều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn ong làm mật rất ___.",
+      "words": [
+        "chăm",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "chăm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em kéo cửa sổ lại khi trời ___.",
+      "words": [
+        "mưa",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "mưa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con nai uống nước bên bờ ___.",
+      "words": [
+        "suối",
+        "cá",
+        "sao",
+        "áo"
+      ],
+      "answer": [
+        "suối"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em viết tên mình lên bìa ___.",
+      "words": [
+        "vở",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "vở"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ cắt tóc cho em rất ___.",
+      "words": [
+        "gọn",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "gọn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây mít cho quả rất ___.",
+      "words": [
+        "to",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "to"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em lắng nghe tiếng mưa rơi trên ___.",
+      "words": [
+        "mái",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "mái"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con báo chạy nhanh trong ___.",
+      "words": [
+        "rừng",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "rừng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đặt thước kẻ cạnh quyển ___.",
+      "words": [
+        "vở",
+        "cá",
+        "sao",
+        "mây"
+      ],
+      "answer": [
+        "vở"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố đưa em đến cổng ___.",
+      "words": [
+        "trường",
+        "áo",
+        "bút",
+        "xe"
+      ],
+      "answer": [
+        "trường"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa cúc trắng nở rất ___.",
+      "words": [
+        "thơm",
+        "chó",
+        "cá",
+        "gà"
+      ],
+      "answer": [
+        "thơm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em gấp chăn màn sau khi ___.",
+      "words": [
+        "ngủ",
+        "bay",
+        "bơi",
+        "xe"
+      ],
+      "answer": [
+        "ngủ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ong chúa sống trong tổ ___.",
+      "words": [
+        "ong",
+        "bàn",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "ong"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang hộp ___ màu đến lớp.",
+      "words": [
+        "bút",
+        "chó",
+        "trời",
+        "cá"
+      ],
+      "answer": [
+        "bút"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ong bay từ hoa này sang hoa ___.",
+      "words": [
+        "khác",
+        "bàn",
+        "áo",
+        "xe"
+      ],
+      "answer": [
+        "khác"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ mua cá tươi ở chợ ___.",
+      "words": [
+        "sớm",
+        "bay",
+        "ngủ",
+        "sao"
+      ],
+      "answer": [
+        "sớm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đánh răng sau khi ăn ___.",
+      "words": [
+        "cơm",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "cơm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây cam trước nhà ra nhiều ___.",
+      "words": [
+        "quả",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "quả"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Lan ngồi cạnh em trong ___.",
+      "words": [
+        "lớp",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "lớp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con bò ăn cỏ trên cánh ___.",
+      "words": [
+        "đồng",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "đồng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mặc áo mưa khi đi ___.",
+      "words": [
+        "học",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bữa trưa hôm nay rất ___.",
+      "words": [
+        "no",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "no"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn ong bay về tổ lúc trời ___.",
+      "words": [
+        "tối",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "tối"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em giơ tay khi muốn phát ___.",
+      "words": [
+        "biểu",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "biểu"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con vịt kêu quác quác bên ___.",
+      "words": [
+        "ao",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "ao"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ông em kể chuyện vui mỗi tối ___.",
+      "words": [
+        "thứ bảy",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "thứ bảy"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em bỏ rác đúng nơi quy ___.",
+      "words": [
+        "định",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "định"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa hồng trong vườn có gai ___.",
+      "words": [
+        "nhọn",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "nhọn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Thầy giáo viết bài lên bảng ___.",
+      "words": [
+        "đen",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "đen"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con chó giữ nhà rất ___.",
+      "words": [
+        "giỏi",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "giỏi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em uống sữa đậu nành buổi ___.",
+      "words": [
+        "sáng",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ gói cơm nắm cho em mang ___.",
+      "words": [
+        "đi",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "đi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Trong tổ ong có nhiều mật ___.",
+      "words": [
+        "ngọt",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "ngọt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đọc bảng chữ cái thật ___.",
+      "words": [
+        "to",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "to"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ngựa kéo xe trên đường ___.",
+      "words": [
+        "làng",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "làng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố em làm vườn vào ngày ___.",
+      "words": [
+        "nghỉ",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "nghỉ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang khăn tay trong túi ___.",
+      "words": [
+        "quần",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "quần"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả dưa leo giòn và ___.",
+      "words": [
+        "mát",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "mát"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cô giáo dạy em hát bài ___.",
+      "words": [
+        "mới",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "mới"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con heo con nằm cạnh mẹ ___.",
+      "words": [
+        "nó",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "nó"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em xếp hàng mua đồ ăn ___.",
+      "words": [
+        "trưa",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "trưa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Lá sen lớn nổi trên mặt ___.",
+      "words": [
+        "hồ",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "hồ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn cùng lớp chia sẻ đồ dùng ___.",
+      "words": [
+        "học",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con chim khách kêu báo trời ___.",
+      "words": [
+        "mưa",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "mưa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em cột dây cặp sách thật ___.",
+      "words": [
+        "chắc",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "chắc"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ nướng bánh ngọt thơm cả ___.",
+      "words": [
+        "nhà",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "nhà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn ong hút mật từ hoa ___.",
+      "words": [
+        "nhài",
+        "chó",
+        "bàn",
+        "xe"
+      ],
+      "answer": [
+        "nhài"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang bình nước đến giờ ra ___.",
+      "words": [
+        "chơi",
+        "áo",
+        "sao",
+        "gà"
+      ],
+      "answer": [
+        "chơi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con dê trắng đứng trên đồi ___.",
+      "words": [
+        "cao",
+        "cá",
+        "mây",
+        "bút"
+      ],
+      "answer": [
+        "cao"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bà em phơi khô lá trà dưới ___.",
+      "words": [
+        "nắng",
+        "bay",
+        "ngủ",
+        "xe"
+      ],
+      "answer": [
+        "nắng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em viết bài tập về nhà đầy đủ ___.",
+      "words": [
+        "sạch",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "sạch"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả đu đủ chín vàng rất ___.",
+      "words": [
+        "mềm",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "mềm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Thầy cô kiểm tra bài tập mỗi ___.",
+      "words": [
+        "tuần",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "tuần"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ốc sên bò trên tường sau ___.",
+      "words": [
+        "mưa",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "mưa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mặc quần áo sạch sẽ trước khi ___.",
+      "words": [
+        "đi",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "đi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ thái rau cải để nấu ___.",
+      "words": [
+        "canh",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "canh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Tổ ong treo trên cành cây ___.",
+      "words": [
+        "cao",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "cao"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em lắng nghe bạn đọc bài văn ___.",
+      "words": [
+        "hay",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "hay"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con cá vàng bơi trong bể ___.",
+      "words": [
+        "kính",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "kính"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố chở em bằng xe đạp đến ___.",
+      "words": [
+        "trường",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "trường"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em gọt vỏ khoai lang giúp ___.",
+      "words": [
+        "mẹ",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "mẹ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa phượng vĩ nở đỏ cả một ___.",
+      "words": [
+        "góc",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "góc"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Minh cho mượn cục tẩy khi em ___.",
+      "words": [
+        "cần",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "cần"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con hổ gầm vang trong khu ___.",
+      "words": [
+        "rừng",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "rừng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em xếp gọn sách vở vào ngăn ___.",
+      "words": [
+        "bàn",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "bàn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ mua bánh bao nóng cho bữa ___.",
+      "words": [
+        "xế",
+        "chó",
+        "hoa",
+        "sao"
+      ],
+      "answer": [
+        "xế"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con chuồn chuồn bay thấp trên mặt ___.",
+      "words": [
+        "nước",
+        "áo",
+        "bút",
+        "xe"
+      ],
+      "answer": [
+        "nước"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em chào cờ trang nghiêm mỗi sáng ___.",
+      "words": [
+        "thứ hai",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "thứ hai"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ông trồng cây ổi cạnh hàng ___.",
+      "words": [
+        "rào",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "rào"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang dép tổ ong khi ở ___.",
+      "words": [
+        "nhà",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "nhà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả nhãn ngọt thơm vào mùa ___.",
+      "words": [
+        "hè",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "hè"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cô giáo phát phiếu bài tập cho cả ___.",
+      "words": [
+        "lớp",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "lớp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con thỏ trắng có đôi tai ___.",
+      "words": [
+        "dài",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "dài"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em rửa tay bằng xà phòng trước khi ___.",
+      "words": [
+        "ăn",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "ăn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bữa tối nhà em có canh và ___.",
+      "words": [
+        "cơm",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "cơm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn ong chăm chỉ làm việc cả ___.",
+      "words": [
+        "ngày",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "ngày"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ghi nhớ bài học rất ___.",
+      "words": [
+        "mau",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "mau"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con voi uống nước bằng chiếc ___.",
+      "words": [
+        "vòi",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "vòi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ phơi chăn màn ngoài sân lúc trời ___.",
+      "words": [
+        "nắng",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "nắng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em vẽ mặt trời màu vàng trên tờ ___.",
+      "words": [
+        "giấy",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "giấy"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Trong vườn trường có nhiều cây bóng ___.",
+      "words": [
+        "mát",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "mát"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Hoa giúp em buộc dây ___.",
+      "words": [
+        "giày",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "giày"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con cá sấu nằm im bên bờ ___.",
+      "words": [
+        "sông",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "sông"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mở cặp lấy hộp cơm lúc giờ ___.",
+      "words": [
+        "ăn",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "ăn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố cắt cỏ trước sân vào buổi ___.",
+      "words": [
+        "chiều",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "chiều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa lan tím nở trong chậu đất ___.",
+      "words": [
+        "tốt",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "tốt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đứng dậy khi cô giáo vào ___.",
+      "words": [
+        "lớp",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "lớp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con gà trống gáy vang lúc rạng ___.",
+      "words": [
+        "đông",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "đông"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang mũ bảo hiểm khi ngồi xe ___.",
+      "words": [
+        "máy",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "máy"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ luộc trứng gà cho bữa sáng ___.",
+      "words": [
+        "nhanh",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "nhanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con kiến đen bò theo hàng thật ___.",
+      "words": [
+        "đều",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "đều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em tô màu lá cờ Tổ quốc thật ___.",
+      "words": [
+        "cẩn thận",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "cẩn thận"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả bưởi to nặng treo trên ___.",
+      "words": [
+        "cành",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "cành"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Thầy giáo kể chuyện về loài ong ___.",
+      "words": [
+        "mật",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "mật"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đặt ba lô cạnh ghế trước khi ___.",
+      "words": [
+        "ngồi",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "ngồi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con nai con chạy theo mẹ trong ___.",
+      "words": [
+        "rừng",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "rừng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bà em nấu chè đậu xanh rất ___.",
+      "words": [
+        "ngọt",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "ngọt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em giữ trật tự khi đi hành ___.",
+      "words": [
+        "lang",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "lang"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn vịt con theo mẹ ra bờ ___.",
+      "words": [
+        "sông",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "sông"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang theo áo khoác khi trời se ___.",
+      "words": [
+        "lạnh",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "lạnh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ rửa sạch quả táo trước khi em ___.",
+      "words": [
+        "ăn",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "ăn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây tre xanh mọc thành từng ___.",
+      "words": [
+        "bụi",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "bụi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn An đọc thuộc lòng bài thơ rất ___.",
+      "words": [
+        "trôi chảy",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "trôi chảy"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con rùa vàng bò chậm trên mặt ___.",
+      "words": [
+        "đất",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "đất"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em lau mồ hôi sau khi chạy ___.",
+      "words": [
+        "nhiều",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "nhiều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Trong hộp cơm có thịt và rau ___.",
+      "words": [
+        "xào",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "xào"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ong thợ mang phấn hoa về ___.",
+      "words": [
+        "tổ",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "tổ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em ngồi ngay ngắn khi viết ___.",
+      "words": [
+        "bài",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "bài"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố mua kem lạnh cho em vào ngày ___.",
+      "words": [
+        "nóng",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "nóng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa giấy hồng treo trước cổng ___.",
+      "words": [
+        "nhà",
+        "bay",
+        "ngủ",
+        "cá"
+      ],
+      "answer": [
+        "nhà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em cảm ơn bạn khi được giúp ___.",
+      "words": [
+        "đỡ",
+        "chó",
+        "bàn",
+        "hoa"
+      ],
+      "answer": [
+        "đỡ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con sóc nâu nhặt hạt trên mặt ___.",
+      "words": [
+        "đất",
+        "áo",
+        "sao",
+        "xe"
+      ],
+      "answer": [
+        "đất"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ gói bánh tét xanh ngày đầu ___.",
+      "words": [
+        "năm",
+        "cá",
+        "mây",
+        "gà"
+      ],
+      "answer": [
+        "năm"
+      ]
+    }
   ]
 }
