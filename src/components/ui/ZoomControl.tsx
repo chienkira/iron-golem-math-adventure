@@ -1,8 +1,9 @@
 import { useGameStore } from '../../store/gameStore';
-import { vi } from '../../i18n/vi';
+import { useT } from '../../i18n';
 import styles from './ZoomControl.module.css';
 
 export function ZoomControl() {
+  const t = useT();
   const phase = useGameStore((s) => s.phase);
   const mapZoom = useGameStore((s) => s.mapZoom);
   const toggleMapZoom = useGameStore((s) => s.toggleMapZoom);
@@ -13,7 +14,7 @@ export function ZoomControl() {
 
   return (
     <button className={styles.btn} onClick={toggleMapZoom} type="button">
-      {isOverview ? vi.zoom.normal : vi.zoom.overview}
+      {isOverview ? t.zoom.normal : t.zoom.overview}
     </button>
   );
 }

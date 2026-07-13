@@ -11,9 +11,10 @@ import { SoundToggle } from './components/ui/SoundToggle';
 import { FullscreenToggle } from './components/ui/FullscreenToggle';
 import styles from './App.module.css';
 import { useGameStore } from './store/gameStore';
-import { getSubtitle, vi } from './i18n/vi';
+import { useT } from './i18n';
 
 function TitleScreen() {
+  const t = useT();
   const phase = useGameStore((s) => s.phase);
   const subject = useGameStore((s) => s.subject);
 
@@ -21,8 +22,8 @@ function TitleScreen() {
 
   return (
     <div className={styles.titleOverlay}>
-      <h1 className={styles.title}>{vi.gameTitle}</h1>
-      <p className={styles.subtitle}>{getSubtitle(subject)}</p>
+      <h1 className={styles.title}>{t.gameTitle}</h1>
+      <p className={styles.subtitle}>{t.subtitles[subject]}</p>
     </div>
   );
 }

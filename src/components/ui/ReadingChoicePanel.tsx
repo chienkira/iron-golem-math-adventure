@@ -1,4 +1,4 @@
-import { vi } from '../../i18n/vi';
+import { useT } from '../../i18n';
 import styles from './CombatUI.module.css';
 
 interface ReadingChoicePanelProps {
@@ -16,6 +16,8 @@ export function ReadingChoicePanel({
   onClear,
   onSubmit,
 }: ReadingChoicePanelProps) {
+  const t = useT();
+
   return (
     <div className={styles.readingPanel}>
       <div className={styles.choiceGrid}>
@@ -32,10 +34,10 @@ export function ReadingChoicePanel({
       </div>
       <div className={styles.readingActions}>
         <button className={`${styles.actionBtn} ${styles.clearBtn}`} onClick={onClear} type="button">
-          {vi.combat.clear}
+          {t.combat.clear}
         </button>
         <button className={`${styles.actionBtn} ${styles.submitBtn}`} onClick={onSubmit} type="button">
-          {vi.combat.submit}
+          {t.combat.submit}
         </button>
       </div>
     </div>

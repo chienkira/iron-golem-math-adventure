@@ -1,33 +1,32 @@
-import type { GameSubject } from '../types/reading';
+import type { Messages } from './types';
 
-export const vi = {
+export const vi: Messages = {
   gameTitle: 'Người Sắt',
 
   subjects: {
     math: 'Toán học',
     reading: 'Tiếng Việt',
-  } as const satisfies Record<GameSubject, string>,
+  },
 
   subtitles: {
     math: 'Phiêu Lưu Toán Học',
     reading: 'Phiêu Lưu Tiếng Việt',
-  } as const satisfies Record<GameSubject, string>,
+  },
 
   taglines: {
     math: 'Khám phá • Chiến đấu • Học toán!',
     reading: 'Khám phá • Chiến đấu • Tập đọc!',
-  } as const satisfies Record<GameSubject, string>,
+  },
 
   start: {
     play: '▶ Bắt đầu',
-    progress: (level: number, coins: number, max: number) =>
-      `Cấp ${level} (${coins}/${max} xu)`,
+    progress: (level, coins, max) => `Cấp ${level} (${coins}/${max} xu)`,
     reset: '↺ Chơi lại từ đầu',
   },
 
   hud: {
-    level: (n: number) => `Cấp ${n}`,
-    coinsProgress: (coins: number, max: number) => `${coins}/${max} xu`,
+    level: (n) => `Cấp ${n}`,
+    coinsProgress: (coins, max) => `${coins}/${max} xu`,
   },
 
   moveHint: 'Chạm bản đồ để di chuyển • Chạm quái vật để chiến đấu',
@@ -43,8 +42,8 @@ export const vi = {
 
   combat: {
     battle: '⚡ CHIẾN ĐẤU',
-    levelUp: (level: number) => `⭐ LÊN CẤP ${level}! ⭐`,
-    reward: (amount: number) => `+${amount} xu 💰`,
+    levelUp: (level) => `⭐ LÊN CẤP ${level}! ⭐`,
+    reward: (amount) => `+${amount} xu 💰`,
     clear: 'Xóa',
     submit: '✓',
     answerPlaceholder: '?',
@@ -64,13 +63,12 @@ export const vi = {
     ghast: 'Ghast',
   },
 
-  coinLabel: (amount: number) => `${amount} xu`,
-} as const;
+  coinLabel: (amount) => `${amount} xu`,
 
-export function getSubtitle(subject: GameSubject): string {
-  return vi.subtitles[subject];
-}
-
-export function getTagline(subject: GameSubject): string {
-  return vi.taglines[subject];
-}
+  language: {
+    label: 'Ngôn ngữ',
+    vi: 'Tiếng Việt',
+    en: 'English',
+    ja: '日本語',
+  },
+};

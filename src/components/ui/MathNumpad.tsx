@@ -1,4 +1,4 @@
-import { vi } from '../../i18n/vi';
+import { useT } from '../../i18n';
 import styles from './CombatUI.module.css';
 
 interface MathNumpadProps {
@@ -8,11 +8,12 @@ interface MathNumpadProps {
 }
 
 export function MathNumpad({ onDigit, onClear, onSubmit }: MathNumpadProps) {
+  const t = useT();
   const digits: { key: string; label: string }[] = [
     ...['1', '2', '3', '4', '5', '6', '7', '8', '9'].map((key) => ({ key, label: key })),
-    { key: 'C', label: vi.combat.clear },
+    { key: 'C', label: t.combat.clear },
     { key: '0', label: '0' },
-    { key: '✓', label: vi.combat.submit },
+    { key: '✓', label: t.combat.submit },
   ];
 
   return (

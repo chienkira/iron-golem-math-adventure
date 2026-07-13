@@ -13,7 +13,7 @@ import { MathNumpad } from './MathNumpad';
 import { ReadingChoicePanel } from './ReadingChoicePanel';
 import { ReadingWordBankPanel } from './ReadingWordBankPanel';
 import { sounds } from '../../audio/sounds';
-import { vi } from '../../i18n/vi';
+import { useT } from '../../i18n';
 import styles from './CombatUI.module.css';
 
 const VICTORY_DISPLAY_MS = 3500;
@@ -126,6 +126,7 @@ function AnimatedFighter({
 }
 
 export function CombatOverlay() {
+  const t = useT();
   const phase = useGameStore((s) => s.phase);
   const activeMonster = useGameStore((s) => s.activeMonster);
   const question = useGameStore((s) => s.question);
@@ -235,7 +236,7 @@ export function CombatOverlay() {
         </div>
 
         <div className={styles.topHud}>
-          <span className={styles.vsBadge}>{vi.combat.battle}</span>
+          <span className={styles.vsBadge}>{t.combat.battle}</span>
         </div>
 
         {phase === 'combat' && (
@@ -245,7 +246,7 @@ export function CombatOverlay() {
                 <div className={`${styles.question} ${wrongShake ? styles.shake : ''}`}>
                   {question.data.a} {question.data.operator === '+' ? '+' : '−'} {question.data.b} ={' '}
                   <span className={styles.answerInline}>
-                    {userAnswer || vi.combat.answerPlaceholder}
+                    {userAnswer || t.combat.answerPlaceholder}
                   </span>
                 </div>
               ) : (
@@ -262,7 +263,7 @@ export function CombatOverlay() {
                           </span>
                         ))
                       ) : (
-                        <span className={styles.selectedWordEmpty}>{vi.combat.tapWordHint}</span>
+                        <span className={styles.selectedWordEmpty}>{t.combat.tapWordHint}</span>
                       )}
                     </div>
                   )}
@@ -300,9 +301,9 @@ export function CombatOverlay() {
 
         {showReward && (phase === 'victory' || phase === 'level-up') && (
           <div className={styles.rewardOverlay}>
-            <div className={styles.rewardCenter}>{vi.combat.reward(lastReward)}</div>
+            <div className={styles.rewardCenter}>{t.combat.reward(lastReward)}</div>
             {phase === 'level-up' && (
-              <div className={styles.levelUpSub}>{vi.combat.levelUp(level)}</div>
+              <div className={styles.levelUpSub}>{t.combat.levelUp(level)}</div>
             )}
           </div>
         )}

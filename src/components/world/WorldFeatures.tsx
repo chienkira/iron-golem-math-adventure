@@ -3,13 +3,14 @@ import { useFrame } from '@react-three/fiber';
 import { Html } from '@react-three/drei';
 import * as THREE from 'three';
 import { MONSTER_CONFIGS, type MonsterType } from '../../types/game';
-import { vi } from '../../i18n/vi';
+import { useT } from '../../i18n';
 
 interface MonsterCoinLabelProps {
   type: MonsterType;
 }
 
 export function MonsterCoinLabel({ type }: MonsterCoinLabelProps) {
+  const t = useT();
   const reward = MONSTER_CONFIGS[type].reward;
   const height =
     type === 'ghast' ? 4.6 : type === 'enderman' ? 5.4 : type === 'zombie' ? 2.8 : type === 'bee' ? 1.4 : 2.2;
@@ -37,7 +38,7 @@ export function MonsterCoinLabel({ type }: MonsterCoinLabelProps) {
           textShadow: '0 1px 2px rgba(0,0,0,0.8)',
         }}
       >
-        {vi.coinLabel(reward)}
+        {t.coinLabel(reward)}
       </div>
     </Html>
   );

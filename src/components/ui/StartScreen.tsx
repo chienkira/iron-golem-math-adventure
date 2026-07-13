@@ -3,12 +3,14 @@ import { COINS_PER_LEVEL } from '../../types/game';
 import type { GameSubject } from '../../types/reading';
 import { sounds } from '../../audio/sounds';
 import { requestGameFullscreen } from '../../utils/fullscreen';
-import { getSubtitle, getTagline, vi } from '../../i18n/vi';
+import { useT } from '../../i18n';
+import { LanguagePicker } from './LanguagePicker';
 import styles from './StartScreen.module.css';
 
 const SUBJECTS: GameSubject[] = ['math', 'reading'];
 
 export function StartScreen() {
+  const t = useT();
   const phase = useGameStore((s) => s.phase);
   const level = useGameStore((s) => s.level);
   const coinsInLevel = useGameStore((s) => s.coinsInLevel);
@@ -31,10 +33,12 @@ export function StartScreen() {
 
   return (
     <div className={styles.overlay}>
+      <LanguagePicker />
+
       <div className={styles.panel}>
-        <h1 className={styles.title}>{vi.gameTitle}</h1>
-        <p className={styles.subtitle}>{getSubtitle(subject)}</p>
-        <p className={styles.tagline}>{getTagline(subject)}</p>
+        <h1 className={styles.title}>{t.gameTitle}</h1>
+        <p className={styles.subtitle}>{t.subtitles[subject]}</p>
+        <p className={styles.tagline}>{t.taglines[subject]}</p>
 
         <div className={styles.subjectToggle}>
           {SUBJECTS.map((value) => (
@@ -44,22 +48,22 @@ export function StartScreen() {
               onClick={() => setSubject(value)}
               type="button"
             >
-              {vi.subjects[value]}
+              {t.subjects[value]}
             </button>
           ))}
         </div>
 
         <div className={styles.actions}>
           <button className={styles.playBtn} onClick={handleStart} type="button">
-            {vi.start.play}
+            {t.start.play}
           </button>
 
           <div className={styles.footerRow}>
             <span className={styles.progressLabel}>
-              {vi.start.progress(level, coinsInLevel, COINS_PER_LEVEL)}
+              {t.start.progress(level, coinsInLevel, COINS_PER_LEVEL)}
             </span>
             <button className={styles.resetBtn} onClick={handleReset} type="button">
-              {vi.start.reset}
+              {t.start.reset}
             </button>
           </div>
         </div>

@@ -1,8 +1,9 @@
 import { useGameStore } from '../../store/gameStore';
-import { vi } from '../../i18n/vi';
+import { useT } from '../../i18n';
 import styles from './ExitButton.module.css';
 
 export function ExitButton() {
+  const t = useT();
   const phase = useGameStore((s) => s.phase);
   const exitToMenu = useGameStore((s) => s.exitToMenu);
   const exitCombat = useGameStore((s) => s.exitCombat);
@@ -10,7 +11,7 @@ export function ExitButton() {
   if (phase === 'explore') {
     return (
       <button className={styles.btn} onClick={exitToMenu} type="button">
-        ✕ {vi.common.exit}
+        ✕ {t.common.exit}
       </button>
     );
   }
@@ -18,7 +19,7 @@ export function ExitButton() {
   if (phase === 'combat') {
     return (
       <button className={styles.btn} onClick={exitCombat} type="button">
-        ✕ {vi.common.exit}
+        ✕ {t.common.exit}
       </button>
     );
   }

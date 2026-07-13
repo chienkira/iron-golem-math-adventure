@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useGameStore } from '../../store/gameStore';
-import { MONSTER_CONFIGS } from '../../types/game';
 import { CinematicFrame } from './CinematicFrame';
-import { vi } from '../../i18n/vi';
+import { useT } from '../../i18n';
 import styles from './VSIntro.module.css';
 
 export function VSIntroOverlay() {
+  const t = useT();
   const phase = useGameStore((s) => s.phase);
   const activeMonster = useGameStore((s) => s.activeMonster);
   const finishVsIntro = useGameStore((s) => s.finishVsIntro);
@@ -45,8 +45,6 @@ export function VSIntroOverlay() {
 
   if (phase !== 'vs-intro' || !activeMonster) return null;
 
-  const config = MONSTER_CONFIGS[activeMonster.type];
-
   return (
     <CinematicFrame flash={flash} shake={shake}>
       <div className={`${styles.overlay} ${exiting ? styles.overlayExiting : ''}`}>
@@ -54,12 +52,14 @@ export function VSIntroOverlay() {
 
         {stage >= 1 && (
           <div className={`${styles.vsRow} ${stage >= 2 ? styles.vsSlam : styles.vsEnter}`}>
-            <span className={`${styles.vsHeading} ${styles.labelLeft}`}>{vi.vs.playerName}</span>
+            <span className={`${styles.vsHeading} ${styles.labelLeft}`}>{t.vs.playerName}</span>
             <div className={styles.vsWrap}>
-              <span className={styles.vsGlow}>{vi.vs.vs}</span>
-              <span className={styles.vsText}>{vi.vs.vs}</span>
+              <span className={styles.vsGlow}>{t.vs.vs}</span>
+              <span className={styles.vsText}>{t.vs.vs}</span>
             </div>
-            <span className={`${styles.vsHeading} ${styles.labelRight}`}>{config.name}</span>
+            <span className={`${styles.vsHeading} ${styles.labelRight}`}>
+              {t.monsters[activeMonster.type]}
+            </span>
           </div>
         )}
       </div>
