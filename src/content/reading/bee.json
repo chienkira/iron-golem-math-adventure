@@ -5200,6 +5200,1306 @@
       "answer": [
         "chiều"
       ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em xếp sách vở gọn gàng vào cặp trước khi đi ___.",
+      "words": [
+        "học",
+        "cá",
+        "mây",
+        "đá"
+      ],
+      "answer": [
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con voi uống nước bằng chiếc vòi dài bên bờ ___.",
+      "words": [
+        "sông",
+        "bút",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "sông"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ thái hành lá xanh thơm để nêm canh bí ___.",
+      "words": [
+        "đỏ",
+        "xe",
+        "mũ",
+        "cát"
+      ],
+      "answer": [
+        "đỏ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Hoa chia kẹo cho cả tổ trong giờ ra ___.",
+      "words": [
+        "chơi",
+        "rắn",
+        "mưa",
+        "ghế"
+      ],
+      "answer": [
+        "chơi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn vịt vàng bơi thành hàng trên mặt ao buổi ___.",
+      "words": [
+        "sáng",
+        "kim",
+        "túi",
+        "đèn"
+      ],
+      "answer": [
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em viết chữ cái đẹp vào trang vở tập ___.",
+      "words": [
+        "viết",
+        "hoa",
+        "xe",
+        "biển"
+      ],
+      "answer": [
+        "viết"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cô giáo phát giấy kiểm tra cho từng bạn trong ___.",
+      "words": [
+        "lớp",
+        "núi",
+        "sữa",
+        "chim"
+      ],
+      "answer": [
+        "lớp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ngựa trắng phi nhanh trên cánh đồng cỏ ___.",
+      "words": [
+        "xanh",
+        "bát",
+        "kéo",
+        "mũ"
+      ],
+      "answer": [
+        "xanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bà em luộc khoai lang ngọt cho cháu ăn xế ___.",
+      "words": [
+        "chiều",
+        "sách",
+        "cầu",
+        "mây"
+      ],
+      "answer": [
+        "chiều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang hộp cơm đầy khi ở lại trường cả buổi ___.",
+      "words": [
+        "trưa",
+        "lá",
+        "còng",
+        "sao"
+      ],
+      "answer": [
+        "trưa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con sóc nâu nhảy từ cành này sang cành khác tìm hạt ___.",
+      "words": [
+        "dẻ",
+        "bút",
+        "áo",
+        "thuyền"
+      ],
+      "answer": [
+        "dẻ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố quét sân nhà sạch sẽ mỗi buổi sáng sớm trước khi đi ___.",
+      "words": [
+        "làm",
+        "hoa",
+        "cá",
+        "mây"
+      ],
+      "answer": [
+        "làm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa hướng dương xoay mặt theo ánh nắng mặt ___.",
+      "words": [
+        "trời",
+        "bàn",
+        "kéo",
+        "sữa"
+      ],
+      "answer": [
+        "trời"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em rửa tay bằng xà phòng trước khi ngồi vào bàn ___.",
+      "words": [
+        "ăn",
+        "đá",
+        "chim",
+        "túi"
+      ],
+      "answer": [
+        "ăn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ếch xanh nhảy tóe nước bên mép hồ buổi tối ___.",
+      "words": [
+        "mưa",
+        "bút",
+        "áo",
+        "xe"
+      ],
+      "answer": [
+        "mưa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Nam đọc to đoạn văn trước lớp trong giờ tiếng ___.",
+      "words": [
+        "Việt",
+        "cá",
+        "mây",
+        "đá"
+      ],
+      "answer": [
+        "Việt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ rang lạc thơm phức đãi khách đến chơi ngày ___.",
+      "words": [
+        "Tết",
+        "bút",
+        "ghế",
+        "cát"
+      ],
+      "answer": [
+        "Tết"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em cột dây giày thật chặt trước khi chạy quanh sân ___.",
+      "words": [
+        "trường",
+        "hoa",
+        "sữa",
+        "kim"
+      ],
+      "answer": [
+        "trường"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con cáo đỏ rình mồi bên bụi cây trong rừng sâu lúc chạng ___.",
+      "words": [
+        "vạng",
+        "bát",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "vạng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ông em kể chuyện cổ tích vui mỗi tối trước khi cháu đi ___.",
+      "words": [
+        "ngủ",
+        "xe",
+        "lá",
+        "còng"
+      ],
+      "answer": [
+        "ngủ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả đu đủ chín vàng mềm ngọt trên cây sau vườn nhà ___.",
+      "words": [
+        "em",
+        "bút",
+        "mây",
+        "đèn"
+      ],
+      "answer": [
+        "em"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em lau bàn ghế lớp học sạch sẽ khi đến phiên trực ___.",
+      "words": [
+        "nhật",
+        "cá",
+        "hoa",
+        "túi"
+      ],
+      "answer": [
+        "nhật"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn cừu trắng ăn cỏ non trên đồi xanh buổi sáng ___.",
+      "words": [
+        "mát",
+        "kéo",
+        "áo",
+        "sao"
+      ],
+      "answer": [
+        "mát"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cô hiệu trưởng phát biểu trong buổi chào cờ sáng thứ ___.",
+      "words": [
+        "hai",
+        "bát",
+        "chim",
+        "cát"
+      ],
+      "answer": [
+        "hai"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ nướng bánh trung thu thơm phức chuẩn bị cho đêm rằm tháng ___.",
+      "words": [
+        "tám",
+        "xe",
+        "lá",
+        "kim"
+      ],
+      "answer": [
+        "tám"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con tôm càng đỏ bò dưới đáy ao tìm mồi nhỏ lúc trời đã ___.",
+      "words": [
+        "tối",
+        "bút",
+        "mũ",
+        "hoa"
+      ],
+      "answer": [
+        "tối"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang áo mưa khi đi học vì trời đang đổ mưa ___.",
+      "words": [
+        "to",
+        "sữa",
+        "ghế",
+        "sao"
+      ],
+      "answer": [
+        "to"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Lan giúp em mang cặp sách nặng lên cầu thang ___.",
+      "words": [
+        "lớp",
+        "cá",
+        "mây",
+        "đá"
+      ],
+      "answer": [
+        "lớp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây nhãn trước nhà cho quả ngọt vào mùa hè nắng ___.",
+      "words": [
+        "nóng",
+        "bút",
+        "áo",
+        "thuyền"
+      ],
+      "answer": [
+        "nóng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bà em phơi khô lá dứa để ướp xôi thơm ngày ___.",
+      "words": [
+        "giỗ",
+        "xe",
+        "cát",
+        "chim"
+      ],
+      "answer": [
+        "giỗ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con hươu cao cổ vươn cổ dài hái lá trên tán cây cao trong ___.",
+      "words": [
+        "sở",
+        "bát",
+        "kéo",
+        "mũ"
+      ],
+      "answer": [
+        "sở"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mở hộp màu vẽ bức tranh phong cảnh quê hương rất ___.",
+      "words": [
+        "đẹp",
+        "cá",
+        "túi",
+        "đèn"
+      ],
+      "answer": [
+        "đẹp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ luộc rau muống xanh giòn cho bữa cơm tối cả ___.",
+      "words": [
+        "nhà",
+        "sao",
+        "hoa",
+        "kim"
+      ],
+      "answer": [
+        "nhà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn cá vàng bơi lượn trong bể kính giữa phòng khách rất ___.",
+      "words": [
+        "vui",
+        "bút",
+        "áo",
+        "cát"
+      ],
+      "answer": [
+        "vui"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Thầy giáo chấm điểm bài kiểm tra toán của cả lớp rất cẩn ___.",
+      "words": [
+        "thận",
+        "xe",
+        "lá",
+        "sữa"
+      ],
+      "answer": [
+        "thận"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em xếp hàng ngay ngắn khi vào nhà ăn uống sữa buổi ___.",
+      "words": [
+        "sáng",
+        "ghế",
+        "chim",
+        "đá"
+      ],
+      "answer": [
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con kiến lửa tha mảnh bánh vụn về tổ dưới gốc cây ___.",
+      "words": [
+        "đa",
+        "bát",
+        "mây",
+        "túi"
+      ],
+      "answer": [
+        "đa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố em vá lốp xe đạp bị xẹp trước cổng nhà buổi ___.",
+      "words": [
+        "chiều",
+        "hoa",
+        "cá",
+        "kéo"
+      ],
+      "answer": [
+        "chiều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa loa kèn trắng nở thơm ngát trong vườn nhà vào tháng ___.",
+      "words": [
+        "tư",
+        "áo",
+        "sao",
+        "thuyền"
+      ],
+      "answer": [
+        "tư"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đọc truyện thiếu nhi trước khi tắt đèn đi ngủ mỗi ___.",
+      "words": [
+        "tối",
+        "bút",
+        "cát",
+        "mũ"
+      ],
+      "answer": [
+        "tối"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả măng cụt tím mọng ngọt lịm khi gọt vỏ ăn tráng ___.",
+      "words": [
+        "miệng",
+        "xe",
+        "lá",
+        "kim"
+      ],
+      "answer": [
+        "miệng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Hùng nhặt rác quanh sân trường trong buổi lao động ___.",
+      "words": [
+        "chung",
+        "cá",
+        "hoa",
+        "đèn"
+      ],
+      "answer": [
+        "chung"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con bò rừng gặm cỏ ven sườn núi vào buổi sáng sớm ___.",
+      "words": [
+        "mát",
+        "bát",
+        "túi",
+        "sao"
+      ],
+      "answer": [
+        "mát"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ kho cá thu với nước mắm thơm ngon cho cả nhà ăn ___.",
+      "words": [
+        "cơm",
+        "ghế",
+        "chim",
+        "cát"
+      ],
+      "answer": [
+        "cơm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang theo khăn tay sạch khi đi học cả ngày ở ___.",
+      "words": [
+        "trường",
+        "bút",
+        "áo",
+        "mây"
+      ],
+      "answer": [
+        "trường"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn chuồn chuồn bay thấp báo hiệu trời sắp có mưa ___.",
+      "words": [
+        "to",
+        "sữa",
+        "kéo",
+        "đá"
+      ],
+      "answer": [
+        "to"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cô giáo dạy em vẽ lá cờ Tổ quốc màu đỏ sao ___.",
+      "words": [
+        "vàng",
+        "cá",
+        "hoa",
+        "thuyền"
+      ],
+      "answer": [
+        "vàng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ông em trồng hàng rau cải xanh quanh bờ ao nhà ở ___.",
+      "words": [
+        "quê",
+        "áo",
+        "túi",
+        "kim"
+      ],
+      "answer": [
+        "quê"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con rùa biển bò chậm trên bãi cát trắng để đẻ ___.",
+      "words": [
+        "trứng",
+        "bát",
+        "xe",
+        "mũ"
+      ],
+      "answer": [
+        "trứng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em cảm ơn bạn vì đã cho mượn cục tẩy trong giờ ___.",
+      "words": [
+        "học",
+        "lá",
+        "sao",
+        "cát"
+      ],
+      "answer": [
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bà em nấu canh chua cá lóc với giá đỗ thơm ngon ngày ___.",
+      "words": [
+        "mưa",
+        "bút",
+        "hoa",
+        "đèn"
+      ],
+      "answer": [
+        "mưa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây bưởi trước sân cho quả vàng thơm vào dịp Tết Nguyên ___.",
+      "words": [
+        "Đán",
+        "cá",
+        "ghế",
+        "kéo"
+      ],
+      "answer": [
+        "Đán"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Mai hát bài đồng ca rất hay trong giờ âm ___.",
+      "words": [
+        "nhạc",
+        "áo",
+        "túi",
+        "chim"
+      ],
+      "answer": [
+        "nhạc"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con gấu trúc ngồi ăn lá tre xanh trong khu bảo tồn động ___.",
+      "words": [
+        "vật",
+        "xe",
+        "mây",
+        "sữa"
+      ],
+      "answer": [
+        "vật"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em xếp gọn áo quần vào tủ sau khi phơi khô ngoài ___.",
+      "words": [
+        "nắng",
+        "bát",
+        "hoa",
+        "đá"
+      ],
+      "answer": [
+        "nắng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ trộn salad rau củ tươi mát cho bữa tối nhẹ cả ___.",
+      "words": [
+        "nhà",
+        "bút",
+        "sao",
+        "thuyền"
+      ],
+      "answer": [
+        "nhà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn én bay về phương Bắc khi mùa xuân ấm áp sắp ___.",
+      "words": [
+        "đến",
+        "áo",
+        "cát",
+        "kim"
+      ],
+      "answer": [
+        "đến"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Thầy thể dục hướng dẫn cả lớp chạy quanh sân trong giờ thể ___.",
+      "words": [
+        "dục",
+        "cá",
+        "lá",
+        "túi"
+      ],
+      "answer": [
+        "dục"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con cá heo nhảy khỏi mặt nước xanh ngoài khơi rất ___.",
+      "words": [
+        "khéo",
+        "ghế",
+        "hoa",
+        "đèn"
+      ],
+      "answer": [
+        "khéo"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mở sổ liên lạc để mẹ ký nhận xét của cô giáo mỗi ___.",
+      "words": [
+        "tuần",
+        "bút",
+        "xe",
+        "mũ"
+      ],
+      "answer": [
+        "tuần"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa giấy hồng leo quanh hàng rào trước cổng nhà rất ___.",
+      "words": [
+        "đẹp",
+        "sữa",
+        "kéo",
+        "sao"
+      ],
+      "answer": [
+        "đẹp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố em đóng tủ gỗ mới để cất quần áo mùa ___.",
+      "words": [
+        "đông",
+        "cá",
+        "hoa",
+        "cát"
+      ],
+      "answer": [
+        "đông"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả thanh long ruột đỏ ngọt mát khi để lạnh trong tủ ___.",
+      "words": [
+        "lạnh",
+        "áo",
+        "túi",
+        "chim"
+      ],
+      "answer": [
+        "lạnh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn An nhặt quyển vở rơi giúp em dưới bàn ghế lớp ___.",
+      "words": [
+        "học",
+        "bát",
+        "mây",
+        "đá"
+      ],
+      "answer": [
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con ngựa vằn chạy theo đàn trên thảo nguyên rộng lớn rất ___.",
+      "words": [
+        "nhanh",
+        "bút",
+        "xe",
+        "kim"
+      ],
+      "answer": [
+        "nhanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ hấp bánh bao nhân thịt thơm phức cho bữa sáng Chủ ___.",
+      "words": [
+        "nhật",
+        "lá",
+        "hoa",
+        "thuyền"
+      ],
+      "answer": [
+        "nhật"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang mũ bảo hiểm khi ngồi sau xe máy bố chở đến ___.",
+      "words": [
+        "trường",
+        "áo",
+        "cát",
+        "sữa"
+      ],
+      "answer": [
+        "trường"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn ong mật bay vòng quanh khóm hoa cúc tìm phấn hoa buổi ___.",
+      "words": [
+        "sáng",
+        "ghế",
+        "túi",
+        "đèn"
+      ],
+      "answer": [
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ông em câu cá dưới chân cầu gỗ bắc ngang con suối nhỏ ở ___.",
+      "words": [
+        "quê",
+        "bút",
+        "hoa",
+        "kéo"
+      ],
+      "answer": [
+        "quê"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con sóc bay nhảy từ cây này sang cây khác trong khu rừng ___.",
+      "words": [
+        "già",
+        "cá",
+        "sao",
+        "mũ"
+      ],
+      "answer": [
+        "già"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cô giáo dán giấy khen lên bảng tuyên dương học sinh giỏi của ___.",
+      "words": [
+        "lớp",
+        "xe",
+        "lá",
+        "cát"
+      ],
+      "answer": [
+        "lớp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bà em làm bánh tét lá chuối chuẩn bị đón năm mới sắp ___.",
+      "words": [
+        "đến",
+        "áo",
+        "túi",
+        "chim"
+      ],
+      "answer": [
+        "đến"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em lau kính cửa sổ cho sáng sủa để nhìn ra ngoài ___.",
+      "words": [
+        "vườn",
+        "bát",
+        "mây",
+        "kim"
+      ],
+      "answer": [
+        "vườn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ nấu cháo tôm nóng hổi khi em bị cảm lạnh ngày ___.",
+      "words": [
+        "mưa",
+        "bút",
+        "hoa",
+        "đá"
+      ],
+      "answer": [
+        "mưa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con hà mã nằm ngâm mình dưới sông sâu để giải nhiệt ngày nắng ___.",
+      "words": [
+        "nóng",
+        "áo",
+        "sữa",
+        "thuyền"
+      ],
+      "answer": [
+        "nóng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Tú chia sẻ hộp bút màu với em trong giờ mỹ ___.",
+      "words": [
+        "thuật",
+        "cá",
+        "ghế",
+        "kéo"
+      ],
+      "answer": [
+        "thuật"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây me trước sân trường cho quả chua vào mùa hè nắng ___.",
+      "words": [
+        "gắt",
+        "túi",
+        "sao",
+        "đèn"
+      ],
+      "answer": [
+        "gắt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em đứng nghiêm trang chào cờ khi nghe tiếng quốc ca vang ___.",
+      "words": [
+        "lên",
+        "bút",
+        "hoa",
+        "cát"
+      ],
+      "answer": [
+        "lên"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn vịt trời bay thành chữ V trên bầu trời chiều mùa ___.",
+      "words": [
+        "thu",
+        "áo",
+        "xe",
+        "mũ"
+      ],
+      "answer": [
+        "thu"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố tưới rau muống trong thùng xốp trên sân thượng buổi tối ___.",
+      "words": [
+        "mát",
+        "lá",
+        "chim",
+        "kim"
+      ],
+      "answer": [
+        "mát"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Quả dưa hấu đỏ mọng ngọt mát khi bổ ra đãi cả nhà ngày ___.",
+      "words": [
+        "nóng",
+        "bát",
+        "hoa",
+        "túi"
+      ],
+      "answer": [
+        "nóng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con cáo tuyết trắng lông mềm chạy trên núi tuyết rất ___.",
+      "words": [
+        "nhanh",
+        "bút",
+        "sữa",
+        "đá"
+      ],
+      "answer": [
+        "nhanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mở cặp lấy hộp cơm khi đến giờ nghỉ trưa ở ___.",
+      "words": [
+        "trường",
+        "áo",
+        "mây",
+        "thuyền"
+      ],
+      "answer": [
+        "trường"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ ướp thịt ba chỉ với mật ong để nướng thơm cho bữa ___.",
+      "words": [
+        "tối",
+        "cá",
+        "ghế",
+        "kéo"
+      ],
+      "answer": [
+        "tối"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Hoa phượng vĩ đỏ rực nở trên sân trường báo hiệu hè sắp ___.",
+      "words": [
+        "đến",
+        "túi",
+        "sao",
+        "đèn"
+      ],
+      "answer": [
+        "đến"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Linh ngồi cạnh em trong giờ học toán buổi chiều thứ ___.",
+      "words": [
+        "sáu",
+        "bút",
+        "hoa",
+        "cát"
+      ],
+      "answer": [
+        "sáu"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con cá sấu nằm im trên bờ sông chờ mồi đi ngang qua rất kiên ___.",
+      "words": [
+        "nhẫn",
+        "áo",
+        "xe",
+        "mũ"
+      ],
+      "answer": [
+        "nhẫn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ông em trồng hàng dừa cao ven bờ biển quê hương rất ___.",
+      "words": [
+        "xanh",
+        "lá",
+        "chim",
+        "kim"
+      ],
+      "answer": [
+        "xanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em mang theo bình nước lọc đầy khi đi dã ngoại cả ___.",
+      "words": [
+        "ngày",
+        "bát",
+        "hoa",
+        "túi"
+      ],
+      "answer": [
+        "ngày"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bà em nấu chè hạt sen đường phèn ngọt thanh đãi khách ngày ___.",
+      "words": [
+        "nóng",
+        "bút",
+        "sữa",
+        "đá"
+      ],
+      "answer": [
+        "nóng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Đàn bướm vàng bay lượn quanh khóm hoa hồng trong vườn rất ___.",
+      "words": [
+        "đẹp",
+        "áo",
+        "mây",
+        "thuyền"
+      ],
+      "answer": [
+        "đẹp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cô giáo nhắc em ngồi ngay ngắn và chú ý nghe giảng bài trong ___.",
+      "words": [
+        "giờ",
+        "cá",
+        "ghế",
+        "kéo"
+      ],
+      "answer": [
+        "giờ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Mẹ gói bánh chưng xanh vuông vức chuẩn bị đón Tết cổ ___.",
+      "words": [
+        "truyền",
+        "túi",
+        "sao",
+        "đèn"
+      ],
+      "answer": [
+        "truyền"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con hươu sao uống nước trong suốt bên dòng suối rừng buổi ___.",
+      "words": [
+        "sáng",
+        "bút",
+        "hoa",
+        "cát"
+      ],
+      "answer": [
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em viết lời cảm ơn thầy cô lên tấm thiệp handmade rất ___.",
+      "words": [
+        "đẹp",
+        "áo",
+        "xe",
+        "mũ"
+      ],
+      "answer": [
+        "đẹp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bạn Khoa giúp em mang ghế vào lớp khi chuẩn bị giờ học ___.",
+      "words": [
+        "mới",
+        "lá",
+        "chim",
+        "kim"
+      ],
+      "answer": [
+        "mới"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Cây xoài sau nhà cho quả chín vàng thơm ngọt vào mùa ___.",
+      "words": [
+        "hè",
+        "bát",
+        "hoa",
+        "túi"
+      ],
+      "answer": [
+        "hè"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Bố em sửa mái tôn bị dột sau trận mưa lớn đêm qua rất ___.",
+      "words": [
+        "nhanh",
+        "bút",
+        "sữa",
+        "đá"
+      ],
+      "answer": [
+        "nhanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Con sao biển bò dưới đáy đại dương tìm thức ăn rất ___.",
+      "words": [
+        "chậm",
+        "áo",
+        "mây",
+        "thuyền"
+      ],
+      "answer": [
+        "chậm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Em cảm ơn bà vì đã nấu chè đậu xanh ngọt thanh buổi chiều ___.",
+      "words": [
+        "mát",
+        "cá",
+        "ghế",
+        "kéo"
+      ],
+      "answer": [
+        "mát"
+      ]
     }
   ]
 }

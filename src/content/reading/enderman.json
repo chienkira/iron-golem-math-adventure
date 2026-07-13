@@ -7712,6 +7712,2002 @@
         "thầy",
         "cô"
       ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "viết",
+        "chính",
+        "tả",
+        "rất",
+        "tốt"
+      ],
+      "answer": [
+        "Em",
+        "viết",
+        "chính",
+        "tả",
+        "rất",
+        "tốt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Bạn",
+        "Lan",
+        "đọc",
+        "bài",
+        "rất",
+        "hay"
+      ],
+      "answer": [
+        "Bạn",
+        "Lan",
+        "đọc",
+        "bài",
+        "rất",
+        "hay"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "mang",
+        "thước",
+        "kẻ",
+        "đi",
+        "học"
+      ],
+      "answer": [
+        "Em",
+        "mang",
+        "thước",
+        "kẻ",
+        "đi",
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Lớp",
+        "em",
+        "trang",
+        "trí",
+        "rất",
+        "đẹp"
+      ],
+      "answer": [
+        "Lớp",
+        "em",
+        "trang",
+        "trí",
+        "rất",
+        "đẹp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "nộp",
+        "bài",
+        "đúng",
+        "giờ"
+      ],
+      "answer": [
+        "Em",
+        "nộp",
+        "bài",
+        "đúng",
+        "giờ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Thầy",
+        "giáo",
+        "dạy",
+        "em",
+        "toán"
+      ],
+      "answer": [
+        "Thầy",
+        "giáo",
+        "dạy",
+        "em",
+        "toán"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "học",
+        "lịch",
+        "sử",
+        "buổi",
+        "chiều"
+      ],
+      "answer": [
+        "Em",
+        "học",
+        "lịch",
+        "sử",
+        "buổi",
+        "chiều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Bạn",
+        "Minh",
+        "giúp",
+        "em",
+        "học",
+        "bài"
+      ],
+      "answer": [
+        "Bạn",
+        "Minh",
+        "giúp",
+        "em",
+        "học",
+        "bài"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "vẽ",
+        "bản",
+        "đồ",
+        "Việt",
+        "Nam"
+      ],
+      "answer": [
+        "Em",
+        "vẽ",
+        "bản",
+        "đồ",
+        "Việt",
+        "Nam"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "nghe",
+        "cô",
+        "giảng",
+        "rất",
+        "chăm"
+      ],
+      "answer": [
+        "Em",
+        "nghe",
+        "cô",
+        "giảng",
+        "rất",
+        "chăm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Sách",
+        "giáo",
+        "khoa",
+        "nằm",
+        "trên",
+        "bàn"
+      ],
+      "answer": [
+        "Sách",
+        "giáo",
+        "khoa",
+        "nằm",
+        "trên",
+        "bàn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "mở",
+        "vở",
+        "viết",
+        "bài",
+        "mới"
+      ],
+      "answer": [
+        "Em",
+        "mở",
+        "vở",
+        "viết",
+        "bài",
+        "mới"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Cả",
+        "lớp",
+        "cùng",
+        "hát",
+        "vui",
+        "vẻ"
+      ],
+      "answer": [
+        "Cả",
+        "lớp",
+        "cùng",
+        "hát",
+        "vui",
+        "vẻ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "xếp",
+        "hàng",
+        "ra",
+        "sân",
+        "chơi"
+      ],
+      "answer": [
+        "Em",
+        "xếp",
+        "hàng",
+        "ra",
+        "sân",
+        "chơi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Bạn",
+        "Hoa",
+        "chia",
+        "sẻ",
+        "đồ",
+        "dùng"
+      ],
+      "answer": [
+        "Bạn",
+        "Hoa",
+        "chia",
+        "sẻ",
+        "đồ",
+        "dùng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "học",
+        "địa",
+        "lý",
+        "rất",
+        "thích"
+      ],
+      "answer": [
+        "Em",
+        "học",
+        "địa",
+        "lý",
+        "rất",
+        "thích"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "trả",
+        "lời",
+        "câu",
+        "hỏi",
+        "đúng"
+      ],
+      "answer": [
+        "Em",
+        "trả",
+        "lời",
+        "câu",
+        "hỏi",
+        "đúng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Bảng",
+        "lớp",
+        "được",
+        "lau",
+        "sạch",
+        "sẽ"
+      ],
+      "answer": [
+        "Bảng",
+        "lớp",
+        "được",
+        "lau",
+        "sạch",
+        "sẽ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "mang",
+        "hộp",
+        "bút",
+        "màu",
+        "đi",
+        "học"
+      ],
+      "answer": [
+        "Em",
+        "mang",
+        "hộp",
+        "bút",
+        "màu",
+        "đi",
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "đọc",
+        "truyện",
+        "cổ",
+        "tích",
+        "hay"
+      ],
+      "answer": [
+        "Em",
+        "đọc",
+        "truyện",
+        "cổ",
+        "tích",
+        "hay"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Mẹ",
+        "ủi",
+        "áo",
+        "cho",
+        "bố"
+      ],
+      "answer": [
+        "Mẹ",
+        "ủi",
+        "áo",
+        "cho",
+        "bố"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Bố",
+        "sửa",
+        "bóng",
+        "đèn",
+        "trong",
+        "nhà"
+      ],
+      "answer": [
+        "Bố",
+        "sửa",
+        "bóng",
+        "đèn",
+        "trong",
+        "nhà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Ông",
+        "bà",
+        "sống",
+        "ở",
+        "quê"
+      ],
+      "answer": [
+        "Ông",
+        "bà",
+        "sống",
+        "ở",
+        "quê"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "giúp",
+        "bà",
+        "phơi",
+        "quần",
+        "áo"
+      ],
+      "answer": [
+        "Em",
+        "giúp",
+        "bà",
+        "phơi",
+        "quần",
+        "áo"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Mẹ",
+        "mua",
+        "cá",
+        "về",
+        "nấu",
+        "canh"
+      ],
+      "answer": [
+        "Mẹ",
+        "mua",
+        "cá",
+        "về",
+        "nấu",
+        "canh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Bố",
+        "dạy",
+        "em",
+        "sửa",
+        "xe",
+        "đạp"
+      ],
+      "answer": [
+        "Bố",
+        "dạy",
+        "em",
+        "sửa",
+        "xe",
+        "đạp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "hôn",
+        "má",
+        "mẹ",
+        "mỗi",
+        "sáng"
+      ],
+      "answer": [
+        "Em",
+        "hôn",
+        "má",
+        "mẹ",
+        "mỗi",
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Cả",
+        "nhà",
+        "ăn",
+        "tối",
+        "thật",
+        "vui"
+      ],
+      "answer": [
+        "Cả",
+        "nhà",
+        "ăn",
+        "tối",
+        "thật",
+        "vui"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Bà",
+        "kể",
+        "chuyện",
+        "ngày",
+        "xưa"
+      ],
+      "answer": [
+        "Bà",
+        "kể",
+        "chuyện",
+        "ngày",
+        "xưa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Ông",
+        "đọc",
+        "báo",
+        "buổi",
+        "tối"
+      ],
+      "answer": [
+        "Ông",
+        "đọc",
+        "báo",
+        "buổi",
+        "tối"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "cùng",
+        "mẹ",
+        "gói",
+        "bánh",
+        "chưng"
+      ],
+      "answer": [
+        "Em",
+        "cùng",
+        "mẹ",
+        "gói",
+        "bánh",
+        "chưng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Anh",
+        "em",
+        "chơi",
+        "đá",
+        "cầu",
+        "vui"
+      ],
+      "answer": [
+        "Anh",
+        "em",
+        "chơi",
+        "đá",
+        "cầu",
+        "vui"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Chị",
+        "em",
+        "cùng",
+        "nhau",
+        "học",
+        "bài"
+      ],
+      "answer": [
+        "Chị",
+        "em",
+        "cùng",
+        "nhau",
+        "học",
+        "bài"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Mẹ",
+        "pha",
+        "nước",
+        "cam",
+        "cho",
+        "em"
+      ],
+      "answer": [
+        "Mẹ",
+        "pha",
+        "nước",
+        "cam",
+        "cho",
+        "em"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Bố",
+        "mang",
+        "hoa",
+        "về",
+        "tặng",
+        "mẹ"
+      ],
+      "answer": [
+        "Bố",
+        "mang",
+        "hoa",
+        "về",
+        "tặng",
+        "mẹ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "chó",
+        "con",
+        "nằm",
+        "ngủ",
+        "ngon"
+      ],
+      "answer": [
+        "Con",
+        "chó",
+        "con",
+        "nằm",
+        "ngủ",
+        "ngon"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "mèo",
+        "trắng",
+        "leo",
+        "lên",
+        "mái"
+      ],
+      "answer": [
+        "Con",
+        "mèo",
+        "trắng",
+        "leo",
+        "lên",
+        "mái"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Đàn",
+        "ong",
+        "bay",
+        "quanh",
+        "vườn",
+        "hoa"
+      ],
+      "answer": [
+        "Đàn",
+        "ong",
+        "bay",
+        "quanh",
+        "vườn",
+        "hoa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "cá",
+        "vàng",
+        "bơi",
+        "rất",
+        "khéo"
+      ],
+      "answer": [
+        "Con",
+        "cá",
+        "vàng",
+        "bơi",
+        "rất",
+        "khéo"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Chim",
+        "gáy",
+        "hót",
+        "vang",
+        "sớm",
+        "mai"
+      ],
+      "answer": [
+        "Chim",
+        "gáy",
+        "hót",
+        "vang",
+        "sớm",
+        "mai"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "thỏ",
+        "xám",
+        "nhảy",
+        "quanh",
+        "vườn"
+      ],
+      "answer": [
+        "Con",
+        "thỏ",
+        "xám",
+        "nhảy",
+        "quanh",
+        "vườn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "vịt",
+        "con",
+        "theo",
+        "mẹ",
+        "bơi"
+      ],
+      "answer": [
+        "Con",
+        "vịt",
+        "con",
+        "theo",
+        "mẹ",
+        "bơi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "ngựa",
+        "trắng",
+        "phi",
+        "rất",
+        "nhanh"
+      ],
+      "answer": [
+        "Con",
+        "ngựa",
+        "trắng",
+        "phi",
+        "rất",
+        "nhanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "bò",
+        "vàng",
+        "gặm",
+        "cỏ",
+        "xanh"
+      ],
+      "answer": [
+        "Con",
+        "bò",
+        "vàng",
+        "gặm",
+        "cỏ",
+        "xanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "kiến",
+        "nhỏ",
+        "tha",
+        "mồi",
+        "về"
+      ],
+      "answer": [
+        "Con",
+        "kiến",
+        "nhỏ",
+        "tha",
+        "mồi",
+        "về"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "cóc",
+        "nhảy",
+        "sát",
+        "mép",
+        "ao"
+      ],
+      "answer": [
+        "Con",
+        "cóc",
+        "nhảy",
+        "sát",
+        "mép",
+        "ao"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Đàn",
+        "cò",
+        "trắng",
+        "bay",
+        "về",
+        "đồng"
+      ],
+      "answer": [
+        "Đàn",
+        "cò",
+        "trắng",
+        "bay",
+        "về",
+        "đồng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "tôm",
+        "nhảy",
+        "trong",
+        "ao",
+        "nhà"
+      ],
+      "answer": [
+        "Con",
+        "tôm",
+        "nhảy",
+        "trong",
+        "ao",
+        "nhà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "chuồn",
+        "chuồn",
+        "bay",
+        "thấp",
+        "trên",
+        "ao"
+      ],
+      "answer": [
+        "Con",
+        "chuồn",
+        "chuồn",
+        "bay",
+        "thấp",
+        "trên",
+        "ao"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "nhím",
+        "nhỏ",
+        "cuộn",
+        "tròn",
+        "lại"
+      ],
+      "answer": [
+        "Con",
+        "nhím",
+        "nhỏ",
+        "cuộn",
+        "tròn",
+        "lại"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Sương",
+        "sớm",
+        "phủ",
+        "trắng",
+        "trên",
+        "lá"
+      ],
+      "answer": [
+        "Sương",
+        "sớm",
+        "phủ",
+        "trắng",
+        "trên",
+        "lá"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Cầu",
+        "vồng",
+        "hiện",
+        "sau",
+        "cơn",
+        "mưa"
+      ],
+      "answer": [
+        "Cầu",
+        "vồng",
+        "hiện",
+        "sau",
+        "cơn",
+        "mưa"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Đồi",
+        "xanh",
+        "phủ",
+        "đầy",
+        "cỏ",
+        "non"
+      ],
+      "answer": [
+        "Đồi",
+        "xanh",
+        "phủ",
+        "đầy",
+        "cỏ",
+        "non"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Rừng",
+        "thông",
+        "xanh",
+        "um",
+        "trên",
+        "núi"
+      ],
+      "answer": [
+        "Rừng",
+        "thông",
+        "xanh",
+        "um",
+        "trên",
+        "núi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Suối",
+        "chảy",
+        "róc",
+        "rách",
+        "trong",
+        "rừng"
+      ],
+      "answer": [
+        "Suối",
+        "chảy",
+        "róc",
+        "rách",
+        "trong",
+        "rừng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Hoa",
+        "phượng",
+        "đỏ",
+        "rực",
+        "mùa",
+        "hè"
+      ],
+      "answer": [
+        "Hoa",
+        "phượng",
+        "đỏ",
+        "rực",
+        "mùa",
+        "hè"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Lá",
+        "sen",
+        "xanh",
+        "nổi",
+        "trên",
+        "mặt",
+        "hồ"
+      ],
+      "answer": [
+        "Lá",
+        "sen",
+        "xanh",
+        "nổi",
+        "trên",
+        "mặt",
+        "hồ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Trăng",
+        "non",
+        "lưỡi",
+        "liềm",
+        "trên",
+        "trời"
+      ],
+      "answer": [
+        "Trăng",
+        "non",
+        "lưỡi",
+        "liềm",
+        "trên",
+        "trời"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Sao",
+        "đêm",
+        "lấp",
+        "lánh",
+        "khắp",
+        "bầu",
+        "trời"
+      ],
+      "answer": [
+        "Sao",
+        "đêm",
+        "lấp",
+        "lánh",
+        "khắp",
+        "bầu",
+        "trời"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Gió",
+        "núi",
+        "thổi",
+        "lạnh",
+        "ban",
+        "đêm"
+      ],
+      "answer": [
+        "Gió",
+        "núi",
+        "thổi",
+        "lạnh",
+        "ban",
+        "đêm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Cát",
+        "trắng",
+        "trải",
+        "dài",
+        "bờ",
+        "biển"
+      ],
+      "answer": [
+        "Cát",
+        "trắng",
+        "trải",
+        "dài",
+        "bờ",
+        "biển"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Mây",
+        "hồng",
+        "ửng",
+        "sáng",
+        "lúc",
+        "bình",
+        "minh"
+      ],
+      "answer": [
+        "Mây",
+        "hồng",
+        "ửng",
+        "sáng",
+        "lúc",
+        "bình",
+        "minh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Ruộng",
+        "lúa",
+        "vàng",
+        "óng",
+        "ánh",
+        "nắng"
+      ],
+      "answer": [
+        "Ruộng",
+        "lúa",
+        "vàng",
+        "óng",
+        "ánh",
+        "nắng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Hoa",
+        "nhài",
+        "thơm",
+        "dịu",
+        "mỗi",
+        "đêm"
+      ],
+      "answer": [
+        "Hoa",
+        "nhài",
+        "thơm",
+        "dịu",
+        "mỗi",
+        "đêm"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Cây",
+        "mít",
+        "sai",
+        "quả",
+        "trước",
+        "sân"
+      ],
+      "answer": [
+        "Cây",
+        "mít",
+        "sai",
+        "quả",
+        "trước",
+        "sân"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "đánh",
+        "răng",
+        "trước",
+        "khi",
+        "ngủ"
+      ],
+      "answer": [
+        "Em",
+        "đánh",
+        "răng",
+        "trước",
+        "khi",
+        "ngủ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "buộc",
+        "dây",
+        "giày",
+        "thật",
+        "chặt"
+      ],
+      "answer": [
+        "Em",
+        "buộc",
+        "dây",
+        "giày",
+        "thật",
+        "chặt"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "gấp",
+        "chăn",
+        "màn",
+        "gọn",
+        "gàng"
+      ],
+      "answer": [
+        "Em",
+        "gấp",
+        "chăn",
+        "màn",
+        "gọn",
+        "gàng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "đổ",
+        "rác",
+        "vào",
+        "thùng"
+      ],
+      "answer": [
+        "Em",
+        "đổ",
+        "rác",
+        "vào",
+        "thùng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "lau",
+        "gương",
+        "cho",
+        "thật",
+        "sáng"
+      ],
+      "answer": [
+        "Em",
+        "lau",
+        "gương",
+        "cho",
+        "thật",
+        "sáng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "uống",
+        "sữa",
+        "chua",
+        "buổi",
+        "chiều"
+      ],
+      "answer": [
+        "Em",
+        "uống",
+        "sữa",
+        "chua",
+        "buổi",
+        "chiều"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "ăn",
+        "cơm",
+        "nắm",
+        "mang",
+        "đi",
+        "học"
+      ],
+      "answer": [
+        "Em",
+        "ăn",
+        "cơm",
+        "nắm",
+        "mang",
+        "đi",
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "đi",
+        "khám",
+        "răng",
+        "định",
+        "kỳ"
+      ],
+      "answer": [
+        "Em",
+        "đi",
+        "khám",
+        "răng",
+        "định",
+        "kỳ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "chơi",
+        "bi",
+        "ve",
+        "với",
+        "bạn"
+      ],
+      "answer": [
+        "Em",
+        "chơi",
+        "bi",
+        "ve",
+        "với",
+        "bạn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "thả",
+        "diều",
+        "trên",
+        "cánh",
+        "đồng"
+      ],
+      "answer": [
+        "Em",
+        "thả",
+        "diều",
+        "trên",
+        "cánh",
+        "đồng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "nhảy",
+        "dây",
+        "cùng",
+        "bạn",
+        "gái"
+      ],
+      "answer": [
+        "Em",
+        "nhảy",
+        "dây",
+        "cùng",
+        "bạn",
+        "gái"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "đi",
+        "bơi",
+        "ở",
+        "hồ",
+        "bơi"
+      ],
+      "answer": [
+        "Em",
+        "đi",
+        "bơi",
+        "ở",
+        "hồ",
+        "bơi"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "xem",
+        "phim",
+        "hoạt",
+        "hình",
+        "vui"
+      ],
+      "answer": [
+        "Em",
+        "xem",
+        "phim",
+        "hoạt",
+        "hình",
+        "vui"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "vẽ",
+        "tranh",
+        "tặng",
+        "ông",
+        "bà"
+      ],
+      "answer": [
+        "Em",
+        "vẽ",
+        "tranh",
+        "tặng",
+        "ông",
+        "bà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "giúp",
+        "bạn",
+        "sửa",
+        "xe",
+        "đạp"
+      ],
+      "answer": [
+        "Em",
+        "giúp",
+        "bạn",
+        "sửa",
+        "xe",
+        "đạp"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "mua",
+        "kem",
+        "chung",
+        "với",
+        "bạn"
+      ],
+      "answer": [
+        "Em",
+        "mua",
+        "kem",
+        "chung",
+        "với",
+        "bạn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "mặc",
+        "áo",
+        "mưa",
+        "đi",
+        "học"
+      ],
+      "answer": [
+        "Em",
+        "mặc",
+        "áo",
+        "mưa",
+        "đi",
+        "học"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "mang",
+        "dép",
+        "vào",
+        "nhà",
+        "sạch"
+      ],
+      "answer": [
+        "Em",
+        "mang",
+        "dép",
+        "vào",
+        "nhà",
+        "sạch"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "tắt",
+        "quạt",
+        "trước",
+        "khi",
+        "ra"
+      ],
+      "answer": [
+        "Em",
+        "tắt",
+        "quạt",
+        "trước",
+        "khi",
+        "ra"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "mở",
+        "đèn",
+        "học",
+        "bài",
+        "tối"
+      ],
+      "answer": [
+        "Em",
+        "mở",
+        "đèn",
+        "học",
+        "bài",
+        "tối"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Trường",
+        "em",
+        "trồng",
+        "nhiều",
+        "cây",
+        "xanh"
+      ],
+      "answer": [
+        "Trường",
+        "em",
+        "trồng",
+        "nhiều",
+        "cây",
+        "xanh"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "chào",
+        "cờ",
+        "sáng",
+        "thứ",
+        "hai"
+      ],
+      "answer": [
+        "Em",
+        "chào",
+        "cờ",
+        "sáng",
+        "thứ",
+        "hai"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Bạn",
+        "An",
+        "nhặt",
+        "phấn",
+        "giúp",
+        "cô"
+      ],
+      "answer": [
+        "Bạn",
+        "An",
+        "nhặt",
+        "phấn",
+        "giúp",
+        "cô"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "học",
+        "bài",
+        "hát",
+        "về",
+        "mẹ"
+      ],
+      "answer": [
+        "Em",
+        "học",
+        "bài",
+        "hát",
+        "về",
+        "mẹ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Con",
+        "cá",
+        "sấu",
+        "nằm",
+        "phơi",
+        "nắng"
+      ],
+      "answer": [
+        "Con",
+        "cá",
+        "sấu",
+        "nằm",
+        "phơi",
+        "nắng"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Hoa",
+        "bằng",
+        "lăng",
+        "tím",
+        "rợp",
+        "trời"
+      ],
+      "answer": [
+        "Hoa",
+        "bằng",
+        "lăng",
+        "tím",
+        "rợp",
+        "trời"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "tưới",
+        "rau",
+        "muống",
+        "trong",
+        "vườn"
+      ],
+      "answer": [
+        "Em",
+        "tưới",
+        "rau",
+        "muống",
+        "trong",
+        "vườn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Mưa",
+        "rơi",
+        "trên",
+        "mái",
+        "nhà",
+        "tôn"
+      ],
+      "answer": [
+        "Mưa",
+        "rơi",
+        "trên",
+        "mái",
+        "nhà",
+        "tôn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "đi",
+        "bộ",
+        "đến",
+        "nhà",
+        "bạn"
+      ],
+      "answer": [
+        "Em",
+        "đi",
+        "bộ",
+        "đến",
+        "nhà",
+        "bạn"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Bé",
+        "mỉm",
+        "cười",
+        "với",
+        "mẹ"
+      ],
+      "answer": [
+        "Bé",
+        "mỉm",
+        "cười",
+        "với",
+        "mẹ"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Cô",
+        "thư",
+        "viện",
+        "cho",
+        "mượn",
+        "sách"
+      ],
+      "answer": [
+        "Cô",
+        "thư",
+        "viện",
+        "cho",
+        "mượn",
+        "sách"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "học",
+        "cách",
+        "vẽ",
+        "ngôi",
+        "sao"
+      ],
+      "answer": [
+        "Em",
+        "học",
+        "cách",
+        "vẽ",
+        "ngôi",
+        "sao"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Quả",
+        "hồng",
+        "chín",
+        "đỏ",
+        "trên",
+        "cành"
+      ],
+      "answer": [
+        "Quả",
+        "hồng",
+        "chín",
+        "đỏ",
+        "trên",
+        "cành"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Em",
+        "nhặt",
+        "trứng",
+        "gà",
+        "giúp",
+        "bà"
+      ],
+      "answer": [
+        "Em",
+        "nhặt",
+        "trứng",
+        "gà",
+        "giúp",
+        "bà"
+      ]
+    },
+    {
+      "kind": "wordBank",
+      "prompt": "Ghép thành câu đúng:",
+      "words": [
+        "Gió",
+        "lùa",
+        "qua",
+        "cửa",
+        "sổ",
+        "mở"
+      ],
+      "answer": [
+        "Gió",
+        "lùa",
+        "qua",
+        "cửa",
+        "sổ",
+        "mở"
+      ]
     }
   ]
 }
