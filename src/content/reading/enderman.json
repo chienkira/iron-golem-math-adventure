@@ -5,16 +5,16 @@
       "kind": "wordBank",
       "prompt": "Ghép thành câu đúng:",
       "words": [
-        "Em",
+        "Sáng",
+        "em",
         "đi",
-        "học",
-        "sáng"
+        "học"
       ],
       "answer": [
-        "Em",
+        "Sáng",
+        "em",
         "đi",
-        "học",
-        "sáng"
+        "học"
       ]
     },
     {
@@ -650,17 +650,17 @@
       "prompt": "Ghép thành câu đúng:",
       "words": [
         "Em",
-        "nghe",
-        "nhạc",
         "rất",
-        "thích"
+        "thích",
+        "nghe",
+        "nhạc"
       ],
       "answer": [
         "Em",
-        "nghe",
-        "nhạc",
         "rất",
-        "thích"
+        "thích",
+        "nghe",
+        "nhạc"
       ]
     },
     {
@@ -1000,17 +1000,17 @@
         "Em",
         "giúp",
         "bạn",
-        "khi",
-        "bạn",
-        "khó"
+        "gặp",
+        "khó",
+        "khăn"
       ],
       "answer": [
         "Em",
         "giúp",
         "bạn",
-        "khi",
-        "bạn",
-        "khó"
+        "gặp",
+        "khó",
+        "khăn"
       ]
     },
     {
@@ -1078,17 +1078,17 @@
         "Em",
         "bắt",
         "tay",
+        "với",
         "bạn",
-        "thân",
-        "thiết"
+        "thân"
       ],
       "answer": [
         "Em",
         "bắt",
         "tay",
+        "với",
         "bạn",
-        "thân",
-        "thiết"
+        "thân"
       ]
     },
     {
@@ -1466,7 +1466,7 @@
         "bơi",
         "dưới",
         "nước",
-        "trong"
+        "sạch"
       ],
       "answer": [
         "Con",
@@ -1474,7 +1474,7 @@
         "bơi",
         "dưới",
         "nước",
-        "trong"
+        "sạch"
       ]
     },
     {
@@ -2895,14 +2895,14 @@
       "words": [
         "Em",
         "học",
-        "vẽ",
+        "viết",
         "chữ",
         "đẹp"
       ],
       "answer": [
         "Em",
         "học",
-        "vẽ",
+        "viết",
         "chữ",
         "đẹp"
       ]
@@ -3494,15 +3494,15 @@
         "Em",
         "đưa",
         "tay",
-        "bắt",
-        "chào"
+        "chào",
+        "bạn"
       ],
       "answer": [
         "Em",
         "đưa",
         "tay",
-        "bắt",
-        "chào"
+        "chào",
+        "bạn"
       ]
     },
     {
@@ -6280,14 +6280,14 @@
       "prompt": "Ghép thành câu đúng:",
       "words": [
         "Em",
-        "gấp",
+        "cất",
         "sách",
         "vào",
         "cặp"
       ],
       "answer": [
         "Em",
-        "gấp",
+        "cất",
         "sách",
         "vào",
         "cặp"
@@ -6319,14 +6319,14 @@
         "hỏi",
         "cô",
         "khi",
-        "khó"
+        "cần"
       ],
       "answer": [
         "Em",
         "hỏi",
         "cô",
         "khi",
-        "khó"
+        "cần"
       ]
     },
     {
@@ -7038,16 +7038,16 @@
         "Em",
         "đóng",
         "sách",
-        "lại",
         "sau",
+        "khi",
         "học"
       ],
       "answer": [
         "Em",
         "đóng",
         "sách",
-        "lại",
         "sau",
+        "khi",
         "học"
       ]
     },
@@ -9134,19 +9134,17 @@
       "prompt": "Ghép thành câu đúng:",
       "words": [
         "Em",
-        "ăn",
+        "mang",
         "cơm",
         "nắm",
-        "mang",
         "đi",
         "học"
       ],
       "answer": [
         "Em",
-        "ăn",
+        "mang",
         "cơm",
         "nắm",
-        "mang",
         "đi",
         "học"
       ]
@@ -9358,17 +9356,17 @@
         "Em",
         "mang",
         "dép",
+        "sạch",
         "vào",
-        "nhà",
-        "sạch"
+        "nhà"
       ],
       "answer": [
         "Em",
         "mang",
         "dép",
+        "sạch",
         "vào",
-        "nhà",
-        "sạch"
+        "nhà"
       ]
     },
     {
@@ -9380,7 +9378,8 @@
         "quạt",
         "trước",
         "khi",
-        "ra"
+        "ra",
+        "ngoài"
       ],
       "answer": [
         "Em",
@@ -9388,7 +9387,8 @@
         "quạt",
         "trước",
         "khi",
-        "ra"
+        "ra",
+        "ngoài"
       ]
     },
     {
@@ -9399,7 +9399,7 @@
         "mở",
         "đèn",
         "học",
-        "bài",
+        "buổi",
         "tối"
       ],
       "answer": [
@@ -9407,7 +9407,7 @@
         "mở",
         "đèn",
         "học",
-        "bài",
+        "buổi",
         "tối"
       ]
     },
@@ -9435,20 +9435,20 @@
       "kind": "wordBank",
       "prompt": "Ghép thành câu đúng:",
       "words": [
-        "Em",
-        "chào",
-        "cờ",
-        "sáng",
+        "Sáng",
         "thứ",
-        "hai"
+        "hai",
+        "em",
+        "chào",
+        "cờ"
       ],
       "answer": [
-        "Em",
-        "chào",
-        "cờ",
-        "sáng",
+        "Sáng",
         "thứ",
-        "hai"
+        "hai",
+        "em",
+        "chào",
+        "cờ"
       ]
     },
     {
@@ -9614,16 +9614,16 @@
       "prompt": "Ghép thành câu đúng:",
       "words": [
         "Cô",
+        "thủ",
         "thư",
-        "viện",
         "cho",
         "mượn",
         "sách"
       ],
       "answer": [
         "Cô",
+        "thủ",
         "thư",
-        "viện",
         "cho",
         "mượn",
         "sách"

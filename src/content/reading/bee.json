@@ -138,7 +138,7 @@
         "hót",
         "bơi",
         "ngủ",
-        "ăn"
+        "cây"
       ],
       "answer": [
         "hót"
@@ -211,7 +211,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Đènpin chiếu rất ___.",
+      "prompt": "Đèn pin chiếu rất ___.",
       "words": [
         "sáng",
         "chó",
@@ -395,13 +395,13 @@
       "kind": "wordBank",
       "prompt": "Em nghe chuyện rất ___.",
       "words": [
-        "chăm",
+        "chăm chú",
         "nhà",
         "cá",
         "bàn"
       ],
       "answer": [
-        "chăm"
+        "chăm chú"
       ]
     },
     {
@@ -474,7 +474,7 @@
       "prompt": "Em đi ___ với bố.",
       "words": [
         "bơi",
-        "ngủ",
+        "nhà",
         "bay",
         "cây"
       ],
@@ -578,7 +578,7 @@
       "prompt": "Em ___ theo nhạc vui.",
       "words": [
         "nhảy",
-        "chạy",
+        "cây",
         "ngủ",
         "bay"
       ],
@@ -1318,13 +1318,13 @@
       "kind": "wordBank",
       "prompt": "Em gấp ___ giấy thật đẹp.",
       "words": [
-        "con",
+        "tờ",
         "trời",
         "cá",
         "gà"
       ],
       "answer": [
-        "con"
+        "tờ"
       ]
     },
     {
@@ -2070,15 +2070,15 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em khoác ba lô trước khi ___.",
+      "prompt": "Em khoác ba lô trước khi đi ___.",
       "words": [
-        "đi",
+        "học",
         "bay",
         "ngủ",
         "cá"
       ],
       "answer": [
-        "đi"
+        "học"
       ]
     },
     {
@@ -2709,13 +2709,13 @@
       "kind": "wordBank",
       "prompt": "Bữa trưa hôm nay rất ___.",
       "words": [
-        "no",
+        "ngon",
         "chó",
         "bàn",
         "hoa"
       ],
       "answer": [
-        "no"
+        "ngon"
       ]
     },
     {
@@ -3084,7 +3084,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em viết bài tập về nhà đầy đủ ___.",
+      "prompt": "Em viết bài tập về nhà rất ___.",
       "words": [
         "sạch",
         "chó",
@@ -3136,15 +3136,15 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em mặc quần áo sạch sẽ trước khi ___.",
+      "prompt": "Em mặc quần áo sạch sẽ trước khi đi ___.",
       "words": [
-        "đi",
+        "học",
         "bay",
         "ngủ",
         "cá"
       ],
       "answer": [
-        "đi"
+        "học"
       ]
     },
     {
@@ -5595,13 +5595,13 @@
       "kind": "wordBank",
       "prompt": "Con hươu cao cổ vươn cổ dài hái lá trên tán cây cao trong ___.",
       "words": [
-        "sở",
+        "sở thú",
         "bát",
         "kéo",
         "mũ"
       ],
       "answer": [
-        "sở"
+        "sở thú"
       ]
     },
     {
@@ -6388,13 +6388,13 @@
       "kind": "wordBank",
       "prompt": "Cô giáo nhắc em ngồi ngay ngắn và chú ý nghe giảng bài trong ___.",
       "words": [
-        "giờ",
+        "giờ học",
         "cá",
         "ghế",
         "kéo"
       ],
       "answer": [
-        "giờ"
+        "giờ học"
       ]
     },
     {
@@ -6425,7 +6425,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em viết lời cảm ơn thầy cô lên tấm thiệp handmade rất ___.",
+      "prompt": "Em viết lời cảm ơn thầy cô lên tấm thiệp làm tay rất ___.",
       "words": [
         "đẹp",
         "áo",

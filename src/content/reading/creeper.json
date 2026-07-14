@@ -16,7 +16,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em ___ đi học.",
+      "prompt": "Em ___ học.",
       "words": [
         "đi",
         "cá",
@@ -34,7 +34,7 @@
         "cơm",
         "chó",
         "mèo",
-        "gà"
+        "bàn"
       ],
       "answer": [
         "cơm"
@@ -939,7 +939,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em ___ thầy cô kính trọng.",
+      "prompt": "Em ___ trọng thầy cô.",
       "words": [
         "kính",
         "chạy",
@@ -1108,7 +1108,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Con ___ kêu quack quack.",
+      "prompt": "Con ___ kêu quạc quạc.",
       "words": [
         "vịt",
         "chó",
@@ -1160,7 +1160,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Con ___ sống trên cạn.",
+      "prompt": "Con ___ đội mai trên lưng.",
       "words": [
         "rùa",
         "cá",
@@ -1279,13 +1279,13 @@
       "kind": "wordBank",
       "prompt": "Em ___ cờ tổ quốc.",
       "words": [
-        "kính",
+        "chào",
         "chạy",
         "ngủ",
         "bay"
       ],
       "answer": [
-        "kính"
+        "chào"
       ]
     },
     {
@@ -1773,13 +1773,13 @@
       "kind": "wordBank",
       "prompt": "Ông bà em rất ___.",
       "words": [
-        "yêu",
+        "hiền",
         "chó",
         "cá",
         "gà"
       ],
       "answer": [
-        "yêu"
+        "hiền"
       ]
     },
     {
@@ -3723,13 +3723,13 @@
       "kind": "wordBank",
       "prompt": "Buổi tối trời rất ___.",
       "words": [
-        "tối",
+        "lạnh",
         "chó",
         "cá",
         "gà"
       ],
       "answer": [
-        "tối"
+        "lạnh"
       ]
     },
     {
@@ -4113,13 +4113,13 @@
       "kind": "wordBank",
       "prompt": "Con vịt kêu ___.",
       "words": [
-        "cạp cạp",
+        "quạc quạc",
         "meo meo",
         "gâu gâu",
         "hí hí"
       ],
       "answer": [
-        "cạp cạp"
+        "quạc quạc"
       ]
     },
     {

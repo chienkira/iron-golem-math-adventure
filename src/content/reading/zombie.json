@@ -16,7 +16,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em ___ đi học.",
+      "prompt": "Em ___ học.",
       "words": [
         "đi",
         "ngủ",
@@ -71,7 +71,7 @@
       "prompt": "Chú mèo đang ___.",
       "words": [
         "ngủ",
-        "chạy",
+        "hát",
         "bay",
         "bơi"
       ],
@@ -201,7 +201,7 @@
       "prompt": "Chú chó chạy rất ___.",
       "words": [
         "nhanh",
-        "chậm",
+        "to",
         "ngủ",
         "ăn"
       ],
@@ -253,7 +253,7 @@
       "prompt": "Con ___ đi tìm mồi.",
       "words": [
         "gà",
-        "cá",
+        "hoa",
         "tre",
         "xe"
       ],
@@ -458,7 +458,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Con ___ kêu o o.",
+      "prompt": "Con ___ kêu ọ ọ.",
       "words": [
         "bò",
         "cá",
@@ -630,7 +630,7 @@
       "prompt": "Em ___ qua đường cẩn thận.",
       "words": [
         "đi",
-        "chạy",
+        "hát",
         "bay",
         "bơi"
       ],
@@ -655,13 +655,13 @@
       "kind": "wordBank",
       "prompt": "Em ___ đồ dùng học tập.",
       "words": [
-        "sắp",
+        "sắp xếp",
         "chạy",
         "ngủ",
         "bay"
       ],
       "answer": [
-        "sắp"
+        "sắp xếp"
       ]
     },
     {
@@ -939,7 +939,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em ___ thầy cô kính trọng.",
+      "prompt": "Em ___ trọng thầy cô.",
       "words": [
         "kính",
         "chạy",
@@ -1108,7 +1108,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Con ___ kêu quack quack.",
+      "prompt": "Con ___ kêu quác quác.",
       "words": [
         "vịt",
         "chó",
@@ -1165,7 +1165,7 @@
         "rùa",
         "cá",
         "tôm",
-        "vịt"
+        "mực"
       ],
       "answer": [
         "rùa"
@@ -1682,13 +1682,13 @@
       "kind": "wordBank",
       "prompt": "Em rửa ___ trước khi ăn.",
       "words": [
-        "mặt",
+        "tay",
         "chó",
         "cá",
         "gà"
       ],
       "answer": [
-        "mặt"
+        "tay"
       ]
     },
     {
@@ -2590,7 +2590,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em ___ bài tập cho bạn mượn.",
+      "prompt": "Em ___ bạn mượn bài tập.",
       "words": [
         "cho",
         "chạy",
@@ -3385,13 +3385,13 @@
       "kind": "wordBank",
       "prompt": "Em giữ lời hứa rất ___.",
       "words": [
-        "đúng đắn",
+        "trung thực",
         "chó",
         "cá",
         "gà"
       ],
       "answer": [
-        "đúng đắn"
+        "trung thực"
       ]
     },
     {
@@ -3580,13 +3580,13 @@
       "kind": "wordBank",
       "prompt": "Trời chiều thu rất ___.",
       "words": [
-        "se se",
+        "se lạnh",
         "chó",
         "cá",
         "gà"
       ],
       "answer": [
-        "se se"
+        "se lạnh"
       ]
     },
     {
@@ -3669,7 +3669,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em ___ mắt khi đọc sách.",
+      "prompt": "Em ___ sách để đọc.",
       "words": [
         "mở",
         "bay",
@@ -3747,7 +3747,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em ___ rác không vứt lung tung.",
+      "prompt": "Em ___ rác vào thùng đúng chỗ.",
       "words": [
         "bỏ",
         "bay",
@@ -3853,13 +3853,13 @@
       "kind": "wordBank",
       "prompt": "Em giúp bạn bị thương rất ___.",
       "words": [
-        "nhanh nhẹn",
+        "tận tình",
         "chó",
         "cá",
         "gà"
       ],
       "answer": [
-        "nhanh nhẹn"
+        "tận tình"
       ]
     },
     {
@@ -4007,7 +4007,7 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Con ___ kêu ọ o sáng sớm.",
+      "prompt": "Con ___ kêu ò ó o sáng sớm.",
       "words": [
         "gà",
         "cá",
@@ -6100,15 +6100,15 @@
     },
     {
       "kind": "wordBank",
-      "prompt": "Em ngồi ngay ngắn khi học bài rất ___.",
+      "prompt": "Em ___ ngay ngắn khi học bài.",
       "words": [
-        "đúng",
-        "sai",
-        "lười",
-        "ồn"
+        "ngồi",
+        "bay",
+        "ngủ",
+        "bơi"
       ],
       "answer": [
-        "đúng"
+        "ngồi"
       ]
     },
     {
@@ -6273,7 +6273,7 @@
       "words": [
         "rụng",
         "mọc",
-        "bay",
+        "nặng",
         "chạy"
       ],
       "answer": [
